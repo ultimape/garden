@@ -4,4 +4,28 @@
     "foam.openDailyNote.filenameFormat": "yyyy-mm-dd",
     "foam.openDailyNote.fileExtension": "md",
     "foam.openDailyNote.titleFormat": "yyyy-mm-dd | dddd, mmmm d '- Journal Entry'",
+    "foam.edit.linkReferenceDefinitions": "off",
+    "editor.minimap.enabled": false,
+    "editor.wrappingIndent": "indent",
+    "editor.overviewRulerBorder": false,
+    "editor.lineHeight": 24,
+    "[markdown]": {
+        "editor.quickSuggestions": true
+    },
+    "markdown.preview.breaks": true,
+    "files.defaultLanguage": "markdown",
+    "files.exclude": {
+        "**/node_modules": true
+    },
+    "files.watcherExclude": {
+        "**/node_modules": true
+    },
+    "git.enableSmartCommit": true,
+    "git.postCommitCommand": "sync",
+    "pasteImage.path": "${projectRoot}/attachments/images",
+    "pasteImage.showFilePathConfirmInputBox": true,
+    "prettier.singleQuote": false,
+    "spellright.notificationClass": "warning",
+    "vscodeMarkdownNotes.noteCompletionConvention": "noExtension",
+    "vscodeMarkdownNotes.slugifyMethod": "github-slugger",
 }
