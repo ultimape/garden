@@ -6,6 +6,8 @@ This is a [[meta/Digital-Garden]] to contain my notes.
 
 It is intended to act as a datasource for a more accessible version to be hosted on [[websites/personal/wovensoup]].
 
+I'm using [[software/tools/Foam]] to manipulate this repository.
+
 ----
 
 Shield: [![CC BY-SA 4.0][cc-by-sa-shield]][cc-by-sa]
