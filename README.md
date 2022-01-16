@@ -2,7 +2,9 @@
 
 Hello. I am [[person/UltimApe]].
 
-This is a [[meta/digital-garden]] to contain my notes.
+This is a [[meta/Digital-Garden]] to contain my notes.
+
+It is intended to act as a datasource for a more accessible version to be hosted on [[websites/personal/wovensoup]].
 
 ----
 
