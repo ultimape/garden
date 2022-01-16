@@ -1,4 +1,4 @@
-## About: [[UltimApe]]
+# About: [[UltimApe]]
 
 woof
 
@@ -9,4 +9,3 @@ woof
 [I am on Twitter](https://twitter.com/ultimape/)
 
 [I am on Mastodon](https://mastodon.social/@ultimape)
-
