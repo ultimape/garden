@@ -1,2 +1,2 @@
-# digital garden
+# [[Digital-Garden]]
 
