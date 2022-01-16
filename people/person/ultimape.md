@@ -6,3 +6,7 @@ woof
 
 [I am on Keybase](https://keybase.pub/ultimape/woof/woof) ( About: [[Keybase]] )
 
+[I am on Twitter](https://twitter.com/ultimape/)
+
+[I am on Mastodon](https://mastodon.social/@ultimape)
+
