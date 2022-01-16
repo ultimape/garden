@@ -1,3 +1,3 @@
 # About: "/"
 
-This is the root directory of [[ultimape]]'s [[digital garden]].
+This is the root directory of [[person/UltimApe]]'s [[digital garden]].
