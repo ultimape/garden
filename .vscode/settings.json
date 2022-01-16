@@ -1,18 +1,32 @@
 {
+    // ----
+    // foam specific settings
     "foam.graph.titleMaxLength": 0,
     "foam.openDailyNote.directory": "journal/daily-journal", // a relative directory path will get appended to the workspace root. An absolute directory path will be used unmodified.
     "foam.openDailyNote.filenameFormat": "yyyy-mm-dd",
     "foam.openDailyNote.fileExtension": "md",
     "foam.openDailyNote.titleFormat": "yyyy-mm-dd | dddd, mmmm d '- Journal Entry'",
     "foam.edit.linkReferenceDefinitions": "off",
+    "foam.openDailyNote.onStartup": true,
+    // ----
+    // vscode editor config
     "editor.minimap.enabled": false,
     "editor.wrappingIndent": "indent",
     "editor.overviewRulerBorder": false,
     "editor.lineHeight": 24,
+    // ----
+    // markdown rules
     "[markdown]": {
         "editor.quickSuggestions": true
     },
     "markdown.preview.breaks": true,
+    "vscodeMarkdownNotes.noteCompletionConvention": "noExtension",
+    "vscodeMarkdownNotes.slugifyMethod": "github-slugger",
+    // ----
+    // formatting rules
+    "prettier.singleQuote": false,
+    // ----
+    // file rules
     "files.defaultLanguage": "markdown",
     "files.exclude": {
         "**/node_modules": true
@@ -20,12 +34,15 @@
     "files.watcherExclude": {
         "**/node_modules": true
     },
+    // ----
+    // git settings
     //"git.enableSmartCommit": true,
     //"git.postCommitCommand": "sync",
+    // ----
+    // pasting image config
     "pasteImage.path": "${projectRoot}/attachments/images",
     "pasteImage.showFilePathConfirmInputBox": true,
-    "prettier.singleQuote": false,
+    // ----
+    // spell checker settings
     "spellright.notificationClass": "warning",
-    "vscodeMarkdownNotes.noteCompletionConvention": "noExtension",
-    "vscodeMarkdownNotes.slugifyMethod": "github-slugger",
 }
