@@ -1,0 +1,7 @@
+{
+    "foam.graph.titleMaxLength": 0,
+    "foam.openDailyNote.directory": "journal/daily-journal", // a relative directory path will get appended to the workspace root. An absolute directory path will be used unmodified.
+    "foam.openDailyNote.filenameFormat": "yyyy-mm-dd",
+    "foam.openDailyNote.fileExtension": "md",
+    "foam.openDailyNote.titleFormat": "yyyy-mm-dd | dddd, mmmm d '- Journal Entry'",
+}
