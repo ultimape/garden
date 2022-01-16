@@ -20,8 +20,8 @@
     "files.watcherExclude": {
         "**/node_modules": true
     },
-    "git.enableSmartCommit": true,
-    "git.postCommitCommand": "sync",
+    //"git.enableSmartCommit": true,
+    //"git.postCommitCommand": "sync",
     "pasteImage.path": "${projectRoot}/attachments/images",
     "pasteImage.showFilePathConfirmInputBox": true,
     "prettier.singleQuote": false,
