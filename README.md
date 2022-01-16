@@ -1,5 +1,8 @@
 # garden
-A [[digital garden]] to contain my notes.
+
+Hello. I am [[UltimApe]].
+
+This is a [[digital garden]] to contain my notes.
 
 ----
 
