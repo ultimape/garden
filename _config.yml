@@ -24,7 +24,7 @@ twitter_username: ultimape
 github_username: ultimape
 minimal_mistakes_skin: default
 search: true
-repository: "ultimape/garden/"
+repository: "ultimape/garden"
 
 # Build settings
 markdown: kramdown
