@@ -1,9 +1,4 @@
-<<<<<<< HEAD
 remote_theme: tomjoht/documentation-theme-jekyll
 plugins:
  - jekyll-seo-tag
  - jekyll-sitemap
- 
-=======
-theme: jekyll-theme-hacker
->>>>>>> bc585c8744d042591c1ab1c7625286c30066f292
