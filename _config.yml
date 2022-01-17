@@ -1,1 +1,5 @@
-theme: jekyll-theme-midnight
+remote_theme: tomjoht/documentation-theme-jekyll
+plugins:
+ - jekyll-seo-tag
+ - jekyll-sitemap
+ 
