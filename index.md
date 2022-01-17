@@ -8,7 +8,7 @@ It is intended to act as a data-source for a more accessible version to be hoste
 
 I'm using [[software/tools/Foam]] to manipulate this repository.
 
-(note, this file (index.md) is symlink'ed to README.md)
+(note, this file (index.md) is symlink'ed to README.md so it will work properly via GitHub Pages)
 
 ----
 
