@@ -1,11 +1,4 @@
----
-# You don't need to edit this file, it's empty on purpose.
-# Edit theme's home layout instead if you wanna make some changes
-# See: https://jekyllrb.com/docs/themes/#overriding-theme-defaults
-layout: home
-author_profile: true
----
-# garden
+# Garden
 
 Hello. I am [[person/UltimApe]].
 
@@ -14,6 +7,8 @@ This is a [[meta/Digital-Garden]] to contain my notes.
 It is intended to act as a data-source for a more accessible version to be hosted on [[websites/personal/wovensoup]].
 
 I'm using [[software/tools/Foam]] to manipulate this repository.
+
+The links are smart enough to work with the raw GitHub markdown rendering, but it has been setup to run with GitHub Pages, so you can view web based version of this garden over on [https://ultimape.github.io/garden/](https://ultimape.github.io/garden/)
 
 ----
 
