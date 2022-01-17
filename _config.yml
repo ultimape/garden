@@ -50,8 +50,6 @@ title_separator: "|"
 
 # Breadcrumbs
 breadcrumbs: true
-breadcrumb_home_label : "Garden"
-breadcrumb_separator  : ">"
 
 # Localization
 locale: "en-US"
