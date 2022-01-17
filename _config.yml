@@ -118,6 +118,7 @@ defaults:
       share: true
       related: true
       show_date: true
+      
   # _pages
   - scope:
       path: "_pages"
@@ -126,6 +127,7 @@ defaults:
       layout: single
       author_profile: true
       show_date: true
+      read_time: true
 
 category_archive:
   type: liquid
