@@ -20,6 +20,8 @@
 
 <!-- this script changes how markdown [[wikilinks]] are rendered, particularly by removing brackets and adding a wikilink class-->
 <script type="text/javascript">
+
+    console.log("added custom script")
     // NOTE: this should be in sync with the settings/usage in the vscode extension
     // atm it's just a wide superset of md extensions to cover a wide range of cases
     var MD_EXT = ['.md', '.markdown', '.mdx', '.mdown', '.mkdn', '.mkd', '.mdwn', '.mdtxt', '.mdtext', '.text', '.Rmd'];
@@ -33,6 +35,7 @@
     }
 
     window.addEventListener('DOMContentLoaded', (event) => {
+        console.log("trying to clean up wikilinks")
         document
             .querySelectorAll(".markdown-body a[title]:not([href^=http])")
             .forEach((a) => {
