@@ -22,6 +22,7 @@ twitter_username: ultimape
 github_username: ultimape
 minimal_mistakes_skin: default
 search: true
+repository: "ultimape/garden/"
 
 # Build settings
 markdown: kramdown
@@ -64,7 +65,7 @@ author:
   avatar : "/assets/images/bio-photo.jpg"
   bio    : "I'm a cyborg slime-mold brain fungus piloting a complex exosuit made of flesh. An ant consuming interestingness and extruding insight porn. Trying to figure out my place in the world while maintaining homeostasis. Wandering scholar, and informavore."
   links:
-    - label: "Website"
+    - label: "WovenSoup"
       icon: "fas fa-fw fa-link"
       url: "https://wovensoup.com"
     - label: "Twitter"
@@ -72,7 +73,7 @@ author:
       url: "https://twitter.com/ultimape"
     - label: "GitHub"
       icon: "fab fa-fw fa-github"
-      url: "https://github.com/ultimape"
+      url: "https://github.com/ultimape/garden"
     # - label: "Instagram"
     #  icon: "fab fa-fw fa-instagram"
     #  url: "https://instagram.com/"
@@ -84,7 +85,7 @@ footer:
       url: "https://twitter.com/ultimape"
     - label: "GitHub"
       icon: "fab fa-fw fa-github"
-      url: "https://github.com/ultimape"
+      url: "https://github.com/ultimape/garden/"
     # - label: "Instagram"
     #   icon: "fab fa-fw fa-instagram"
     #   url: "https://instagram.com/"
