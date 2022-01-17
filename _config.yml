@@ -49,6 +49,8 @@ date_format: "%F"
 locale: "en-US"
 timezone: "US/Eastern" # https://en.wikipedia.org/wiki/List_of_tz_database_time_zones
 
+words_per_minute: 360 # I tested this on myself with https://www.readinglength.com/wpm/
+
 include:
   - _pages
 
