@@ -33,7 +33,7 @@ repository: "ultimape/garden"
 
 # logo: "/assets/images/88x88.png"
 # masthead_title: "My Custom Title"
-# breadcrumbs: true
+
 
 # Build settings
 markdown: kramdown
@@ -47,6 +47,11 @@ permalink: /:categories/:title # do not put a trailing '/' on here or it breaks 
 paginate: 5 # amount of posts to show
 paginate_path: /page:num/
 title_separator: "|"
+
+# Breadcrumbs
+breadcrumbs: true
+breadcrumb_home_label : "Garden"
+breadcrumb_separator  : ">"
 
 # Localization
 locale: "en-US"
