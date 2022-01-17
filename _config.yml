@@ -141,8 +141,8 @@ defaults:
       layout: single
       author_profile: true
       read_time: true
-      comments: true
-      share: true
+      comments: false
+      share: false
       related: true
       show_date: true
       
@@ -153,7 +153,7 @@ defaults:
     values:
       layout: single
       author_profile: true
-      show_date: true
+      # show_date: true # this doesn't work on pages
       read_time: true
 
   # tag pages from jekyll-archives
