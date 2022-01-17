@@ -80,6 +80,7 @@ plugins:
   - jekyll-feed
   - jemoji
   - jekyll-include-cache
+ # - jekyll-archives  # this doesn't work with GitHub Pages
 
 author:
   name   : "UltimApe"
@@ -151,9 +152,41 @@ defaults:
       show_date: true
       read_time: true
 
+  # tag pages from jekyll-archives
+  # - scope:
+  #     path: ""
+  #     type: tag
+  #   values:
+  #     author_profile: true
+
+  # category pages from  from jekyll-archives
+  # - scope:
+  #     path: ""
+  #     type: category
+  #   values:
+  #     comments: false
+
 category_archive:
   type: liquid
   path: /categories/
 tag_archive:
   type: liquid
   path: /tags/
+
+# use this if jekyll-archives is installted
+# category_archive:
+#   type: jekyll-archives
+#   path: /categories/
+# tag_archive:
+#   type: jekyll-archives
+#   path: /tags/
+# jekyll-archives:
+#   enabled:
+#     - categories
+#     - tags
+#   layouts:
+#     category: archive-taxonomy
+#     tag: archive-taxonomy
+#   permalinks:
+#     category: /categories/:name/
+#     tag: /tags/:name/
