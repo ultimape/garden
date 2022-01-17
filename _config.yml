@@ -43,12 +43,14 @@ permalink: /:categories/:title # do not put a trailing '/' on here or it breaks 
 paginate: 5 # amount of posts to show
 paginate_path: /page:num/
 title_separator: "|"
-date_format: "%F"
+
 
 # Localization
 locale: "en-US"
 timezone: "US/Eastern" # https://en.wikipedia.org/wiki/List_of_tz_database_time_zones
 
+# Document Metadata Configuration
+date_format: "%F"
 words_per_minute: 360 # I tested this on myself with https://www.readinglength.com/wpm/
 
 include:
