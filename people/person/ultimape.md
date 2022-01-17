@@ -2,8 +2,6 @@
 
 Test links [[index]]
 
-
-
 woof
 
 [I am on Are.na](https://www.are.na/ultimape/woof) ( About: [[Are.na]] )
