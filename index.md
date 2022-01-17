@@ -5,9 +5,6 @@
 title: "Garden"
 layout: single
 author_profile: true
-
-sidebar:
-  nav: "docs"
 ---
 
 # Test
