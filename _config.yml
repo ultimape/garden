@@ -95,6 +95,7 @@ author:
   name   : "UltimApe"
   avatar : "/assets/images/bio-photo.jpg"
   bio    : "I'm a cyborg slime-mold brain fungus piloting a complex exosuit made of flesh. An ant consuming interestingness and extruding insight porn. Trying to figure out my place in the world while maintaining homeostasis. Wandering scholar, and informavore."
+  location : "The Spider's Web."
   links:
     - label: "WovenSoup"
       icon: "fas fa-fw fa-link"
