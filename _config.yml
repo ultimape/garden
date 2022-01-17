@@ -99,6 +99,22 @@ author:
     #  icon: "fab fa-fw fa-instagram"
     #  url: "https://instagram.com/"
 
+# Opengraph Meta Data
+twitter:
+  username: "ultimape"
+
+# og_image: /assets/images/site-logo.png 
+
+social:
+  type: "Person"
+  name: "UltimApe"
+  links:
+    - "https://wovensoup.com"
+    - "https://twitter.com/ultimape"
+    - "https://mastodon.social/ultimape"
+    - "https://are.na/ultiampe/
+    - "https://github.com/ultimape/
+
 footer:
   links:
     - label: "Twitter"
