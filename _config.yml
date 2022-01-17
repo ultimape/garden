@@ -1,4 +1,4 @@
-remote_theme: amitmerchant1990/reverie
+remote_theme: barryclark/jekyll-now
 
 # This file contains configuration flags to customize your site
 #
@@ -56,7 +56,7 @@ enforce_ssl: https://ultimape.github.io/garden/
 # (http://yourusername.github.io/repository-name)
 # and NOT your User repository (http://yourusername.github.io)
 # then add in the baseurl here, like this: "/repository-name"
-baseurl: ""
+baseurl: "/garden"
 
 #
 # !! You don't need to change any of the configuration flags below !!
