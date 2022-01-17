@@ -145,6 +145,7 @@ defaults:
       share: false
       related: true
       show_date: true
+      paginate: false
       
   # _pages
   - scope:
