@@ -2,3 +2,10 @@
 <meta charset="utf-8">
 <title>Redirecting to index</title>
 <meta http-equiv="refresh" content="0; URL=/garden/">
+<!--
+this file exists as a hacky workaround for a logic bug in how GHpages handles indexes.
+When README.md is processed and output as the index.html, markdown links to it don't update.
+Instead they are simply pointed to a nonexistant README.html file. By creating this 
+dummyfile wit a redirect, all those links no longer break. So now we can point markdown links
+to the readme.md file properly with Foam and it will just work.
+-->
