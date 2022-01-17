@@ -1,5 +1,9 @@
 # Welcome to Jekyll!
 #
+# this config is from https://github.com/mmistakes/mm-github-pages-starter/
+# for use with the gem-ified theme https://github.com/mmistakes/minimal-mistakes
+# and has been modified acording to https://mmistakes.github.io/minimal-mistakes/docs/configuration/
+#
 # This config file is meant for settings that affect your whole blog, values
 # which you are expected to set up once and rarely edit after that. If you find
 # yourself editing this file very often, consider using Jekyll's data files
