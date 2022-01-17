@@ -43,6 +43,7 @@ permalink: /:categories/:title # do not put a trailing '/' on here or it breaks 
 paginate: 5 # amount of posts to show
 paginate_path: /page:num/
 title_separator: "|"
+date_format: "%F"
 
 # Localization
 locale: "en-US"
@@ -116,6 +117,7 @@ defaults:
       comments: true
       share: true
       related: true
+      show_date: true
   # _pages
   - scope:
       path: "_pages"
@@ -123,6 +125,7 @@ defaults:
     values:
       layout: single
       author_profile: true
+      show_date: true
 
 category_archive:
   type: liquid
