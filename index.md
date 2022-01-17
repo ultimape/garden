@@ -11,3 +11,5 @@ sidebar:
 
 # Test
 one two one two
+
+{{ layout }}
