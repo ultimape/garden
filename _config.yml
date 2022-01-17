@@ -25,7 +25,7 @@ footer-links:
   email: 
   facebook:
   flickr:
-  github: https://github.com/ultimape/garden
+  github: ultimape/garden
   instagram:
   linkedin: 
   pinterest:
@@ -56,7 +56,7 @@ enforce_ssl: https://ultimape.github.io/garden/
 # (http://yourusername.github.io/repository-name)
 # and NOT your User repository (http://yourusername.github.io)
 # then add in the baseurl here, like this: "/repository-name"
-baseurl: "/garden"
+baseurl: "garden"
 
 #
 # !! You don't need to change any of the configuration flags below !!
