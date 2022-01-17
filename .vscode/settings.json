@@ -6,7 +6,7 @@
     "foam.openDailyNote.filenameFormat": "yyyy-mm-dd",
     "foam.openDailyNote.fileExtension": "md",
     "foam.openDailyNote.titleFormat": "yyyy-mm-dd | dddd, mmmm d '- Journal Entry'",
-    "foam.edit.linkReferenceDefinitions": "withoutExtensions", //"off",
+    "foam.edit.linkReferenceDefinitions": "withExtensions", //"off",
     "foam.openDailyNote.onStartup": true,
     // ----
     // vscode editor config
