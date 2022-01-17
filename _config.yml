@@ -27,6 +27,7 @@ repository: "ultimape/garden/"
 # Build settings
 markdown: kramdown
 remote_theme: "mmistakes/minimal-mistakes@4.24.0" 
+minimal_mistakes_skin: "default"
 # Outputting
 baseurl: "/garden"
 url: "https://ultimape.github.io"
