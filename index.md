@@ -10,5 +10,7 @@ author_profile: true
 ## Test
 one two one two
 
-{{ layout }}
-{{ type }}
+metadata
+layout: {{ layout }}
+type: {{ type }}
+ok
