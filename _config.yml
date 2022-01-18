@@ -88,6 +88,7 @@ plugins:
   - jemoji
   - jekyll-include-cache
   - jekyll-optional-front-matter
+  - jekyll-readme-index
  # - jekyll-archives  # this doesn't work with GitHub Pages
 
 author:
