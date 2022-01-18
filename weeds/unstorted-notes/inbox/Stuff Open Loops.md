@@ -1,0 +1,83 @@
+# Stuff Open Loops
+
+Physical Gathering
+
+- Things that can stay
+  - Supplies
+  - Reference Material
+  - Decoration
+  - Equipment
+- Living Room
+  - Computer for living room / entertainment area
+  - RCA video -> projector (long cord + converter?)
+  - Laptop power for couch
+  - Trash Bin
+- Basement
+  - Hallway
+    - Stuff on basement shelf -> review and sort
+    - Basement Cabinets gone through and sorted
+    - Stuff on white bureau -> sorted as appropriate
+    - metal Filing Cabinet -> upstairs under desk
+    - Clothes in basement-hallway -> washed and sorted
+  - ShuttleBay
+    - What to do with Legos?
+    - Stuff on fireplace shelf -> review and sort
+    - Computers hooked up in shuttle bay
+    - Video Collection Accessible on network (plex?)
+      - http://www.geeklee.co.uk/2013/11/25/headless-plex-media-server-on-hp-microserver/
+    - Supply Bin from basement room -> accessible upstairs
+    - Stuff on supply bin -> washed and put away
+    - Wires put away downstairs in basement room
+    - Books from basement -> bedroom?
+  - Norman's Bedroom
+    - Sort my Possessions
+    - Label boxes with Label Maker
+- Downstairs Bathroom
+  - Fix Toilet Handle
+  - Fix toilet filler
+- Upstairs Bathroom
+  - Declutter excess supplies (old roommate purge?)
+  - Shower -> Side Shelving
+  - Shower -> Corner Shelving
+  - Shelving on Rack
+  - Better System for TP
+  - Different Trash Bin?
+- Outside
+  - Driveway
+    - Extend Driveway
+    - Fix between the house and garage
+      - Better drainage
+  - Garage
+    - Bring Megan's stuff inside
+    - Trash the rest of the junk
+    - Sort items by who's it is (similar to basement)
+  - Shed
+    - Review inside shed
+    - Trash the stuff outside of shed
+    - Deal with bees.
+  - Lawn
+    - Garden
+    - Take out that metal spike
+    - fix the leaking area for the basement
+  - House
+    - Fix beehives
+    - Fix bird nest area
+- Imagination Room
+  - Clear Desk
+  - Clear Shelving by Desk
+  - Clear top of fireplace
+  - Deal with Wii
+- Misc
+  - Ouya -> HDMI to VGA+audio
+  - Framed Artwork
+    - Posters
+    - Signage
+  - Praetor Labs Logo
+  - New Clothing
+    - Duluth
+      - Men's Lightweight Working Man's Utility Vest
+      - MEN'S FIRE HOSE PRESENTATION JACKET
+
+Make a board game - Settlers of the Apocalypse
+VGC:game design group participation
+Community Cloud participation
