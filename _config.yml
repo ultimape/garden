@@ -137,9 +137,9 @@ footer:
     #   icon: "fab fa-fw fa-instagram"
     #   url: "https://instagram.com/"
 
-collections:
-  weeds:
-    output: true 
+#collections:
+ # weeds:
+ #   output: true 
     # permalink: /weeds/:name
 
 defaults:
