@@ -149,6 +149,10 @@ footer:
     # permalink: /weeds/:name
 
 defaults:
+  - scope:
+      path: ""
+    values:
+      read_time: true
   # _posts
   - scope:
       path: ""
