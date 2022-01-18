@@ -87,10 +87,10 @@ plugins:
   - jekyll-feed
   - jemoji
   - jekyll-include-cache
-  - jekyll-optional-front-matter
   - jekyll-readme-index
-  - jekyll-titles-from-headings
   - jekyll-default-layout
+  - jekyll-titles-from-headings
+  - jekyll-optional-front-matter
   - jekyll-commonmark-ghpages
  # - jekyll-archives  # this doesn't work with GitHub Pages
 

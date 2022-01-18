@@ -13,10 +13,9 @@ group :jekyll_plugins do
   gem "jekyll-feed"
   gem "jemoji"
   gem "jekyll-include-cache"
-  gem "jekyll-algolia"
-  gem "jekyll-optional-front-matter"
   gem "jekyll-readme-index"
-  gem "jekyll-titles-from-headings"
   gem "jekyll-default-layout"
+  gem "jekyll-titles-from-headings"
+  gem "jekyll-optional-front-matter"
   gem "jekyll-commonmark-ghpages"
 end
