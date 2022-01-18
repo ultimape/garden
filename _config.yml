@@ -89,6 +89,7 @@ plugins:
   - jekyll-include-cache
   - jekyll-optional-front-matter
   - jekyll-readme-index
+  - jekyll-titles-from-headings
  # - jekyll-archives  # this doesn't work with GitHub Pages
 
 author:

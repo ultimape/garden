@@ -16,4 +16,5 @@ group :jekyll_plugins do
   gem "jekyll-algolia"
   gem "jekyll-optional-front-matter"
   gem "jekyll-readme-index"
+  gem "jekyll-titles-from-headings"
 end
