@@ -136,6 +136,10 @@ footer:
     #   icon: "fab fa-fw fa-instagram"
     #   url: "https://instagram.com/"
 
+collections:
+  weeds:
+    output: true 
+
 defaults:
   # _posts
   - scope:
@@ -159,6 +163,15 @@ defaults:
       layout: single
       author_profile: true
       # show_date: true # this doesn't work on pages
+      read_time: true
+
+  # _weeds
+  - scope:
+      path: "_weeds"
+      type: weeds
+    values:
+      layout: single
+      author_profile: true
       read_time: true
 
   # tag pages from jekyll-archives
