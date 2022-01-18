@@ -37,7 +37,7 @@
       <meta itemprop="position" content="{{ i }}" />
     </li>
     {% endif %}
-    {% if not(forLoop.last) %}
+    {% if !forLoop.last %}
     <span class="sep">{{ site.data.ui-text[site.locale].breadcrumb_separator | default: "/" }}</span>
     {% endif %}
     {% endfor %}
