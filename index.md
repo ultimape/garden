@@ -11,3 +11,4 @@ author_profile: true
 one two one two
 
 {{ layout }}
+{{ type }}
