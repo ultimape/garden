@@ -17,7 +17,7 @@
 
     trying to parse {{page.url}} <br/>
     {% assign crumbs = page.url | split: '/' %}
-    {% crumbs.unshift(page.baseurl) %}
+    {% assign crumbs = [page.baseurl] + crumbs %}
     {% assign i = 0 %}
     there are {{ crumbs }} to draw <br/>
     {% for crumb in crumbs offset: 0 %}
