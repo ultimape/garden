@@ -1,4 +1,6 @@
 PAGE META GOES HERE 
+post is {{post}}
+page is {{page}}
 {% assign document = post | default: page %}
 {% if document.read_time or document.show_date %}
   <p class="page__meta">
