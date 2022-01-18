@@ -1,5 +1,5 @@
 ---
-permalink: index.html
+permalink: /weeds/people/person/index.html
 ---
 
 # About: "/people"
