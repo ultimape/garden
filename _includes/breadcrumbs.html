@@ -22,7 +22,7 @@
     there are {{ crumbs }} to draw <br/>
     {% for crumb in crumbs offset: 1 %}
     {% assign i = i | plus: 1 %}
-    trying to draw {{crumb}} for i = {{i}} <br/>
+    <br/> trying to draw {{crumb}} for i = {{i}} : 
     {% if forloop.first %}
     <li itemprop="itemListElement" itemscope itemtype="https://schema.org/ListItem">
       <a href="{{ '/' | relative_url }}" itemprop="item"><span itemprop="name">{{
