@@ -36,7 +36,7 @@ repository: "ultimape/garden"
 
 
 # Build settings
-markdown: kramdown
+markdown: CommonMarkGhPages
 remote_theme: "mmistakes/minimal-mistakes@4.24.0" 
 minimal_mistakes_skin: "default"
 
@@ -91,6 +91,7 @@ plugins:
   - jekyll-readme-index
   - jekyll-titles-from-headings
   - jekyll-default-layout
+  - jekyll-commonmark-ghpages
  # - jekyll-archives  # this doesn't work with GitHub Pages
 
 author:
