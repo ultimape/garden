@@ -18,7 +18,7 @@
 
     {% assign crumbs = page.url | split: '/' %}
     {% assign i = 0 %}
-    {% for crumb in crumbs offset: 0 %}
+    {% for crumb in crumbs offset: 1 %}
     {% if forloop.first %}
     <li itemprop="itemListElement" itemscope itemtype="https://schema.org/ListItem">
       <a href="{{ '/' | relative_url }}" itemprop="item"><span itemprop="name">{{
