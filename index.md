@@ -9,8 +9,3 @@ author_profile: true
 
 ## Test
 one two one two
-
-metadata
-layout: {{ layout }}
-type: {{ type }}
-ok
