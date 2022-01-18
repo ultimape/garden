@@ -140,7 +140,7 @@ footer:
 collections:
   weeds:
     output: true 
-    permalink: /weeds/:name
+    # permalink: /weeds/:name
 
 defaults:
   # _posts
