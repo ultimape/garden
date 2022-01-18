@@ -24,7 +24,7 @@
     trying to draw {{crumb}} for i = {{i}} <br/>
     {% assign i = i | plus: 1 %}
     <li {% if forloop.last %}class="current"{% else %} itemprop="itemListElement" itemscope itemtype="https://schema.org/ListItem">
-      <a href="{% if '/'+crumb==site.baseurl %}{{'/' | prepend: path_type | prepend: crumb_path | relative_url }}{% else %}{{ crumb | downcase | replace: '%20', '-' | prepend: path_type | prepend: crumb_path | relative_url }}{% endif %}"
+      <a href="{% if site.baseurl=="/"+crumb %}{{'/' | prepend: path_type | prepend: crumb_path | relative_url }}{% else %}{{ crumb | downcase | replace: '%20', '-' | prepend: path_type | prepend: crumb_path | relative_url }}{% endif %}"
         itemprop="item"><span itemprop="name">{{ crumb | replace: '-', ' ' | replace: '%20', ' ' | capitalize}}</span></a>
       <meta itemprop="position" content="{{ i }}" />
     </li>
