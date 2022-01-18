@@ -37,7 +37,7 @@
     window.addEventListener('DOMContentLoaded', (event) => {
         console.log("trying to clean up wikilinks")
         document
-            .querySelectorAll(".markdown-body a[title]:not([href^=http])")
+            .querySelectorAll(".initial-content a[title]:not([href^=http])")
             .forEach((a) => {
                 // filter to only wikilinks
                 var prev = a.previousSibling;
