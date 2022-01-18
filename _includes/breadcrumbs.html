@@ -18,7 +18,7 @@
     trying to parse {{page.url}} <br/>
     {% assign crumbs = (page.url | relative_url | split: '/') %}
 
-    {% assign i = 0 %}
+    {% assign i = 1 %}
     there are {{ crumbs }} to draw <br/>
     {% for crumb in crumbs offset: 1 %}
     trying to draw {{crumb}} for i = {{i}} <br/>
