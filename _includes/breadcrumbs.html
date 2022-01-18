@@ -16,7 +16,7 @@
   <ol itemscope itemtype="https://schema.org/BreadcrumbList">
 
     trying to parse {{page.url}} <br/>
-    {% assign crumbs = (page.url | absolute_url | split: '/') %}
+    {% assign crumbs = (page.url | relative_url | split: '/') %}
 
     {% assign i = 0 %}
     there are {{ crumbs }} to draw <br/>
