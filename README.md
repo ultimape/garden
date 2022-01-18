@@ -1,6 +1,3 @@
----
-read_time: true
----
 # Garden
 
 Hello. I am [[UltimApe]].
