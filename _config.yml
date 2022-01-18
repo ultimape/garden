@@ -153,6 +153,7 @@ defaults:
       path: ""
     values:
       read_time: true
+      author_profile: true
   # _posts
   - scope:
       path: ""
