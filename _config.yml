@@ -86,7 +86,7 @@ plugins:
   - jekyll-gist
   - jekyll-feed
   - jemoji
-  - jekyll-include-cache.
+  - jekyll-include-cache
   - jekyll-optional-front-matter
  # - jekyll-archives  # this doesn't work with GitHub Pages
 
