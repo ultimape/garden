@@ -1,5 +1,5 @@
 ---
-permalink: ./index.html
+permalink: index.html
 ---
 
 # About: "/people"
