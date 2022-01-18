@@ -170,7 +170,6 @@ defaults:
   # _weeds
   - scope:
       path: "_weeds"
-      type: weeds
     values:
       layout: single
       author_profile: true
