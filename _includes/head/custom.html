@@ -35,7 +35,10 @@
     }
 
     window.addEventListener('DOMContentLoaded', (event) => {
-        console.log("trying to clean up wikilinks")
+        console.log("DOM finished loading");
+
+        console.log("trying to clean up wikilinks");
+
         document
             .querySelectorAll(".initial-content a[title]:not([href^=http])")
             .forEach((a) => {
@@ -65,7 +68,16 @@
         document.querySelectorAll(".github-only").forEach((el) => {
             el.remove();
         });
+
+        console.log("removing first H1 tags aside from the title");
+        var duplicateHeading = document.querySelector("h1:not(#page-title)");
+        if (duplicateHeading && duplicateHeading.remove) {
+            duplicateHeading.remove();
+        }
+
     });
+
+
 </script>
 
 <!-- end custom head snippets -->
