@@ -200,7 +200,7 @@ defaults:
 
   # _weeds
   - scope:
-      path: "_weeds"
+      path: "weeds"
     values:
       layout: weed
       author_profile: true
