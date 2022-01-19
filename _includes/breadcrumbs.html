@@ -1,20 +1,21 @@
 {% case site.category_archive.type %}
-{% when "liquid" %}
-{% assign path_type = "#" %}
-{% when "jekyll-archives" %}
-{% assign path_type = nil %}
+  {% when "liquid" %}
+    {% assign path_type = "#" %}
+  {% when "jekyll-archives" %}
+    {% assign path_type = nil %}
 {% endcase %}
 
 {% if page.collection != 'posts' %}
-{% assign path_type = nil %}
-{% assign crumb_path = '/' %}
+  {% assign path_type = nil %}
+  {% assign crumb_path = '/' %}
 {% else %}
-{% assign crumb_path = site.category_archive.path %}
+  {% assign crumb_path = site.category_archive.path %}
 {% endif %}
 
 <nav class="breadcrumbs">
   <ol itemscope itemtype="https://schema.org/BreadcrumbList">
     {% assign crumbs = (page.url | split: '/') %}
+    {% assign url_accumulator = "" %}
     {% assign i = 1 %}
     <li itemprop="itemListElement" itemscope itemtype="https://schema.org/ListItem">
       <a href="{{ '/' | relative_url }}" itemprop="item"><span itemprop="name">{{
@@ -22,11 +23,12 @@
       <meta itemprop="position" content="1" />
     </li>
     {% for crumb in crumbs offset: 1 %}
-    {% assign i = i | plus: 1 %}
+      {% assign i = i | plus: 1 %}
+      {% assign url_accumulator = url_accumulator + "/" + crumb %}
     <span class="sep">{{ site.data.ui-text[site.locale].breadcrumb_separator | default: "/" }}</span>
     <li {% if forloop.last %}class="current"{% endif %} itemprop="itemListElement" itemscope itemtype="https://schema.org/ListItem">
-      <a href="{{ crumb | downcase | replace: '%20', '-' | prepend: path_type | prepend: crumb_path | relative_url }}"
-        itemprop="item"><span itemprop="name">{{ crumb | replace: '-', ' ' | replace: '%20', ' ' | capitalize}}</span></a>
+      <a href="{{ url_accumulator | downcase | replace: '%20', '-' | prepend: path_type | prepend: crumb_path | relative_url }}"
+        itemprop="item"><span itemprop="name">{{ crumb | replace: '-', ' ' | replace: '%20', ' ' }}</span></a>
       <meta itemprop="position" content="{{ i }}" />
     </li>
     
