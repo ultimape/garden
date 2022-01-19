@@ -14,8 +14,9 @@
 
 <nav class="breadcrumbs">
   <ol itemscope itemtype="https://schema.org/BreadcrumbList">
+    {% comment %} thanks to https://stackoverflow.com/a/32004173/42082 for how to fix urls {% endcomment %}
     {% assign crumbs = (page.url | remove:'/index.html' | split: '/') %}
-    {% assign i = 1 %}
+    {% assign i = 1 %} 
     <li itemprop="itemListElement" itemscope itemtype="https://schema.org/ListItem">
       <a href="{{ '/' | relative_url }}" itemprop="item"><span itemprop="name">{{
           site.data.ui-text[site.locale].breadcrumb_home_label | default: "Home" }}</span></a>
@@ -25,7 +26,7 @@
       {% assign i = i | plus: 1 %}
     <span class="sep">{{ site.data.ui-text[site.locale].breadcrumb_separator | default: "/" }}</span>
     <li {% if forloop.last %}class="current"{% endif %} itemprop="itemListElement" itemscope itemtype="https://schema.org/ListItem">
-      <a href="{% assign crumb_limit = forloop.index | plus: 1 %}{% for crumb in crumbs limit: crumb_limit %}{{ crumb | append: '/' }}{% endfor %}"
+      <a href="/{{ '/' | relative_url }}{% assign crumb_limit = forloop.index | plus: 1 %}{% for crumb in crumbs limit: crumb_limit %}{{ crumb | append: '/' }}{% endfor %}"
         itemprop="item"><span itemprop="name">{{ crumb | replace: '-', ' ' | replace: '%20', ' '  | remove:'.html' }}</span></a>
       <meta itemprop="position" content="{{ i }}" />
     </li>
