@@ -1,10 +1,5 @@
 ---
-title: "Post: Quote"
-categories:
-  - Blog
-tags:
-  - Post Formats
-  - quote
+title: "About: UltimApe"
 ---
 # About: UltimApe
 
