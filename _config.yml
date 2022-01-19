@@ -163,10 +163,10 @@ footer:
     #   icon: "fab fa-fw fa-instagram"
     #   url: "https://instagram.com/"
 
-collections:
-  weeds:
-     output: false 
-     permalink: :slug/
+#collections:
+#  weeds:
+#     output: true 
+#     permalink: :slug/
 
 defaults:
   - scope:
