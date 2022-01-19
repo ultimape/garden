@@ -76,7 +76,8 @@ exclude:
   - vendor/cache/
   - vendor/gems/
   - vendor/ruby/
-   - LICENSE
+  - LICENSE
+  - LICENCE
   - CNAME
 
 # Plugins (previously gems:)
