@@ -49,7 +49,7 @@ var store = [
   {%- endfor -%}
   {% comment %} Thanks to nandahkrishna for providing this bit that searches pages for content {% comment %}
   {% comment %} https://github.com/mmistakes/minimal-mistakes/issues/1409#issuecomment-569402881 {% comment %}
-  {%- if site.search_in_pages -%},
+  {%- if site.lunr.search_within_pages -%},
     {%- for doc in site.pages -%}
       {%- if forloop.last -%}
         {%- assign l = true -%}
