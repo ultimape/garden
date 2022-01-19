@@ -50,5 +50,7 @@
     // GitDoc allows for automaically committing mardown files on save.
     "gitdoc.filePattern": "**/*.md",
     "gitdoc.enabled": true,
-    "gitdoc.autoPush": "afterDelay",
+    "gitdoc.autoPush": "onCommit",
+    "gitdoc.autoCommitDelay": 3000,
+    "gitdoc.commitMessageFormat": "YYYY-MM-DD HH:mm",
 }
