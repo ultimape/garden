@@ -65,7 +65,7 @@ search_full_content: true # by default Lunr only does 50 characters
 
 include:
   - _pages
-  - _weeds
+
 
 # Exclude from processing.
 # The following items will not be processed, by default. Create a custom list
@@ -183,7 +183,8 @@ defaults:
 
   # _weeds
   - scope:
-      path: "_weeds"
+      path: ""
+      type: weeds
     values:
       layout: weed
       author_profile: true
