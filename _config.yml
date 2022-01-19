@@ -63,6 +63,17 @@ words_per_minute: 360 # I tested this on myself with https://www.readinglength.c
 search_provider: lunr
 search_full_content: true # by default Lunr only does 50 characters
 
+
+# config for benbalter/jekyll-titles-from-headings
+titles_from_headings:
+  enabled:     true
+  strip_title: true # do not render title twice
+  collections: true
+
+# config for benbalter/jekyll-optional-front-matter
+optional_front_matter:
+  remove_originals: false # preserve the .md files
+
 include:
   - _pages
   - _weeds
@@ -85,16 +96,16 @@ exclude:
 
 # Plugins (previously gems:)
 plugins:
+  - jekyll-optional-front-matter
+  - jekyll-titles-from-headings # if no title is set, use the first instance of h1/h2/h3
+  - jekyll-default-layout
   - jekyll-paginate
   - jekyll-sitemap
   - jekyll-gist
   - jekyll-feed
   - jemoji
   - jekyll-include-cache
-  - jekyll-readme-index
-  - jekyll-default-layout
-  - jekyll-titles-from-headings
-  - jekyll-optional-front-matter
+  - jekyll-readme-index # makes the readme.md file turn into the index.html
   - jekyll-commonmark-ghpages
  # - jekyll-archives  # this doesn't work with GitHub Pages
 
