@@ -64,7 +64,7 @@ words_per_minute: 360 # I tested this on myself with https://www.readinglength.c
 
 # Search Settings
 search_provider: lunr
-search_full_content: true # by default Lunr only does 50 characters
+search_full_content: true # by default Lunr only does 50 words
 
 
 # config for benbalter/jekyll-titles-from-headings
