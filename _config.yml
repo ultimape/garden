@@ -60,6 +60,7 @@ date_format: "%F"
 words_per_minute: 360 # I tested this on myself with https://www.readinglength.com/wpm/
 
 # Search Settings
+search_provider: lunr
 search_full_content: true # by default Lunr only does 50 characters
 
 include:
