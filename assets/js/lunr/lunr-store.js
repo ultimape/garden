@@ -82,6 +82,6 @@ var store = [
           {%- endif -%}
         "url": {{ doc.url | absolute_url | jsonify }}
     }{%- unless forloop.last and l -%},{%- endunless -%}
-    {% - endfor -%}
+    {%- endfor -%}
   {%- endif -%}
   ]
