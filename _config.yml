@@ -144,9 +144,9 @@ footer:
     #   icon: "fab fa-fw fa-instagram"
     #   url: "https://instagram.com/"
 
-#collections:
- # weeds:
- #   output: true 
+collections:
+  weeds:
+    # output: true 
     # permalink: /weeds/:name
 
 defaults:
@@ -181,9 +181,9 @@ defaults:
 
   # _weeds
   - scope:
-      path: "weeds"
+      path: "_weeds"
     values:
-      layout: single
+      layout: weed
       author_profile: true
       read_time: true
 
