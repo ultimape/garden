@@ -2,7 +2,7 @@
 permalink: /weeds/people/person/index.html
 ---
 
-# About: "/persons"
+# About: "/person"
 
 This directory contains references to individual persons that [[person/UltimApe]] has researched or is otherwise familiar with for one reason or another.
 
