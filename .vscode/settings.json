@@ -52,5 +52,5 @@
     "gitdoc.enabled": true,
     "gitdoc.autoCommitDelay": 600000,
     "gitdoc.commitMessageFormat": "YYYY-MM-DD HH:mm:ss",
-    "gitdoc.autoPush": "afterCommit",
+    "gitdoc.autoPush": "onCommit",
 }
