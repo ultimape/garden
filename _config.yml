@@ -161,7 +161,7 @@ footer:
 collections:
   weeds:
      output: true 
-    # permalink: /weeds/:name
+     permalink: :slug/
 
 defaults:
   - scope:
