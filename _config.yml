@@ -65,6 +65,7 @@ search_full_content: true # by default Lunr only does 50 characters
 
 include:
   - _pages
+  - _weeds
 
 
 # Exclude from processing.
