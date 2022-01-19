@@ -16,7 +16,6 @@
 
   <body class="layout--{{ page.layout | default: layout.layout }}{% if page.classes or layout.classes %}{{ page.classes | default: layout.classes | join: ' ' | prepend: ' ' }}{% endif %}">
     
-    {% if site.debug_jekyll == true %}{% include_cached debug-jekyll.html %}{% endif %}
     {% include_cached skip-links.html %}
     {% include_cached browser-upgrade.html %}
     {% include_cached masthead.html %}
@@ -39,6 +38,6 @@
     </div>
 
     {% include scripts.html %}
-
+    {% if site.debug_jekyll == true %}{% include_cached debug-jekyll.html %}{% endif %}
   </body>
 </html>
