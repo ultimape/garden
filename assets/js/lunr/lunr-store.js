@@ -46,4 +46,42 @@ var store = [
         "teaser": {{ teaser | relative_url | jsonify }}
       }{%- unless forloop.last and l -%},{%- endunless -%}
     {%- endfor -%}
+  {% - endfor -%}
+  {% comment %} Thanks to nandahkrishna for providing this bit that searches pages for content {% comment %}
+{% comment %} https://github.com/mmistakes/minimal-mistakes/issues/1409#issuecomment-569402881 {% comment %}
+  ,
+  {%- for doc in site.pages -%}
+  {%- if doc.title and doc.title != "Publications" and doc.title != "People" and doc.title != "News Archive" -%}
+    {%- if forloop.last -%}
+      {%- assign l = true -%}
+    {%- endif -%}
+    {
+      "title": {{ doc.title | jsonify }},
+      "excerpt":
+          {%- if site.search_full_content == true -%}
+            {{ doc.content | newline_to_br |
+              replace:"<br />", " " |
+              replace:"</p>", " " |
+              replace:"</h1>", " " |
+              replace:"</h2>", " " |
+              replace:"</h3>", " " |
+              replace:"</h4>", " " |
+              replace:"</h5>", " " |
+              replace:"</h6>", " "|
+            strip_html | strip_newlines | jsonify }},
+          {%- else -%}
+            {{ doc.content | newline_to_br |
+              replace:"<br />", " " |
+              replace:"</p>", " " |
+              replace:"</h1>", " " |
+              replace:"</h2>", " " |
+              replace:"</h3>", " " |
+              replace:"</h4>", " " |
+              replace:"</h5>", " " |
+              replace:"</h6>", " "|
+            strip_html | strip_newlines | truncatewords: 50 | jsonify }},
+          {%- endif -%}
+        "url": {{ doc.url | absolute_url | jsonify }}
+    }{%- unless forloop.last and l -%},{%- endunless -%}
+  {%- endif -%}
   {%- endfor -%}]
