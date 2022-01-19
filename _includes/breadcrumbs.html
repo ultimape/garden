@@ -27,7 +27,7 @@
       <meta itemprop="position" content="1" />
     </li>
     <span class="sep">{{ site.data.ui-text[site.locale].breadcrumb_separator | default: "/" }}</span>
-    {% for crumb in crumbs offset: 0 %}
+    {% for crumb in crumbs offset: 1 %}
     {% assign i = i | plus: 1 %}
     <br/> trying to draw {{crumb}} for i = {{i}} : 
     {% if forloop.first %}
