@@ -14,7 +14,7 @@
 
 <nav class="breadcrumbs">
   <ol itemscope itemtype="https://schema.org/BreadcrumbList">
-    {% assign crumbs = (page.url | split: '/') %}
+    {% assign crumbs = (page.url | remove:'/index.html' | split: '/') %}
     {% assign i = 1 %}
     <li itemprop="itemListElement" itemscope itemtype="https://schema.org/ListItem">
       <a href="{{ '/' | relative_url }}" itemprop="item"><span itemprop="name">{{
