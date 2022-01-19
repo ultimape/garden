@@ -51,6 +51,6 @@
     "gitdoc.filePattern": "**/*.md",
     "gitdoc.enabled": true,
     "gitdoc.autoPush": "onCommit",
-    "gitdoc.autoCommitDelay": 3000,
-    "gitdoc.commitMessageFormat": "YYYY-MM-DD HH:mm",
+    "gitdoc.autoCommitDelay": 600000,
+    "gitdoc.commitMessageFormat": "YYYY-MM-DD HH:mm:ss",
 }
