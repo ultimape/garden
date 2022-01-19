@@ -184,8 +184,7 @@ defaults:
 
   # _weeds
   - scope:
-      path: ""
-      type: weeds
+      path: "_weeds"
     values:
       layout: weed
       author_profile: true
