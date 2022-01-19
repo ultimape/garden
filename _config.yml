@@ -165,7 +165,7 @@ footer:
 
 collections:
   weeds:
-     output: true 
+     output: false 
      permalink: :slug/
 
 defaults:
