@@ -7,7 +7,7 @@
     "foam.openDailyNote.fileExtension": "md",
     "foam.openDailyNote.titleFormat": "yyyy-mm-dd | dddd, mmmm d '- Journal Entry'",
     "foam.edit.linkReferenceDefinitions": "withExtensions", //"off",
-    "foam.openDailyNote.onStartup": true,
+    "foam.openDailyNote.onStartup": false,
     // ----
     // vscode editor config
     "editor.minimap.enabled": false,
@@ -23,6 +23,7 @@
     "markdown.preview.breaks": true,
     "vscodeMarkdownNotes.noteCompletionConvention": "noExtension",
     "vscodeMarkdownNotes.slugifyMethod": "github-slugger",
+    "markdownExtended.disabledPlugins": "kbd",
     // ----
     // formatting rules
     "prettier.singleQuote": false,
@@ -38,12 +39,16 @@
     // ----
     // git settings
     //"git.enableSmartCommit": true,
-    //"git.postCommitCommand": "sync",
+    "git.postCommitCommand": "sync",
     // ----
     // pasting image config
     "pasteImage.path": "${projectRoot}/attachments/images",
     "pasteImage.showFilePathConfirmInputBox": true,
     // ----
     // spell checker settings
-    "spellright.notificationClass": "warning",
+    "spellright.notificationClass": "information",
+    // GitDoc allows for automaically committing mardown files on save.
+    "gitdoc.filePattern": "**/*.md",
+    "gitdoc.enabled": true,
+    "gitdoc.autoPush": "afterDelay",
 }
