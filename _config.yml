@@ -41,7 +41,7 @@ remote_theme: "mmistakes/minimal-mistakes@4.24.0"
 minimal_mistakes_skin: "default"
 
 # custom debug mode
-debug_jekyll: true
+debug_jekyll: false
 
 # Outputting
 url: "https://ultimape.github.io"
