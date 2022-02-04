@@ -71,7 +71,7 @@ It's not so much that I can't plan out my tasks, but that sometimes I just can't
 
 And its not just ignoring something simple here and there. I'll literally put off important activities in my life that I need to do to stay alive. More times than I'm willing to admit I'll put off laundry or avoid taking a shower.
 
-To be fair, many of these are challenges for other reasons. Sometimes its because I physically can't stand well so doing it for a for a long time in the shower is hard. Or carrying heavy things up and down the stairs to the washing machine ends up being difficult.
+To be fair, many of these are challenges for other reasons. Sometimes its because I physically can't stand up well so doing it for a for a long time in the shower is hard. Or carrying heavy things up and down the stairs to the washing machine ends up being difficult.
 
 On many days I'm happy to get out of bed, get dressed, and do something productive on the computer. The only thing I can reliably do is go to the bathroom, even if I have to lean against the wall thru the hall way. So avoiding important tasks even when I can do these things, means I can't be as effective as I should be.
 
