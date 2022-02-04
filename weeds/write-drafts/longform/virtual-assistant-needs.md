@@ -71,13 +71,15 @@ It's not so much that I can't plan out my tasks, but that sometimes I just can't
 
 And its not just ignoring something simple here and there. I'll literally put off important activities in my life that I need to do to stay alive. More times than I'm willing to admit I'll put off laundry or avoid taking a shower.
 
-To be fair, many of these are challenges for other reasons. Sometimes its because I physically can't stand up well so doing it for a for a long time in the shower is hard. Or carrying heavy things up and down the stairs to the washing machine ends up being difficult.
+To be fair, many of these are challenges for other reasons. Sometimes it is because I physically can't stand up well so doing it for a for a long time in the shower is hard. Or carrying heavy things up and down the stairs to the washing machine ends up being difficult.
 
-On many days I'm happy to get out of bed, get dressed, and do something productive on the computer. The only thing I can reliably do is go to the bathroom, even if I have to lean against the wall thru the hall way. So avoiding important tasks even when I can do these things, means I can't be as effective as I should be.
+On many days I'm happy to get out of bed, get dressed, and do something productive on the computer. The only thing I can reliably do is go to the bathroom, even if I have to lean against the wall while going thru the hall way. So avoiding important tasks even when I can do these things, means I can't be as effective as I should be. While this is not always the case (and some recent health experiments have improved this measurably), I go in and out of these states often that making use of my productive times is important.
 
-For example, this past week I've had 4 different important tasks I should be doing (one of them writing this document), but yesterday I spent 4 hours making a weird how-to video about a no-bake prebiotic cookies. This was good because it helped me see if I was up for doing a physical task (thus testing a health experiment). And I ended up with a few days of healthy breakfasts I wont have to worry about... But it wasn't at all what I had planned on working on that night. It was spur of the moment and while fun, not really the best use of my time.
+For example, this past week I've had 4 different important tasks I should be doing (one of them writing this document), but yesterday I spent 4 hours making a weird how-to video about a no-bake prebiotic cookies. This was good because it helped me see if I was up for doing a physical task (thus testing the health experiment). And I ended up with a few days of healthy breakfasts I wont have to worry about... But it wasn't at all what I had planned on working on that night. It was spur of the moment and while fun, not really the best use of my time.
 
-Why I felt the need to make a video of it? I have no idea. My excuse is that it made it fun and interesting so I could finish making cookies, but it seems silly in retrospect. Sometimes my life seems to be just a series of chaotic activities like that with long spans of doing nothing in between. I'd like to be able to focus on my actual goals more.
+Why I felt the need to make a video of it? I have no idea. My excuse is that the video made it fun and interesting so I could finish making the cookies, but it seems silly in retrospect. Sometimes my life feels to be just a series of chaotic activities like that, with long spans of doing nothing in between.
+
+I'd like to be able to focus on my actual goals more.
 
 #### 1.2 Successes so far
 
@@ -93,11 +95,11 @@ I do know I find it useful to have people talk to me about what I'm doing or how
 
 I describe this loosely under an umbrella of "being event driven". Sometimes all it takes to remind me I need to eat food is to have my girlfriend walk in to the room and say 'Hi'. This event stops my train of thought long enough and lets me introspect about my state. This is the 'absent minded professor' thing I mentioned earlier. I believe this is happening in a more complex way when taking about my tasks but can't articulate it well. I do know it feels the same.
 
-That effect also helps me write more salient thoughts. Writing stuff for a specific person helps me collecting my random thoughts down into a more cohesive narrative. Sometimes even a really good question is all I need to solidify the weird threads of ideas that float around in my head.
+That effect also helps me write more salient thoughts. Writing stuff for a specific person helps me with taming my random thoughts into more cohesive narratives. Sometimes even a really good question is all I need to solidify the weird threads of ideas that float around in my head. And as so much of what I spend my time doing is this kind of work, I can't state enough how useful it is to have someone to explain things to. In practice for a VA, this might mean reminding me about social outlets where I can write about this kind of thing to people.
 
 I get the sense that I am more willing to work on something for someone else's sake than my own. E.g. I have no problems motivating myself to take a shower before visiting someone because I know they'd be uncomfortable if I was gross looking. The reason I am even working on this document is because someone is depending on me to finish it. Having reminders that subtly hint at this might help a lot. E.g. another human being asking me "have you followed up with [ x ] you were going to do for [ person ]?" seems to be more effective than just a popup in some task management tool, if only because it will mean I have to think about how to respond to them.
 
-Also I am rewarded when I can share what I've accomplished with other people. This is partly why I write so much on twitter and create/collect all the research notes etc. It feels good to me to share what I'm learning because it's something I'm proud of, and at this point I've gotten enough people commenting on how it helps them out with learning on their own that also feel good about helping people.
+Also I am rewarded when I can share what I've accomplished with other people. This is partly why I write so much on twitter and create/collect all the research notes etc. It feels good to share what I'm learning because it's something I'm proud of, and at this point I've gotten enough people commenting on how it helps them out that I also feel good about it helping people.
 
 ### 2. Unpredictable Memory Issues
 
