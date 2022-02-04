@@ -278,7 +278,7 @@ There were so many multiple choice questions that my hand cramped up while doing
 
 ## 7. So A Virtual Assistant?
 
-As I said above, a friend suggested trying a virtual assistant. My goal is to get help exploring what they can do for me, and then trying it for a month. I would like someone who can work with me to figure these things out, help follow up with me and adaptively prompt me, and work on ways to deal with the complexitie I face.
+As I said above, a friend suggested trying a virtual assistant. My goal is to get help exploring what they can do for me, and then trying it for a month. I would like someone who can work with me to figure these things out, help follow up with me and adaptively prompt me, and work on ways to deal with the complexities that arise due to these challenges.
 
 Hopefully this document can assist with that.
 
