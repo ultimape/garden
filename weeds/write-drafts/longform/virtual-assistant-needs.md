@@ -244,7 +244,7 @@ This has mostly gone away when I fixed my depression. But it does occasionally c
 > Avolition is a total lack of motivation that makes it hard to get anything done. You can't start or finish even simple, everyday tasks. Getting off the couch to wash the dishes or drive to the supermarket can feel like climbing Mount Everest.
 > [Avolition - WebMD](https://www.webmd.com/mental-health/what-is-avolition)
 
-This is tied to the Executive function issues and the whole sometimes being unmotivated to do thins unless its for other people I mentioned before. It has been slowly going away as I treat my health issues, but sometimes I just can't will myself to do things at all and just sit here frustraited that I can't act on my will.
+This is tied to the Executive function issues and the whole sometimes being unmotivated to do things unless its for other people I mentioned before. It has been slowly going away as I treat my health issues, but sometimes I just can't will myself to do things at all and just sit here frustraited that I can't act on my will.
 
 #### 5.4 Affective Flattening
 
