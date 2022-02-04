@@ -23,7 +23,7 @@ There were some more details in that thread but I'm going to be detailing them b
 
 I'm not necessarily looking to solve all of them right now, but would love to figure out ways a virtual assistant might be able to keep me focused when I am able to deal with them.
 
-I've also been logging things I read that seem useful here https://are.na/ultimape/virtual-assistants-hired-disability-aids but don't have a good sense of how this would work for someone who's not looking for business assistance.
+I've also been logging things I read that seem useful [in a channel on my are.na](https://are.na/ultimape/virtual-assistants-hired-disability-aids) but as I don't have a good sense of how this would work for someone who's not looking for business assistance, I've been struggling things that are relevant.
 
 ----
 
