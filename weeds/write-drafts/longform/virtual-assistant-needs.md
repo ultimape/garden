@@ -129,7 +129,7 @@ The big shift I took on was embedding memory into the environment. So structurin
 
 Abstractly, I think about it like how an ant uses pheromones to encode information about their world. I had great success setting up my living environment to facilitate having memory aids and place prompts in my environment to remind me about stuff. But that has been challenging since of some unfortunate changes in my living situation.
 
-In an ideal world, I'd be allowed to write notes on mirrors and have a stable enough living situation that I could leave written notes next to tasks to remind me why they are there. Even better i'd have the ability to move things around to optimize for this. Given control over my environment, this is something I am able to do on my own (and will do). However Where I live now I am not able to do this for a bunch of complicated interpersonal reasons. It's been a struggle.
+In an ideal world, I'd be allowed to write notes on mirrors and have a stable enough living situation that I could leave written notes next to tasks to remind me why they are there. Even better I'd have the ability to move things around to optimize for this. Given control over my environment, this is something I am able to do on my own (and will do). However Where I live now I am not able to do this for a bunch of complicated interpersonal reasons. It's been a struggle.
 
 In the interim, I've had some luck with keeping a sort of journal with some friends where we remind each other about coping skills and help remind each other about stuff that has worked in the past, but that hasn't been reliable enough for the extent that I run into these issues.
 
@@ -141,7 +141,7 @@ Coming out of these fugue states often feels like rebooting my brain, and part o
 
 The challenge I face is that I struggle to recover from these setbacks and get moving again. This leads to occasionally long stretches of time where I get stuck in this weird semi-lucid state where I could do things, but don't. This seems to be manageable if I am simply able to remember what it was I wanted to do. Someone who can help to remind me about things that I need to do via something like regular emails, or phone texts might be a way to go.
 
-More directly, I will forget that I have lists of projects and tasks on my plate (or what service I put them in) and so I never start to work on them. This compounds with the executive functioning problems I discussed in the other section. Paying someone to act as an external memory for those important things might help me quite a bit, in particular if it doens't require me to reach out and remember to ask them.
+More directly, I will forget that I have lists of projects and tasks on my plate (or what service I put them in) and so I never start to work on them. This compounds with the executive functioning problems I discussed in the other section. Paying someone to act as an external memory for those important things might help me quite a bit, in particular if it doesn't require me to reach out and remember to ask them.
 
 ### 3. Obsessive Interests
 
@@ -163,7 +163,7 @@ It is also usually something I _do_ want to work on and I don't consider this to
 
 #### 3.3 What help here might look like
 
-This is where adaptivity is essential. Having someone pay attention / ask if my forgetfulness is driven by memory or driven by obsessiveness is important. A reminder tool can't make that decision and so can't choose the best course of action.
+This is where adaptivity is essential. Having someone pay attention / ask if my forgetfulness is driven by memory or driven by obsessiveness is important. A reminder tool can't make that decision and so can't choose the best course of action. I may not even remember to make this distinction myself (without prompting) due to how this is internally experienced.
 
 I don't have a good sense of how to describe the nuance well here, but I know I specifically *don't* want to have reminders during these states because having all my attention focused on the task at hand is actually good. If I'm hyper-focused on something, want to be able to keep doing that ['deep work'](https://www.amazon.com/dp/B013UWFM52/) and take advantage of the intensity while it occurs.
 
@@ -187,6 +187,9 @@ This is a problem that runs in my family on my mom's side. It doesn't appear to 
 On top of that, my sleep duration will occasionally become quite unpredictable at times. Sleeping 4 hours a night for an entire week, and then another week sleep for 18+ hours. My record is 3 days straight. I've done some extensive sleep tracking and I do seem to get the total recommended amount of sleep over all on average, but it is very irregular. (It is worth noting this is more rare now that I've come to understand how the non-24-hour thing impacts my sleep leading to a considerable reduction in jet-lag symptoms)
 
 While I can usually tell when I've been sleeping for too long due to headaches and sore muscles, this unpredictability often means I lose track of time. So this is yet another time-tracking issue that makes it hard to stay on top of things.
+
+A perhaps related issue is I haven't ever been able to intuitively know what day it is (or how old I am) without looking it up.
+
 #### 4.2 Successes So far
 
 Learning what it was, has helped a bit to avoid feeling guilty. Helping others in my life learn about it as also helped to avoid ruining people's expectations.
