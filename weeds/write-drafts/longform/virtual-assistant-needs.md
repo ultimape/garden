@@ -65,7 +65,7 @@ Also, don't feel like you need to read everything I link to. I try to provide re
 
 #### 1.1 Overview
 
-I have some kind of executive function disorder. It is a thing commonly associated with ADHD. I'm diagnosed as autistic and it seems there is [an overlap with these traits](https://en.wikipedia.org/wiki/Executive_dysfunction#Autism_spectrum_disorder).
+I have some kind of executive function disorder. It is a thing commonly associated with ADHD. I'm formally diagnosed as autistic, so it would seem to be due to there being [an overlap with these traits](https://en.wikipedia.org/wiki/Executive_dysfunction#Autism_spectrum_disorder).
 
 It's not so much that I can't plan out my tasks, but that sometimes I just can't seem to focus on them. I know what is a high priority, but often what I do in the moment isn't always the best thing I should be doing. And trying to force myself into working on something else ends up not being effective. It's like my brain shuts down and it's nothing but stress.
 
