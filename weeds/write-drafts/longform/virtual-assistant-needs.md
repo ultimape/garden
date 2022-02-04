@@ -262,7 +262,7 @@ There is a flip-side to this where sometimes I don't recognize other people's em
 
 It doesn't occur to me to reach out to friends, nor do I enjoy many social activities or large groups. I'm not a ["people person"](https://www.dictionary.com/browse/people-person). while I do enjoy sharing ideas and interests with others, I don't really go out of my way to do normal social rituals, and prefer stuff that is more like [Parallel Play](https://en.wikipedia.org/wiki/Parallel_play).
 
-As such, I also am often rude and inconsiderate of social norms. This doesn't come up as often when interacting with non-westerners due to inherent cultural differences masking it, but I often come off as awkward and socially aloof. I feel like I dind't learn my own culture.
+As such, I also am often rude and inconsiderate of social norms. This doesn't come up as often when interacting with non-westerners due to inherent cultural differences masking it, but I often come off as awkward and socially aloof. I feel like I didn't learn my own culture.
 
 Combine this with the lack of noticing emotion I mentioned above, it can sometimes lead to horrible social interactions. This is a stressful issue for me and it often makes me feel bewildered, and in particular guilty and sad when I hurt people's feelings. At it's worst I will become increasingly shy and full of self-doubt due to past trauma and from problems here.
 
