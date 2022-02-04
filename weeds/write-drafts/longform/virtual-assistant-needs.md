@@ -111,7 +111,7 @@ When this gets to it's most extreme forms the challenges are in the moment-to-mo
 
 Insights like this have been super valuable for me in uncovering ties between Multiple Sclerosis and other neurodegenerative disorders. But in the moment it occurs, they are absolutely awful to deal with.
 
-I am still uncertain if this is Multiple Sclerosis or some kind of [schizophrenia related memory symptom](https://www.cuimc.columbia.edu/news/study-finds-brain-marker-poor-memory-schizophrenia-patients). In fact there may be little difference given [the weird overlap in M.S. + schiz etiologies](https://www.ncbi.nlm.nih.gov/labs/pmc/articles/PMC5578149/). Worse, these very struggles I'm describing make it really hard to jump the medical diagnostic hurdles. I literally haven't seen a doctor since 2015, and before that it was in 2005 to get vaccines to go to college.
+I am still uncertain if this is Multiple Sclerosis or some kind of [schizophrenia related memory symptom](https://www.cuimc.columbia.edu/news/study-finds-brain-marker-poor-memory-schizophrenia-patients). In fact there may be little difference given [the weird overlap in M.S. + schiz etiologies](https://www.ncbi.nlm.nih.gov/labs/pmc/articles/PMC5578149/). Worse, these very struggles I'm describing make it really hard to jump thru the medical diagnostic hurdles. I literally haven't seen a doctor since 2015, and before that it was in 2005 to get vaccines to go to college.
 
 #### 2.2 Successes So Far
 
