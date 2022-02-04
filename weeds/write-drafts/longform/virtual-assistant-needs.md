@@ -212,7 +212,7 @@ I don't expect this kind of support will be something addressable in the short t
 
 I have a smattering of other terms that relate to challenges I face. Most of them are at the intersection of M.S. and Schizophrenia related mood problems, but mostly this is due to how ["Negative Symptoms" in Schizophrenia overlap with traits found in Autism](https://www.frontiersin.org/articles/10.3389/fpsyt.2020.00548/full). It appears that even for that condition, the 'Negative Symptoms' aren't well researched nor are there good ways to treat them aside from some herbal remedies.
 
-There is a saying in autistic support circles on that seems to be relevant here:
+There is a saying in autistic support circles that seems to be relevant here:
 
 > "If you've met one individual with autism, you've met one individual with autism."
 > — [Dr. Stephen Shore](https://www.limeconnect.com/opportunities_news/detail/leading-perspectives-on-disability-a-qa-with-dr-stephen-shore)
