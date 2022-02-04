@@ -85,7 +85,7 @@ I'd like to be able to focus on my actual goals more.
 
 I've managed to embrace the flighty nature of my attention a bit, turning it into an asset where I can. But it still kind of sucks not being able to guide my focus onto doing things I genuinely want (or need) to do. Even my main marketable skill right now—exploring research and health / biology topics—isn't much different from making that video.
 
-The main expression of this is how I enjoy getting distracted by rabbit-holes around my health interests and writing about it as I go. I even managed to turn that into being employed to do for a year or so! But that phiszzled out due to the pandemic changing the research org's priorities and me not being able to direct my attention better.
+The main expression of this is how I enjoy getting distracted by rabbit-holes around my health interests and writing about it as I go. I even managed to turn that into being employed to do for a year or so! But that fizzled out due to the pandemic changing the research org's priorities and me not being able to direct my attention better.
 
 Right now the best I've got going for me is working on my motivation levels in general by improving my health & diet. So I do more things overall and can channel that energy toward an eventual goals even it ends up being chaotic in practice. All the structure and routines in the world don't help much if I can't physically get out of the chair I'm sitting in. It does seem to be working, if slowly, but because of the issues I discuss below, it's very hard to maintain momentum.
 
