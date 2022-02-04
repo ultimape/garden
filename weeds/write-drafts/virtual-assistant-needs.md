@@ -57,7 +57,7 @@ Also, don't feel like you need to read everything I link to. I try to provide re
 
 I have some kind of executive function disorder. It is a thing commonly associated with ADHD. I'm diagnosed as autistic and it seems there is [an overlap with these traits](https://en.wikipedia.org/wiki/Executive_dysfunction#Autism_spectrum_disorder).
 
-It's not so much that I can't plan out my tasks, but that sometimes I just can't seem to focus on them. I know what is a high priority, but often what I do in the moment isn't always the best thing I should be doing. And trying to force myself into working on it ends up not being effective. It's like my brain shuts down and it's nothing but stress.
+It's not so much that I can't plan out my tasks, but that sometimes I just can't seem to focus on them. I know what is a high priority, but often what I do in the moment isn't always the best thing I should be doing. And trying to force myself into working on something else ends up not being effective. It's like my brain shuts down and it's nothing but stress.
 
 And its not just ignoring something simple here and there. I'll literally put off important activities in my life that I need to do to stay alive. More times than I'm willing to admit I'll put off laundry or avoid taking a shower.
 
@@ -85,19 +85,19 @@ I describe this loosely under an umbrella of "being event driven". Sometimes all
 
 That effect also helps me write more salient thoughts. Writing stuff for a specific person helps me collecting my random thoughts down into a more cohesive narrative. Sometimes even a really good question is all I need to solidify the weird threads of ideas that float around in my head.
 
-I get the sense that I am more willing to work on something for someone else's sake than my own. E.g. I have no problems motivating myself to take a shower before visiting someone because I know they'd be uncomfortable if I was gross looking. The reason I am even working on this document is because someone is depending on me to finish it. Having reminders that subtly hint at this might help a lot. E.g. another human being asking me "have you followed up with [x] you were going to do for [person]?" might be more effective than just a popup in some task management tool, if only because it will mean I have to think about how to respond to them.
+I get the sense that I am more willing to work on something for someone else's sake than my own. E.g. I have no problems motivating myself to take a shower before visiting someone because I know they'd be uncomfortable if I was gross looking. The reason I am even working on this document is because someone is depending on me to finish it. Having reminders that subtly hint at this might help a lot. E.g. another human being asking me "have you followed up with [ x ] you were going to do for [ person ]?" seems to be more effective than just a popup in some task management tool, if only because it will mean I have to think about how to respond to them.
 
-I also am rewarded when I can share what I've accomplished with other people. This is partly why I write so much on twitter and create/collect all the research notes etc. It feels good to me to share what I'm learning because it's something I'm proud of, and at this point I've gotten enough people commenting on how it helps them out with learning on their own that also feel good about helping people.
+Also I am rewarded when I can share what I've accomplished with other people. This is partly why I write so much on twitter and create/collect all the research notes etc. It feels good to me to share what I'm learning because it's something I'm proud of, and at this point I've gotten enough people commenting on how it helps them out with learning on their own that also feel good about helping people.
 
 ### 2. Unpredictable Memory Issues
 
 #### Overview
 
-The main thing I run into that ends up being an issue seem to stem from what I believe to be a Multiple Sclerosis related problems, in particular [memory issues](https://www.healthline.com/health/multiple-sclerosis/memory-loss). I get weird ['brain fog'](https://en.wikipedia.org/wiki/Clouding_of_consciousness) and my memory for things will occasionally completely disappear. I will temporarily forget everything and lose track of time. On the outside, this looks like a couple days of scattered thoughts and varying levels of [short term memory loss](https://en.wikipedia.org/wiki/Retrograde_amnesia).
+The main thing I run into that ends up being an issue seem to stem from what I believe to be a Multiple Sclerosis related problems, in particular [memory issues](https://www.healthline.com/health/multiple-sclerosis/memory-loss). I get weird ['brain fog'](https://en.wikipedia.org/wiki/Clouding_of_consciousness) and my memory for things will occasionally completely disappear. I will temporarily forget everything and lose track of time. On the outside, this looks like a couple days of scattered thoughts and varying levels of [short term memory loss](https://en.wikipedia.org/wiki/Retrograde_amnesia). This is something I am actively working on addressing as part of my own research, but its not something I can confidently say I have a handle on.
 
 When this gets to it's most extreme forms the challenges are are in the moment-to-moment. I'll go out to prepare food and begin to grab a plate. Then upon reaching for the plate up I'll realize I'll need to use the bathroom to pee. On the way to the bathroom (while still holding the plate), something will surprise me and I'll forget what I was doing. I'll then be standing in the living room holding a plate, while anxious from needing to pee, while trying to deal with the more immediate surprise. I will eventually have to pee so bad that I will make it to bathroom, set down the plate ("why do I have a plate?") and relieve myself. After cleaning up (washing my hands etc). I'll go back to my room. And not eat and forget the plate and the surprise event entirely.
 
-Insights like this have been super valuable for me in uncovering ties between Multiple Sclerosis and other neurodegenerative disorders. But in the moment they are absolutely awful to deal with.
+Insights like this have been super valuable for me in uncovering ties between Multiple Sclerosis and other neurodegenerative disorders. But in the moment it occurs, they are absolutely awful to deal with.
 
 I am still uncertain if this is Multiple Sclerosis or some kind of [schizophrenia related memory symptom](https://www.cuimc.columbia.edu/news/study-finds-brain-marker-poor-memory-schizophrenia-patients). In fact there may be little difference given [the weird overlap in M.S. + schiz etiologies](https://www.ncbi.nlm.nih.gov/labs/pmc/articles/PMC5578149/). Worse, these very struggles I'm describing make it really hard to jump the medical diagnostic hurdles. I literally haven't seen a doctor since 2015, and before that it was in 2005 to get vaccines to go to college.
 
@@ -107,17 +107,23 @@ The memory issues got really bad for a while when it compounded with motivation 
 
 This makes it hard to persist on projects and ideas without a lot structural support. Abstractly, I think about it like how an ant uses pheromones to encode information about their world. I've had success setting up my living environment to facilitate having memory aids and place prompts in my environment to remind me about stuff, but that has been challenging since of some changes in my living situation.
 
-In an ideal world, I'd be allowed to write notes on mirrors and have a stable enough living situation that I could leave written notes next to tasks to remind me why they are there. Given control over my environment, this is something I am able to do on my own and will do. Where I live now I am not able to do this for a myriad of reasons. It's been a struggle.
+Many of my challenges with executive function as it relates to memory were being helped by a time-tracking / task tracking system I was using. I had something akin to ["GTD"](https://en.wikipedia.org/wiki/Getting_Things_Done) set up, and also used bullet journaling loosely in the style of ["Time Management for System Administrators"](https://tomontime.com).
+
+To be perfectly frank, I could probably go for a Project Management Professional certification and pass it without even trying. But these memory challenges started causing havoc here and all these systems all fell apart for me. I think I counted 6 different note repositories and 4 paper journals right now. I just forget I have them and can't maintain the habit anymore. My hand writing also stopped working well.
+
+In an ideal world, I'd be allowed to write notes on mirrors and have a stable enough living situation that I could leave written notes next to tasks to remind me why they are there. Given control over my environment, this is something I am able to do on my own (and will do). However Where I live now I am not able to do this for a bunch of complicated interpersonal reasons. It's been a struggle.
 
 I've had some luck with keeping a sort of journal with some friends where we remind each other about coping skills and help remind each other about stuff that has worked in the past, but that hasn't been reliable enough for the extend that I run into these issues.
 
 #### What help here might look like
 
+I don't think a Virtual Assistant can help with the extreme version of this issue. But I think it would be helpful to have someone who can be patient with me while I cope with it and follow up and check in with me to see when I'm back to myself would be valuable. It feels like rebooting of a sort and part of the slowness there is just trying to find everything I misplaced.
+
 The challenge I face is that I struggle to recover from these setbacks and get moving again. This leads to occasionally long stretches of time where I get stuck in this weird semi-lucid state where I could do things, but don't. This seems to be manageable if I am simply able to remember what it was I wanted to do. Someone who can help to remind me about things that I need to do via something like regular emails, or phone texts might be a way to go.
 
-More directly, I will forget that I have lists of projects and tasks on my plate (or what service I put them in) and so I never start to work on them. This compounds with the executive functioning problems I discussed in the other section.
+More directly, I will forget that I have lists of projects and tasks on my plate (or what service I put them in) and so I never start to work on them. This compounds with the executive functioning problems I discussed in the other section. Paying someone to act as an external memory for those important things might help me quite a bit, in particular if it doens't require me to reach out and remember to ask them.
 
-I don't think a Virtual Assistant can help with these extreme version of this issue. But I think it would be helpful to have someone who can be patient with me while I cope with it and follow up and check in with me to see when I'm back to myself would be valuable. It feels like rebooting of a sort and part of the slowness there is just trying to find everything I misplaced.
+
 
 ### Obsessive Interests
 
@@ -147,13 +153,33 @@ These are some of the most productive states I can be in and I only ever wanna b
 
 ### Non-24-Hour Syndrome
 
-Another complication that I regularly run into is my sleep schedule. No matter how hard I try, I am not able to synchronize my sleep with a 24-hour day cycle.
+#### Overview
 
-The challenges this presents to me are myriad. From generally getting higher rates of jet-lagg when I don't stick to my akward schedue, to challenge around waking up for scheduled events
+Another complication that I regularly run into is my sleep schedule. No matter how hard I try, I am not able to synchronize my sleep with a 24-hour day cycle. It's a condition I've learned is termed "Non-24-hour Sleep-Wake Disorder" or "hypernyctohemeral Syndrome".
 
-### More estoeric problems
+This is a problem that runs in my family. It doesn't appear to be the standard blue-light associated sleep phase shifting insomnia that people commonly attribute it to. It is also exceedingly rare to have it for people with in-tact vision, although the issue does appear somewhat more common among autistic types.
 
-I have a smattering of other terms tha relate to challenges I face. Most of them are at the intersection of M.S. and Schizophrenia, but mostly this is due to how "Negative Symptoms" in Schizophrenia overlap with traits found in Autism.
+Web MD has a fairly good review of the condition.
+
+> Eventually, your sleep schedule goes all the way around the clock. For example, you might fall asleep at 11 p.m. one night and then can't get to sleep until 1 a.m. the next night. The delay gets worse until you're going to sleep at 2 a.m., 4 a.m., and later each night.
+> [What Is Non-24-Hour Sleep-Wake Disorder? - WebMD](https://www.webmd.com/sleep-disorders/non-24hour-sleep-wake-disorder#1)
+
+
+
+On top of that, my sleep duration will occasionally become quite unpredictable at times. I will occasionally sleep 4 hours a night for an entire week, and then another week sleep for 18+ hours. My record is 3 days straight. Tho it is worth noting this is more reare now that I've come to understand how the non-24-hour thing impacts my sleep.
+
+While I can usually tell when I've been sleeping for too long due to headaches and sore muscles, this unpredictability often means I lose track of time. So this is yet another time-tracking issue that makes it hard to stay on top of things. 
+
+The challenges this presents to me are myriad. From generally getting higher rates of jet-lagg when I don't stick to my awkward schedule, to challenge around waking up for scheduled events
+
+### More esoteric problems
+
+I have a smattering of other terms that relate to challenges I face. Most of them are at the intersection of M.S. and Schizophrenia, but mostly this is due to how ["Negative Symptoms" in Schizophrenia overlap with traits found in Autism](https://www.frontiersin.org/articles/10.3389/fpsyt.2020.00548/full).
+
+There is a saying in autistic support circles on that seems to be relevant here:
+
+> "If you've met one individual with autism, you've met one individual with autism."
+> — [Dr. Stephen Shore](https://www.limeconnect.com/opportunities_news/detail/leading-perspectives-on-disability-a-qa-with-dr-stephen-shore)
 
 #### Alogia
 
