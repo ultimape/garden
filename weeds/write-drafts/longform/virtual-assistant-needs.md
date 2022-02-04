@@ -224,11 +224,11 @@ these are just short summaries and a links to where to learn more. I'm happy to 
 > Some people are naturally quiet and don't say much. But if you have a serious mental illness, brain injury, or dementia, talking might be hard. This lack of conversation is called alogia, or “poverty of speech.” Alogia can affect your quality of life.
 > [Alogia - WebMD](https://www.webmd.com/mental-health/what-is-alogia)
 
-I struggle with speaking sometimes. While I am very verbose on here right now, I am often short on words and it can be hard to communicate verbally at times. While I'm not 100% mute like some non-verbal autistics, it does end up cropping up at times. In particularl when I am stressed out.
+I struggle with speaking sometimes. While I am very verbose on here right now, I am often short on words and it can be hard to communicate verbally at times. While I'm not 100% mute like some non-verbal autistics, it does end up cropping up at times. In particular when I am stressed out.
 
 I don't tend to run into this when interacting with most people because I will simply not interact with them when it happens. but those who live with me and provide me help will often encounter it because of needs I'll have while I can't speak well.
 
-It feels similar to stuttering sometimes. It's like I can't get words out. Weirdly I can usually communicate with text when i'm like this, to the point where I won't even realizing I'm struggling with it until I try to talk to someone verbally.
+It feels similar to stuttering sometimes. It's like I can't get words out. Weirdly I can usually communicate with text when I'm like this, to the point where I won't even realizing I'm struggling with it until I try to talk to someone verbally.
 
 #### 5.2 Anhedonia
 
