@@ -57,7 +57,7 @@ I don't exactly have a good grasp of what kinds of things I need help with. I th
 
 The idea of actually getting help has motivated me to into putting some thought into it and I think I've made progress. I managed to break my challenges down into major sections with notes about how they effect me, what I know works so far, and thoughts on what might help.  This is by no means an exhaustive list, but it hits the main challenges I face.
 
-It is still quite long-winded. Hopefully the section headings will help make it easier to scan thru them. 
+It is still quite long-winded. Hopefully the section headings will help make it easier to scan thru them.
 
 Also, don't feel like you need to read everything I link to. I try to provide references to ideas and links to papers for context, and for people who are curious, but they aren't necessary to read for general understanding. This is a habit I've picked up because of my communication challenges, so don't worry if you don't have time for them.
 
@@ -217,7 +217,7 @@ There is a saying in autistic support circles that seems to be relevant here:
 > "If you've met one individual with autism, you've met one individual with autism."
 > — [Dr. Stephen Shore](https://www.limeconnect.com/opportunities_news/detail/leading-perspectives-on-disability-a-qa-with-dr-stephen-shore)
 
-these are just short summaries and a links to where to learn more. I'm happy to expand on them at a later date. These aren't directly related to the challenges with getting things done that I need help with, and I don't feel up for giving examples right now. So these may or may not be issues that need to be addressed, but are more something that may be worth knowing about as they are things I often struggle with.
+these are just short summaries and a links to where to learn more. I'm happy to expand on them at a later date. These aren't directly related to the challenges with getting things done that I need help with, and I don't feel up for giving examples right now. So while these may not be issues that need to be addressed, it is something that may be worth knowing about as they are things I often struggle with.
 
 #### 5.1 Alogia
 
