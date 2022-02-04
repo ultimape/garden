@@ -59,7 +59,7 @@ The idea of actually getting help has motivated me to into putting some thought 
 
 It is still quite long-winded. Hopefully the section headings will help make it easier to scan thru them. 
 
-Also, don't feel like you need to read everything I link to. I try to provide references to ideas and links to papers for context, and for people who are curious, but the aren't necessary to read for general understanding. This is a habit I've picked up because of my communication challenges, so don't worry if you don't have time for them.
+Also, don't feel like you need to read everything I link to. I try to provide references to ideas and links to papers for context, and for people who are curious, but they aren't necessary to read for general understanding. This is a habit I've picked up because of my communication challenges, so don't worry if you don't have time for them.
 
 ### 1. Executive Functioning
 
