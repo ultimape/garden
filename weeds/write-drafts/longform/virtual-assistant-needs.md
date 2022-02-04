@@ -196,9 +196,9 @@ Learning what it was, has helped a bit to avoid feeling guilty. Helping others i
 
 Other than that, most of my "Successes" have been in doing long experiments to try and treat it and not having any results and then finding out gene mutations that probably impact it.
 
-I also noticed that I sync up with lunar rhythms, which has made me better appreciate over looked aspects of life. If I am waking up at 9pm, there's a good chance there is a full moon. This has helped me with making better decisions on how to tweak my sleep schedule slightly, just enough without triggering jet-lag when I need to make an important event. This makes my stuff more predictable for me, but doesn't actually address the challenges of scheduling other people.
+I also noticed that I sync up with lunar rhythms, which has made me better appreciate over looked aspects of life. If I am waking up at 9pm, there's a good chance there is a full moon. This has helped me with making better decisions on how to tweak my sleep schedule slightly, just enough without triggering jet-lag when I need to make an important event. This makes my schedule more predictable for me, but doesn't actually address the challenges of syncing up and scheduling with other people.
 
-I like to pretend it's a super power. I can interact with people in Australia one week, then people in California, the my own time-zone, then Europe, then India, and then Australia again. 
+I like to pretend it's a super power. I can interact with people in Australia one week, then people in California, the my own time-zone, then Europe, then India, and then Australia again. It's like my effective timezone shifts 1.5 hours forward each day.
 
 #### 4.3 What help here might look like
 
