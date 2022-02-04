@@ -264,7 +264,7 @@ It doesn't occur to me to reach out to friends, nor do I enjoy many social activ
 
 As such, I also am often rude and inconsiderate of social norms. This doesn't come up as often when interacting with non-westerners due to inherent cultural differences masking it, but I often come off as awkward and socially aloof. I feel like I didn't learn my own culture.
 
-Combine this with the lack of noticing emotion I mentioned above, it can sometimes lead to horrible social interactions. This is a stressful issue for me and it often makes me feel bewildered, and in particular guilty and sad when I hurt people's feelings. At it's worst I will become increasingly shy and full of self-doubt due to past trauma and from problems here.
+Combine this with the lack of noticing emotion I mentioned above, it can sometimes lead to horrible social interactions. This is a stressful issue for me and it often makes me feel bewildered, and in particular guilty and sad when I hurt people's feelings. At it's worst I will become increasingly shy and full of self-doubt due to past trauma from problems here.
 
 ### 6. Example of Challenges
 
