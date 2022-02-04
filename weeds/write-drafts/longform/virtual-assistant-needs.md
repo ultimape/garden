@@ -206,7 +206,7 @@ I don't know. Lots of patience?
 
 It occurred to me that I may need multiple Virtual Assistants responsible for specific tasks, all in different time zones that can work together to coordinate tasks. If I end up needing support with making phone calls during times when I am asleep, relaying this to another assistant who can follow up with me later in the day may be needed.
 
-I don't expect this kind of support will be something addressable in the short term, but figuring an elegant way to help with with this would be wonderful.
+I don't expect this kind of support will be something addressable in the short term, but figuring an elegant way to help with this would be wonderful.
 
 ### 5. More esoteric problems
 
