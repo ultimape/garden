@@ -101,6 +101,8 @@ exclude:
   - LICENSE
   - LICENCE
   - CNAME
+  - sitemap.xml
+  - assets/
 
 # Plugins (previously gems:)
 plugins:
