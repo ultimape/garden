@@ -1,6 +1,6 @@
 # This is fixable. Please don't give up.
 
-> My friend got diagnosed with M.s. and wants to die. &mdash; Anon
+> My friend got diagnosed with M.s. and wants to die. What would you tell yourself if you were in this situation? &mdash; Anon
 
 Tell her that if it is Multiple Sclerosis it may be driven by gut problems driving inflammatory response in the brain. The gut problems may also be causing her to be more anxious and depressed than she should be. Don't let them win.
 
