@@ -7,7 +7,7 @@
 
 ## Project Overview
 
-A project proposal to address covid related health concerns about fertility.
+A project proposal to address COVID related health concerns about male fertility.
 
 ### People
 
