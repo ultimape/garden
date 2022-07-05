@@ -1,4 +1,4 @@
-# This is fixable. Please don't give up.
+# This is fixable. Please don't give up. 
 
 > My friend got diagnosed with M.s. and wants to die. What would you tell yourself if you were in this situation? &mdash; Anon
 
