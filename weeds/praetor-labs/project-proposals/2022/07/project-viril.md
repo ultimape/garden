@@ -168,18 +168,18 @@ This tier covers the basics needed for testing multiple DIY microscopes and iter
 
 This funding tier involves working out of local hackerspaces to access some tools that we do not have at Praetor Labs, so we will be challenged by scheduling constraints and traveling concerns, which will slow down our velocity.
 
- | Item  | Per Person | 1 Month | 6 Months | 1 Year |
- | -- | -- |  -- |  -- | -- |
- | People (x2) | $1,543.00 | $3,086.00 | $18,516.00 | $37,032.00 | 
- | Facility Costs (flat) |  | $2,320.00 | $13,920.00 | $27,840.00
- | Services (x2) | $185.00 | $370.00 | $2,220.00 | $4,440.00 |
- | Non-Deductible Tax |  | $1,612.95 | $9,677.69 | $19,355.38 | 
- | ***Subtotal*** |  | $7,388.95 | $44,333.69 | $88,667.38
- | Supplies & Parts |  | $2,466.00 | $2,466.00 | $2,466.00
- | Tooling & Hardware | | $1,917.00 |  $1,917.00 | $1,917.00
- | VT sales Tax (7%) |  | $306.81  | $306.81 | $306.81
- | ***Subtotal***  |  |  $4,689.81 |  $4,689.81 |  $4,689.81
- | ****Total***  |  | $12,078.76 | **$49,023.50**  | $93,357.19
+| Item | Per Person | 1 Month | 6 Months | 1 Year | 
+| ---- | ---------- | ------- |  ------- | ------ | 
+| People (x2) | $1,543.00 | $3,086.00 | $18,516.00 | $37,032.00 | 
+| Facility Costs (flat) |  | $2,320.00 | $13,920.00 | $27,840.00 | 
+| Services (x2) | $185.00 | $370.00 | $2,220.00 | $4,440.00 |
+| Non-Deductible Tax |  | $1,612.95 | $9,677.69 | $19,355.38 | 
+| ***Subtotal*** |  | $7,388.95 | $44,333.69 | $88,667.38 | 
+| Supplies & Parts |  | $2,466.00 | $2,466.00 | $2,466.00 | 
+| Tooling & Hardware | | $1,917.00 |  $1,917.00 | $1,917.00 | 
+| VT sales Tax (7%) |  | $306.81  | $306.81 | $306.81 | 
+| ***Subtotal***  |  |  $4,689.81 |  $4,689.81 |  $4,689.81 | 
+| ****Total***  |  | $12,078.76 | **$49,023.50**  | $93,357.19 | 
 
 ----
 
@@ -206,18 +206,18 @@ This tier includes an assortment of basic hardware (and a dedicated computer to 
     
 -   Will require others to build out copies of the hardware on their own to gather general assistance by a larger community to provide enough data to help fill out the Machine Learning based automation. This may slow initial adoption of the project.
     
-| Item  | Per Person | 1 Month | 6 Months | 1 Year |
- | -- | -- |  -- |  -- | -- |
- | People (x2) | $1,543.00 | $3,086.00 | $18,516.00 | $37,032.00 | 
- | Facility Costs (flat) |    | $2,320.00 | $13,920.00 | $27,840.00 |
- | Services (x2) | $185.00 | $370.00 | $2,220.00 | $4,440.00 | 
- | Non-Deductible Tax |    | $1,612.95 | $9,677.69 | $19,355.38 | 
- | ***Subtotal*** |    | $7,388.95 | $44,333.69 | $88,667.38 | 
- | Supplies & Parts |    | $4,039.00 | $4,039.00 | $4,039.00 | 
- | Tooling & Hardware |    | $5,267.00 | $5,267.00 | $5,267.00 | 
- | VT sales Tax (7%) |    | $651.42 | $651.42 | $651.42 | 
- | ***Subtotal*** |    | $9,957.42 | $9,957.42 | $9,957.42 | 
- | ***Total*** |    | $17,346.37 | **$54,291.11** | $98,624.80  | 
+| Item | Per Person | 1 Month | 6 Months | 1 Year | 
+| ---- | ---------- | ------- | -------- | ------ | 
+| People (x2) | $1,543.00 | $3,086.00 | $18,516.00 | $37,032.00 | 
+| Facility Costs (flat) |    | $2,320.00 | $13,920.00 | $27,840.00 |
+| Services (x2) | $185.00 | $370.00 | $2,220.00 | $4,440.00 | 
+| Non-Deductible Tax |    | $1,612.95 | $9,677.69 | $19,355.38 | 
+| ***Subtotal*** |    | $7,388.95 | $44,333.69 | $88,667.38 | 
+| Supplies & Parts |    | $4,039.00 | $4,039.00 | $4,039.00 | 
+| Tooling & Hardware |    | $5,267.00 | $5,267.00 | $5,267.00 | 
+| VT sales Tax (7%) |    | $651.42 | $651.42 | $651.42 | 
+| ***Subtotal*** |    | $9,957.42 | $9,957.42 | $9,957.42 | 
+| ***Total*** |    | $17,346.37 | **$54,291.11** | $98,624.80 | 
 
 ----
 
@@ -248,18 +248,18 @@ This tier includes hardware intended to be used for machine learning model gener
     
 -   Due to legal limitations we may not be able to access large quantities of human semen samples for testing with.
 
-   | Item | Per Person | 1 Month | 6 Months | 1 Year | 
-   | -- | -- | -- | -- | -- | 
-   | People (x2) | $1,543.00 | $3,086.00 | $18,516.00 | $37,032.00 | 
-   | Facility Costs (flat) |    | $2,320.00 | $13,920.00 | $27,840.00 | 
-   | Services (x2) | $185.00 | $370.00 | $2,220.00 | $4,440.00 | 
-   | Non-Deductible Tax |    | $1,612.95 | $9,677.69 | $19,355.38 | 
-   | ***Subtotal*** |    | $7,388.95 | $44,333.69 | $88,667.38 | 
-   | Supplies & Parts |    | $7,259.00 | $7,259.00 | $7,259.00 | 
-   | Tooling & Hardware |    | $12,552.00 | $12,552.00 | $12,552.00 | 
-   | VT sales Tax (7%) |    | $1,386.77 | $1,386.77 | $1,386.77 | 
-   | ***Subtotal*** |    | $21,197.77 | $21,197.77 | $21,197.77 | 
-   | ***Total*** |    | $28,586.72 | **$65,531.46** | $109,865.15
+| Item | Per Person | 1 Month | 6 Months | 1 Year | 
+| ---- | ---------- |  ------ |  ------- | ------ | 
+| People (x2) | $1,543.00 | $3,086.00 | $18,516.00 | $37,032.00 | 
+| Facility Costs (flat) |    | $2,320.00 | $13,920.00 | $27,840.00 | 
+| Services (x2) | $185.00 | $370.00 | $2,220.00 | $4,440.00 | 
+| Non-Deductible Tax |    | $1,612.95 | $9,677.69 | $19,355.38 | 
+| ***Subtotal*** |    | $7,388.95 | $44,333.69 | $88,667.38 | 
+| Supplies & Parts |    | $7,259.00 | $7,259.00 | $7,259.00 | 
+| Tooling & Hardware |    | $12,552.00 | $12,552.00 | $12,552.00 | 
+| VT sales Tax (7%) |    | $1,386.77 | $1,386.77 | $1,386.77 | 
+| ***Subtotal*** |    | $21,197.77 | $21,197.77 | $21,197.77 | 
+| ***Total*** |    | $28,586.72 | **$65,531.46** | $109,865.15 | 
 
 ----
 
@@ -292,18 +292,18 @@ This tier provides more capable machine learning hardware to iterate faster on t
     
 -   While somewhat mitigated by providing pre-built devices, due to legal limitations we may not be able to access large quantities of human semen samples for testing with.
 
- | Item | Per Person | 1 Month | 6 Months | 1 Year | 
- | -- | -- | -- | -- | --|
- | People (x2) | $1,543.00 | $3,086.00 | $18,516.00 | $37,032.00 | 
- | Facility Costs (flat) |    | $2,320.00 | $13,920.00 | $27,840.00 | 
- | Services (x2) | $185.00 | $370.00 | $2,220.00 | $4,440.00 | 
- | Non-Deductible Tax |    | $1,612.95 | $9,677.69 | $19,355.38 | 
- | ***Subtotal*** |    | $7,388.95 | $44,333.69 | $88,667.38 | 
- | Supplies & Parts |    | $15,788.00 | $15,788.00 | $15,788.00 | 
- | Tooling & Hardware |    | $26,394.00 | $26,394.00 | $26,394.00 | 
- | VT sales Tax (7%) |    | $2,952.74 | $2,952.74 | $2,952.74 | 
- | ***Subtotal*** |    | $45,134.74 | $45,134.74 | $45,134.74 | 
- | ***Total*** |    | $52,523.69 | **$89,468.43** | $133,802.12 | 
+| Item | Per Person | 1 Month | 6 Months | 1 Year | 
+| ---- | ---------- | ------- | -------- | -------| 
+| People (x2) | $1,543.00 | $3,086.00 | $18,516.00 | $37,032.00 | 
+| Facility Costs (flat) |    | $2,320.00 | $13,920.00 | $27,840.00 | 
+| Services (x2) | $185.00 | $370.00 | $2,220.00 | $4,440.00 | 
+| Non-Deductible Tax |    | $1,612.95 | $9,677.69 | $19,355.38 | 
+| ***Subtotal*** |    | $7,388.95 | $44,333.69 | $88,667.38 | 
+| Supplies & Parts |    | $15,788.00 | $15,788.00 | $15,788.00 | 
+| Tooling & Hardware |    | $26,394.00 | $26,394.00 | $26,394.00 | 
+| VT sales Tax (7%) |    | $2,952.74 | $2,952.74 | $2,952.74 | 
+| ***Subtotal*** |    | $45,134.74 | $45,134.74 | $45,134.74 | 
+| ***Total*** |    | $52,523.69 | **$89,468.43** | $133,802.12 | 
 
 ----
 
@@ -354,8 +354,8 @@ Having known each other since their time in college, Norman has worked alongside
 Below is the chart we used to calculate the costs of tools & supplies we intend to use to build the microscopes. The prices are rounded up and estimated based on perusing parts list of various options on the market and are vague because of not knowing exactly which set of parts we will end up buying multiple of. We have also baked in room for making mistakes - like accidentally destroying a camera during the “delidding” process that some of the holographic ones require.
 
 
- | Type                                  | Minimal     | Middle        | High         | Dream       |
- | --                                    | --          | --            | --           | --          
+ | Type | Minimal | Middle | High | Dream |
+ | ---- | ------- | ------ | ---- | ----- |
  | Lab Tools                             | $300.00     | $2,315.00     | $9,265.00    | $19,090.00  |   
  | Bulk Material                         | $886.00     | $1,089.00     | $1,769.00    | $2,638.00   | 
  | Project Parts                         | $1,580.0    | $2,950.00     | 5,490.00     | $13,150.00  | 
@@ -365,7 +365,7 @@ Below is the chart we used to calculate the costs of tools & supplies we intend 
 
 
  | Type | Item | Cost | Unit | Qty | Minimal | Qty | Middle | Qty | High | Qty | Dream |
- | -- | -- | -- | -- | -- | -- | -- | -- | -- | -- | -- | -- |
+ | ---- | ---- | ---- | ---- | --- | ------- | --- | ------ | --- | ---- | --- | ----- |
  |    | Number of scopes |    |    | 5 |    | 10 |    | 20 |    | 50 |    | 
  | Lab Tools | Resin Printer | $600.00 |    |    |    | 1 | $600.00 | 1 | $600.00 | 1 | $600.00 | 
  | Lab Tools | Desktop CNC Router | $600.00 |    |    |    | 1 | $600.00 | 1 | $600.00 | 1 | $600.00 | 
