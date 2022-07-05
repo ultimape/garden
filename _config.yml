@@ -102,7 +102,7 @@ exclude:
   - LICENCE
   - CNAME
   - sitemap.xml
-  - assets/
+  - assets/js/lunr/lunr-store.js
 
 # Plugins (previously gems:)
 plugins:
