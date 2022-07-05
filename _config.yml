@@ -39,6 +39,9 @@ repository: "ultimape/garden"
 markdown: CommonMarkGhPages
 remote_theme: "mmistakes/minimal-mistakes@4.24.0" 
 minimal_mistakes_skin: "default"
+commonmark:
+  options: ["UNSAFE", "SMART", "FOOTNOTES"]
+  extensions: ["strikethrough", "autolink", "table", "tagfilter"]
 
 # custom debug mode
 debug_jekyll: false
