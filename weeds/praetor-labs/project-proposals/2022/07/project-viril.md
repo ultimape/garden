@@ -169,7 +169,7 @@ This tier covers the basics needed for testing multiple DIY microscopes and iter
 This funding tier involves working out of local hackerspaces to access some tools that we do not have at Praetor Labs, so we will be challenged by scheduling constraints and traveling concerns, which will slow down our velocity.
 
 | Item | Per Person | 1 Month | 6 Months | 1 Year | 
-| :--- | :--------- | :------ | :------- | :----- | 
+| ---- | ---------- | ------- | -------- | ------ | 
 | People (x2) | $1,543.00 | $3,086.00 | $18,516.00 | $37,032.00 | 
 | Facility Costs (flat) |  | $2,320.00 | $13,920.00 | $27,840.00 | 
 | Services (x2) | $185.00 | $370.00 | $2,220.00 | $4,440.00 |
