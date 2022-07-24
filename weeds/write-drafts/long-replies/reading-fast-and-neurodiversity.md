@@ -10,7 +10,7 @@
 
 It depends a lot on your ability track eyes across the page and general issues with motor control.  You also can get a lot faster if the thing takes into account the eye position like how [spritz does](https://alternativeto.net/software/spritz/about/).  There was an [open source alternative to this](https://github.com/Miserlou/Glance-Bookmarklet) that was nice.
 
-Reading thru my http://are.na notes, it seems I was using ["squirt"](https://squirt.io/install.html ) for a while to train. I also collected a [bunch of notes on speed reading](https://www.are.na/ultimape/speed-reading)
+Reading thru my [[are.na]] notes, it seems I was using ["squirt"](https://squirt.io/install.html ) for a while to train. I also collected a [bunch of notes on speed reading](https://www.are.na/ultimape/speed-reading)
 
 IMHO, a good one would also be watching your eyes for blinking,and none of the existing software does that well. The pacing also often doesn't adapt to word complexity at all and treats each word the same. That might not be ideal for reading comprehension. For actually reading, It seems more like a novelty than anything.
 
