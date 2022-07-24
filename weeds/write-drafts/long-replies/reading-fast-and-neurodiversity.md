@@ -12,7 +12,7 @@ It depends a lot on your ability track eyes across the page and general issues w
 
 Reading thru my [[are.na]] notes, it seems I was using ["squirt"](https://squirt.io/install.html ) for a while to train. I also collected a [bunch of notes on speed reading](https://www.are.na/ultimape/speed-reading)
 
-IMHO, a good one would also be watching your eyes for blinking,and none of the existing software does that well. The pacing also often doesn't adapt to word complexity at all and treats each word the same. That might not be ideal for reading comprehension. For actually reading, It seems more like a novelty than anything.
+IMHO, a good one would also be watching your eyes for blinking, and none of the existing software does that well. The pacing also often doesn't adapt to word complexity at all and treats each word the same. That might not be ideal for reading comprehension. For actually reading, It seems more like a novelty than anything.
 
 If you struggle with reading issues, I recommend playing around with something like a kindle. They give pretty good controls for line-width / gutter height and text size that helped my ex read a lot faster than she did with normal books. She had pretty bad dyslexia.
 
