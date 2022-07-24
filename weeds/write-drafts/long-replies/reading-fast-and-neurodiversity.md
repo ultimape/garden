@@ -79,7 +79,7 @@ I don't know how to fix the lazy eye thing yet that some people have. I know tha
 
 Exercise and training can help, but I suspect there is more going on with coordination between things like ciliary muscles (iris) and the socket moving muscles and how the brain learns to move them.
 
-It autistic types, it seems the brain itself literally can be lopsided a bit, with the eye being strange as a result.
+In autistic types, it seems the brain itself literally can be lopsided a bit, with the eye being strange as a result.
 
 [Brains of autistic people show unusual left-right symmetry]( https://www.spectrumnews.org/news/brains-of-autistic-people-show-unusual-left-right-symmetry/)
 
