@@ -229,6 +229,7 @@ This would be considered an advanced feature that the typical user would not nee
 We would provide a series of downloadable configuration files on a GitHub/Gitlab/GiTea (or equivalent) repo that would present survey questions to the user and reconfigure things like resolution and capture time. When the configurations are present, there would be some advanced settings visible that let you preserve and bundle up the photos themselves along with metadata for whatever questions we have at the time.
 
 By default the software will not present a way to export images unless these configuration files are present, and the way they get on to the device will be largely manual and have consent notifications both in the app and on the website. This will ensure that the end user has intended to use these features and is structurally closed down by the nature of not ever having these configs to begin with in the default product.
+
 #### Long term Training Data Security
 
 What ends up happening with the photos once we gather them is not yet entirely clear. We do not plan, nor want to store this data for the long term, but would be willing to work with other initiatives who would be interested in access to this data (with explicit consent by the people who submit it). And it would be nice to be able to have others build on the machine learning models.
