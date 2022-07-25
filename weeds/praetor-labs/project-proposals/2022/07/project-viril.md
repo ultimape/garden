@@ -34,11 +34,11 @@ We are NOT affiliated with Vermont Technical College, nor are we associated with
 
 ### Project Summary
 
-Our goal is to enable large scale [Citizen Science](https://en.wikipedia.org/wiki/Citizen_science) approaches for fertility related concerns, with a focus on issues associated COVID/Long-COVID. We plan to iterate toward building & releasing open source designs for accessible low cost semen measurement. Along with this, we hope to build out a related simple software framework to provide features amenable toward either [Quantified Self](https://en.wikipedia.org/wiki/Quantified_self) use cases, as well as facilitating [DIY healthcare](https://www.tedmed.com/talks/show?id=527608) initiatives to interface with local healthcare providers.
+Our goal is to enable large scale [Citizen Science](https://en.wikipedia.org/wiki/Citizen_science) approaches for fertility related concerns, with a focus on issues associated COVID/Long-COVID. **We plan to iterate toward building & releasing open source designs for accessible low cost semen measurement.** Along with this, we hope to build out a related simple software framework to provide features amenable toward either [Quantified Self](https://en.wikipedia.org/wiki/Quantified_self) use cases, as well as facilitating [DIY healthcare](https://www.tedmed.com/talks/show?id=527608) initiatives to interface with local healthcare providers.
 
 We will be leveraging the existing ecosystem of [DIY biology](https://en.wikipedia.org/wiki/Do-it-yourself_biology), cheap [FOSS](https://en.wikipedia.org/wiki/Free_and_open-source_software) compatible hardware, and the wide selection of low-cost cameras on the market. We plan to build and test competing options (including some exotic ones), then modify designs to simplify the sampling process.
 
-To enable the secondary goal of integrating this data with existing health ecosystems, we plan to create a liberally licensed software based testing framework to automatically assay fertility related metrics, as well as ingest them into any [FHIR](https://en.wikipedia.org/wiki/Fast_Healthcare_Interoperability_Resources) compatible system (such as those offered by [GNU health](https://en.wikipedia.org/wiki/GNU_Health)).
+To enable the secondary goal of integrating this data with existing health ecosystems, we plan to create a liberally licensed **software based testing framework to automatically assay fertility related metrics**, as well as ingest them into any [FHIR](https://en.wikipedia.org/wiki/Fast_Healthcare_Interoperability_Resources) compatible system (such as those offered by [GNU health](https://en.wikipedia.org/wiki/GNU_Health)).
 
 Our hope is to also use this project as an opportunity to flesh out “Praetor Labs” to be more capable in working on further health related Quantified Self + Citizen Science ideas in the future.
 
@@ -50,27 +50,27 @@ As the COVID-19 pandemic has unfolded, a small number of studies have come out d
 
 There was a ‘prospective cohort study’ on 120 Belgian men to measure SARS-COV-2 in sperm, as well as take measurements of sperm quality. While they found no evidence of SARS-COV-2 in the semen, they still had an alarming conclusion:
 
-> “However, couples with a desire for pregnancy should be warned that sperm quality after COVID-19 infection can be suboptimal. The estimated recovery time is 3 months, but further follow-up studies are under way to confirm this and to determine if permanent damage occurred in a minority of men.”
+> “However, couples with a desire for pregnancy should be warned that **sperm quality after COVID-19 infection can be suboptimal.** The estimated recovery time is 3 months, but further follow-up studies are under way to confirm this and to determine if permanent damage occurred in a minority of men.”
 > 
 > — [Sperm quality and absence of SARS-CoV-2 RNA in semen after COVID-19 infection: a prospective, observational study and validation of the SpermCOVID test](https://pubmed.ncbi.nlm.nih.gov/34937665/) [Dec 20, 2021]
 
 With these findings echoing other smaller scale study on 22 infected individuals:
 
-> “significant impairment in testicular histology was observed, including morphological changes in Sertoli cells, loss and sloughing into the lumen of tubular cells, reduction in the number of Leydig cells, and mild lymphocytic inflammation, suggesting testicular injuries during the disease course. Hence, it appears that COVID-19 can adversely affect the male reproduction system. However, to date, the consequences of COVID-19 on sperm parameters remain barely investigated.”
+> “significant impairment in testicular histology was observed, including morphological changes in Sertoli cells, loss and sloughing into the lumen of tubular cells, reduction in the number of Leydig cells, and mild lymphocytic inflammation, suggesting testicular injuries during the disease course. Hence, **it appears that COVID-19 can adversely affect the male reproduction system.** However, to date, the consequences of COVID-19 on sperm parameters remain barely investigated.”
 > 
 > — [Semen parameters in men recovered from COVID-19](https://pubmed.ncbi.nlm.nih.gov/33975987/) [May 11, 2021]
 
 Which all appear to reinforce findings around when issue was brought to light in this study on 183 covid positive individuals:
 
-> “Lastly, we did not have [semen analysis] information from men prior to their SARS-CoV-2 infection, so comparison with their baseline was not possible; and without a known timeline for sperm production following an acute illness – the timing of our follow-up [semen analysis] was based off of the spermatogenesis timeline and the specific recovery time is still unknown for SARS-CoV-2 infection. Future studies will evaluate long-term impacts of SARS-CoV-2 diagnosis on sperm parameters and the hypothalamicpituitary-gonadal axis axis of men.”
+> “Lastly, we did not have [semen analysis] information from men prior to their SARS-CoV-2 infection, so **comparison with their baseline was not possible**; and without a known timeline for sperm production following an acute illness – the timing of our follow-up [semen analysis] was based off of the spermatogenesis timeline and the specific recovery time is still unknown for SARS-CoV-2 infection. Future studies will evaluate long-term impacts of SARS-CoV-2 diagnosis on sperm parameters and the hypothalamicpituitary-gonadal axis axis of men.”
 > 
 > — [Evaluation of SARS-CoV-2 in Human Semen and Effect on Total Sperm Number: A Prospective Observational Study](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC8255403/) [Feb 24, 2021]
 
-Above we quote that last study explicitly because it highlights a major oversight in virus related health monitoring. Upon investigating these topics further, one key thing stood out among all of them: These all are [prospective cohort studies](https://en.wikipedia.org/wiki/Prospective_cohort_study), with no preexisting semen viability metrics from before infection. This is unfortunate because those who have been shown to be particularly impacted by covid are also populations who are already at risk of fertility related issues.
+Above we quote that last study explicitly because it highlights a major oversight in virus related health monitoring. Upon investigating these topics further, one key thing stood out among all of them: These all are [prospective cohort studies](https://en.wikipedia.org/wiki/Prospective_cohort_study), with **no preexisting semen viability metrics from before infection**. This is unfortunate because those who have been shown to be particularly impacted by covid are also populations who are already at risk of fertility related issues.
 
 Notably, there are currently no known direct causes to account for all these fertility challenges. Findings so far suggest the impacts of COVID may depend on underlying health factors that revolve around ACE2 and TRPMSS2 pathways.
 
-> “Whether these symptoms arise from the direct effects of SARS-CoV-2 on the testis or whether they are mediated by other mechanisms, such as immune response and inflammation, remains to be determined; alternatively, underlying risk factors for SARS-CoV-2 could even be the ultimate cause. It is essential to remember that any disease state or environmental factor that dysregulates furin, ACE2 or TMPRSS2 can affect SARS-CoV-2 infection and its intersection with male fertility. The primary proteins involved in SARS-CoV-2 pathology, particularly ACE2 and TMPRSS2, are expressed throughout the body, including in the testis. Thus, their infection or negative inhibition by SARS-CoV-2 could have severe consequences for male fertility.”  
+> “Whether these symptoms arise from the direct effects of SARS-CoV-2 on the testis or whether they are mediated by other mechanisms, such as immune response and inflammation, remains to be determined; alternatively, underlying risk factors for SARS-CoV-2 could even be the ultimate cause. It is essential to remember that any disease state or environmental factor that dysregulates furin, ACE2 or TMPRSS2 can affect SARS-CoV-2 infection and its intersection with male fertility. The primary proteins involved in SARS-CoV-2 pathology, particularly ACE2 and TMPRSS2, are expressed throughout the body, including in the testis. **Thus, their infection or negative inhibition by SARS-CoV-2 could have severe consequences for male fertility.**”  
 > 
 > — [Implications of testicular ACE2 and the renin–angiotensin system for SARS-CoV-2 on testis function](https://www.nature.com/articles/s41585-021-00542-5) [Nov 26, 2021]
 
@@ -78,9 +78,9 @@ When considering these facets together with the sheer lack of data to create str
 
 ### Opportunity
 
-We feel this highlights a need for large scale measuring of sperm health related factors, in particular for monitoring and targeting interventions to aid in recovery. It also shines a light on a need for gathering this kind of data to preempt this problem in future health crises. Given the findings cited above, and [the role ACE related pathways play in fertility](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC3821659/), it seems obvious to us that we need enhanced visibility around [the impact of this COVID on these pathways](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC7778857/).
+We feel this ***highlights a need for large scale measuring of sperm health related factors***, in particular for monitoring and targeting interventions to aid in recovery. It also shines a light on a need for ***gathering this kind of data to preempt this problem in future health crises***. Given the findings cited above, and [the role ACE related pathways play in fertility](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC3821659/), it seems obvious to us that we need enhanced visibility around [the impact of this COVID on these pathways](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC7778857/).
 
-Short of people volunteering to intentionally infect themselves to get accurate before-and-after data about sperm health, there is little that can be done to illuminate this space better than doing this kind of persistent widespread sampling on a continuous basis for large swaths of the population.
+Short of people volunteering to intentionally infect themselves to get accurate before-and-after data about sperm health, **there is little that can be done to illuminate this space better than doing this kind of persistent widespread sampling** on a continuous basis for large swaths of the population.
 
 Enabling more people to be involved with fertility related self-measurement, and accelerating contributions to our collective knowledge about these fertility concerns (and doing so at scale) is what we hope to achieve.
 
@@ -138,7 +138,7 @@ If we are successful, we would like to expand Praetor Labs to go beyond semen tr
 
 We’ve broken down our project into 4 different tiers that reflect varying levels of capabilities, balancing speed of delivery and quality improvement with respect to costs.
 
-We should  be able to meet the listed outcomes within 6 months.
+We should **be able to meet the listed outcomes within 6 months**.
 
 However we have also provided the costs for a year. More time on the project will allow for increasingly thorough semen analysis coverage. Time will also provide a runway to gather larger quantities of data for machine learning. A year would also give more time to dedicate toward fostering a community, allowing us to focus on promotion and support needs and ensure the project will flourish.
 
