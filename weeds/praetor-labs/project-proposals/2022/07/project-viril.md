@@ -187,7 +187,7 @@ We should be able to **give away prototype units to help gather initial samples,
 
 To really nail the larger problem space we need something that is more dispersed and decentralized. So **we'd rather help others develop this on their own or as grass-roots community initiative**. This gives us potential for more genuine training data while also explicitly encouraging adoption among those who would need the tool the most.
 
-There is definitely room in the future to transition toward an at-cost sales model once we've got enough of a ground swell to be able to support it as a community but this isn't something that would be worth targeting until the product has shown successes in the small scale and we have a hope of getting it pushed thru the FDA's gauntlet. Until then we are happy to simply provide plans and develop it into something that can help people DIY. Even if we head down this route, **We will always publish everything we design related to this project as free & open source.**
+There is definitely room in the future to transition toward an at-cost sales model once we've got enough of a ground swell to be able to support it as a community. But this isn't something that would be worth targeting until the product has shown successes in the small scale and we have a hope of getting it pushed thru the FDA's gauntlet. Until then we are happy to simply provide plans and develop it into something that can help people DIY. Even if we head down this route, **We will always publish everything we design related to this project as free & open source.**
 
 ### Crowdsourced Image Tagging & other Training Data?
 
