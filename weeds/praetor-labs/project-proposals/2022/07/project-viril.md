@@ -3,7 +3,7 @@
 
  ***Exploring tools for low-cost at-home open source male fertility testing.***
 
-*working title ([help us name it!](https://twitter.com/ultimape/status/1542462909325901824))
+*Thanks for [helping us name it!](https://twitter.com/ultimape/status/1542462909325901824))
 
 ## Project Overview
 
