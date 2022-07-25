@@ -181,7 +181,7 @@ The initial phase of of this initiative is specifically around exploring this sp
 
 We are quite hesitant to put them up for sale, even at cost, because **that would put us into the medical device manufacturing area** and under the jurisdiction of the FDA.
 
-Giving them away as part of a donation backed program might be viable, but its not something either of us personally have the skills or chutzpah to spearhead. A hope with being an open project that someone else may be willing to take up that flag and run with it.
+Giving them away as part of a donation backed program might be viable, but its not something either of us personally have the skills or chutzpah to spearhead. A hope with being an open project is that someone else may be willing to take up that flag and run with it.
 
 We should be able to **give away prototype units to help gather initial samples, but they would not be complete devices**, nor would they be intended to be used in anything more than a data gathering initiative to train our Machine Learning modules with. With the Dream Tier Budget (see the "Budget" section below) we will be able to do small scale manufacturing in house without much problem. It is also something we plan on doing in some of the other tiers to get data faster, but how many we can make it depends on how much of the microscopes parts we are able to reuse.
 
