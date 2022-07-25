@@ -143,7 +143,7 @@ If we are successful, we would like to expand Praetor Labs to go beyond semen tr
 
 ### Our Approach
 
-Our hope with doing design iterations is that we will be able to make a version of the device that won't require a lot of experience to build. An ideal outcome with this project is to get one simple enough project that makerspaces and schools would be able to use them as introductory builds to teach with.
+Our hope with doing design iterations is that we will be able to make a version of the device that won't require a lot of experience to build. An ideal outcome with this project is to get one simple enough project that makerspaces and colleges would be able to use them as introductory builds to teach with.
 
 Our target would be someone who had basic soldering skills, could plug wires into a prototyping board following instructions, has some basic soldering experince, and if needed could cut out templates using a hacksaw. These are skills that can be gathered over a weekend by a dedicated individual, or picked up at a workshop at a makerspace in a couple of sessions.
 
