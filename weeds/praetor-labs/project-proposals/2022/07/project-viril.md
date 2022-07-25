@@ -145,7 +145,7 @@ If we are successful, we would like to expand Praetor Labs to go beyond semen tr
 
 Our hope with doing design iterations is that we will be able to make a version of the device that won't require a lot of experience to build. An ideal outcome with this project is to get one simple enough project that makerspaces and colleges would be able to use them as introductory builds to teach with.
 
-Our target would be someone who had basic soldering skills, could plug wires into a prototyping board following instructions, has some basic soldering experince, and if needed could cut out templates using a hacksaw. These are skills that can be gathered over a weekend by a dedicated individual, or picked up at a workshop at a makerspace in a couple of sessions.
+Our target would be someone who had basic soldering skills, could plug wires into a prototyping board following instructions, has some basic soldering experience, and if needed could cut out templates using a hacksaw. These are skills that can be gathered over a weekend by a dedicated individual, or picked up at a workshop at a makerspace in a couple of sessions.
 
 While we will be using rapid-prototyping tools to work on development and design, it is not intended to have it be a requirement to build the end product. We want something a curious tinkerer could assemble over the weekend on a shoestring budget without needing any of the typical hobbyist tools. If it requires someone to buy a $170 3d printer to produce, we'd consider it a failure on our part.
 
