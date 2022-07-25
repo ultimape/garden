@@ -218,7 +218,7 @@ What happens when a user transmits these to a research or medical professional i
 
 #### Security During Development & With Training
 
-We are actively exploring options for securely transmitting data to us ala something like a dropbox system. This is a problem that I would like to solve as part of the course of this project.
+We are actively exploring options for securely transmitting data to us ala something like a ["secure drop"](https://en.wikipedia.org/wiki/SecureDrop) system. This is a problem that we would need to solve as part of the course of this project.
 
 Once acquired, images used in our machine learning project will stay encrypted on a couple of hard-drives in a secured location (literally a safe) and only transferred to the Machine Learning device during the training phases.
 
