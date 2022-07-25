@@ -76,6 +76,13 @@ Notably, there are currently no known direct causes to account for all these fer
 
 When considering these facets together with the sheer lack of data to create strong models, it raises troubling questions on the actual impact of the disease. It leaves a big unknown as to who is susceptible to these effects, and more questions than answers for why these fertility problems may be arising to begin with.
 
+The latest study we found (at the time of writing this proposal) was from April 2022 and it's the same kind of pilot study as many of the others, still with conclusions similar to ~"well it might cause problems, we just don't know, need more data!".
+
+> "These findings suggest that SARS-CoV-2 has direct or indirect effects on male reproductive health that linger after recovery, the researchers say. The work might also reveal insights into the pathophysiology of human reproduction in recovered men, they add. However, **they note that larger studies should be done to confirm these findings**, and a control group of men who recently recovered from other flu-like illnesses should be included to ensure that the findings are specific for COVID-19."
+> — [COVID-19 alters levels of fertility-related proteins in men, study suggests](https://www.sciencedaily.com/releases/2022/04/220407141845.htm) [Apr 7, 2022]
+
+This lack of useful data here is what we want to try to help solve.
+
 ### Opportunity
 
 We feel this ***highlights a need for large scale measuring of sperm health related factors***, in particular for monitoring and targeting interventions to aid in recovery. It also shines a light on a need for ***gathering this kind of data to preempt this problem in future health crises***. Given the findings cited above, and [the role ACE related pathways play in fertility](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC3821659/), it seems obvious to us that we need enhanced visibility around [the impact of this COVID on these pathways](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC7778857/).
@@ -133,6 +140,112 @@ We are also aiming to create a way to facilitate a larger community to collabora
 We are looking at possibly creating other materials such as live streaming coding sessions and creating more visibility on the development process to act toward promoting the project. One interesting expansion here would be integrating with Quantified Self initiatives such as [OpenHumans](https://www.openhumans.org/about/) and other similar [Citizen Science research](https://www.nature.com/articles/d41586-018-07106-5) initiatives in the space of [Open Data](https://towardsdatascience.com/data-science-for-social-good-best-sources-for-free-open-data-5120070caf02).
 
 If we are successful, we would like to expand Praetor Labs to go beyond semen tracking tools, branching out into a suite of services that contributes to a collaborative repository of health tracking data, either collaborating with or working under the same ethos as some other [useful public data repositories](https://publiclab.org/).
+
+### Our Approach
+
+Our hope with doing design iterations is that we will be able to make a version of the device that won't require a lot of experience to build. An ideal outcome with this project is to get one simple enough project that makerspaces and schools would be able to use them as introductory builds to teach with.
+
+Our target would be someone who had basic soldering skills, could plug wires into a prototyping board following instructions, has some basic soldering experince, and if needed could cut out templates using a hacksaw. These are skills that can be gathered over a weekend by a dedicated individual, or picked up at a workshop at a makerspace in a couple of sessions.
+
+While we will be using rapid-prototyping tools to work on development and design, it is not intended to have it be a requirement to build the end product. We want something a curious tinkerer could assemble over the weekend on a shoestring budget without needing any of the typical hobbyist tools. If it requires someone to buy a $170 3d printer to produce, we'd consider it a failure on our part.
+
+We may end up producing multiple different versions with that self-build-ability in mind. While self-built ones would be valuable, we also see a potential need to produce them in small batches if the product is taken up by communities seeking to do their own research, or if an open-science friendly academic research wanted to formally use it in a study.
+
+Aside from the direct production by local communities (which is what we plan on focusing on), there a larger game at play behind this. Basically we would be acting to prove that there is a demand for a tool like this, much like how one might use a Kickstarter as a form of social proof to get investors.
+
+We are approaching this as an open source DIY project design because our hope is get enough initial interest by the maker community to get the idea out in the world. If in the future we can use that momentum to get something that a company, who has experience with pushing products thru medical licensing pipelines, would want to pick up the idea? That would be fine by us.
+
+There is an existing model we are emulating that went from a DIY route to offerings backed by legitimate medical device providers. The [DIY insulin pump community](https://khn.org/news/diy-tech-gives-people-more-freedom-in-managing-diabetes/) is a big inspiration for us  and we had been happy to see something inspired by them them manage to [get a version of it passed thru the FDA's pipeline](https://www.fda.gov/news-events/press-announcements/fda-authorizes-first-interoperable-insulin-pump-intended-allow-patients-customize-treatment-through).
+
+While our success is not dependent on a larger company backing us or our design to get it to market officially, this is something we are open to as a possibility.
+
+### What about the FDA?
+
+As far as we can tell, the tools we've mentioned are only qualified as medical devices as long as they are sold or offered for use within the United States.
+
+However, as discussed above in "Our Approach" our goal is to simply provide instructions and schematics for the assembly of DIY microscopes and analysis software source code. We will not be selling the kits nor finished products, so our output should not fall under the purview of the [FDA's laws and regulations pertaining to medical devices](https://www.fda.gov/industry/regulated-products/medical-device-overview#Is%20my%20product%20a%20medical%20device)
+
+In the end we are just designing free & open tools to aid in research and exploration.
+
+### Product Costs?
+
+Eyeballing the existing DIY microscopes available, we don't expect more than $200 for one has everything to do it standalone. The prototype here would be a raspberry PI to run the machine vision code.
+
+This is not an ideal price point and we intend to try to get the basic computer vision one going on cheaper hardware (e.g. the Raspberry PI Zero or a BeagleBone) by trading off time for cost. That may end up around $60.
+
+We also found a couple that use Arduinos and would have the end user run the image analysis on something like their phone or a desktop/laptop they already have. These can be quite cheap if you are willing to pair them down to just [the microchip and basic power circuit](https://www.instructables.com/DIY-Microscope/). We'll be designing the scanning software to support externally sourced images for that reason. Our hope is to provide flexibility so that communities and individuals can figure out solutions that work for their needs.
+
+The initial phase of of this initiative is specifically around exploring this space more and getting a better sense of what it would actually take to build existing solutions. We'll have a better sense of what the final costs will be once we are thru that step.
+
+### What about selling them?
+
+We are quite hesitant to put them up for sale, even at cost, because **that would put us into the medical device manufacturing area** and under the jurisdiction of the FDA.
+
+Giving them away as part of a donation backed program might be viable, but its not something either of us personally have the skills or chutzpah to spearhead. A hope with being an open project that someone else may be willing to take up that flag and run with it.
+
+We should be able to **give away prototype units away to help gather initial samples, but they would not be complete devices**, nor would they be intended to be used in anything more than a data gathering initiative to train our Machine Learning modules with. With the Dream Tier Budget (see the "Budget" section below) we will be able to do small scale manufacturing in house without much problem. It is also something we plan on doing in some of the other tiers to get data faster, but how many we can make it depends on how much of the microscopes parts we are able to reuse.
+
+To really nail the larger problem space we need something that is more dispersed and decentralized. So **we'd rather help others develop this on their own or as grass-roots community initiative**. This gives us potential for more genuine training data while also explicitly encouraging adoption among those who would need the tool the most.
+
+There is definitely room in the future to transition toward an at-cost sales model once we've got enough of a ground swell to be able to support it as a community but this isn't something that would be worth targeting until the product has shown successes in the small scale and we have a hope of getting it pushed thru the FDA's gauntlet. Until then we are happy to simply provide plans and develop it into something that can help people DIY. Even if we head down this route, **We will always publish everything we design related to this project as free & open source.**
+
+### Crowdsourced Image Tagging & other Training Data?
+
+Like most machine learning projects, we will need a means to acquire accurately tagged training data to get appropriately trained inferences and image detection.
+
+The legal limitations here mean literally being unable to buy semen, not being able to act a medical establishment, fertility clinic, or sperm bank. We also do not wish to present ourselves as providing or selling a service, nor as a medical device supplier. But as maker of a DIY tool.
+
+So to actively procure samples ourselves we would need to do it in a way that any provided test kits are strictly used a volunteer basis to contribute to the product.
+
+If someone wants to build their own device and contributes their image data to us to develop the ML model, that doesn't seem to be an issue, so we intend to go this route.
+
+We do not yet have a concrete plan on how to get the labeling, but it will likely be some kind of small game on the community site. Praetor Labs has spent some time working on crowdsourcing back in 2010 and believe we could manage to get a basic system off the ground to gamify tagging somehow.
+
+Until we have our own tests with the microscopes to work with, we don't exactly know what we may need here, so the specifics of how this happens is not set in stone. But we will be focused on minimizing what we collect and setting up data handling & safety standards that we both feel comfortable with.
+
+For the sake of being open with potential biases in the training data, we hope to present some kind of dashboard that logs metrics about training completeness in terms of health issues and stuff like ethnicities and other demographic data if they are provided.
+### Notes on Data Security
+
+#### Security in the Final Product
+
+We would be structuring the designs as a sort of standalone appliance. For a typical end user, the default mode here is going to be entirely offline, private and on device.
+
+For sharing data with others, we intend for it to be using an SD card or thumbdrive by default, with the user explicitly selecting the export location and generating the FHIR data to import elsewhere. We envision it be similar to how one needs to bring in a blood sugar testing tool or CPAP memory logging card to have the data ingested by a doctor. Another option may be to have it always write FHIR data to an SD card like how some CPAP machines do. How it will actually work will depend on usability testing.
+
+The default FHIR option would not include any image data, and the default operation will likely be to delete the photos after being displayed and processed. Longer term saving to the device will be an option for the more curious user, but will not be on by default. For many, just the count and rough motility metric will be enough. Tho they may want to be able re-evaluate the samples with future analysis packages released down the road.
+
+What happens when a user transmits these to a research or medical professional is outside of our control, so we will hopefully be providing recommendations for secure storage of this data. We will be largely depending on existing medical data security standards and laws that exist for medical institutions.
+
+#### Security During Development & With Training
+
+We are actively exploring options for securely transmitting data to us ala something like a dropbox system. This is a problem that I would like to solve as part of the course of this project.
+
+Once acquired, images used in our machine learning project will stay encrypted on a couple of hard-drives in a secured location (literally a safe) and only transferred to the Machine Learning device during the training phases.
+
+Part of the idea of having standalone machine learning computers is to have them air gapped during training.
+
+During the training phase, we would be providing a place to upload semen photos and short video content on an opt in and volunteer basis. It would be similar to the process of exporting data to a FHIR format to send you a clinician, but instead of some JSON files, it would be a small bundle of photos and possibly some metadata that the user selects and embedded in an appropriate compressed file.
+
+This would be considered an advanced feature that the typical user would not need to use, but would be there for people who want to contribute this data during the initial development of the models.
+
+We would provide a series of downloadable configuration files on a GitHub/Gitlab/GiTea (or equivalent) repo that would present survey questions to the user and reconfigure things like resolution and capture time. When the configurations are present, there would be some advanced settings visible that let you preserve and bundle up the photos themselves along with metadata for whatever questions we have at the time.
+
+By default the software will not present a way to export images unless these configuration files are present, and the way they get on to the device will be largely manual and have consent notifications both in the app and on the website. This will ensure that the end user has intended to use these features and is structurally closed down by the nature of not ever having these configs to begin with in the default product.
+#### Long term Training Data Security
+
+What ends up happening with the photos once we gather them is not yet entirely clear. We do not plan, nor want to store this data for the long term, but would be willing to work with other initiatives who would be interested in access to this data (with explicit consent by the people who submit it). And it would be nice to be able to have others build on the machine learning models.
+
+We would like to provide an option to include provided images in a public dataset and share them on some kind of open-data science repository, but understand that may limit the training set we can gather. If we provide that option, we would set up steps to ensure that data is not mishandled, with physically isolating the datasets and presenting these options clearly upon uploading (and via the configuration option discussed above). We will be treating it like one would treat any medical data.
+
+Both of us are very keen on how data is handled and will not do something that goes against our ethics. The last thing we want is to have someone's private medical data leaked because it was stuck up on a cloud service somewhere by someone who didn't respect it or understand what they were doing.
+
+We will report any breeches of this in a visible place to make sure that people are kept abreast of any concerns.
+
+#### Security with Crowdsourcing Visual Tagging
+
+For content tagging it would be necessary to present the picture content to others people to mark up. We will be extending the configuration system discussed above so that the typical user will have to go out of their way to share their data to do this. The configuration files will be designed to present additional consent notifications if any other human being will be looking at the content for scoring purposes.
+
+A separate export file with all personally identifiable meta data explicitly expunged will be produced, to be handled separately from the training workflow. Tools will be built on our end to automate the inspection of these files to ensure relevant metadata is either present or missing.
 
 ### Budget
 
