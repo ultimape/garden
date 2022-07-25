@@ -220,9 +220,7 @@ What happens when a user transmits these to a research or medical professional i
 
 We are actively exploring options for securely transmitting data to us ala something like a ["secure drop"](https://en.wikipedia.org/wiki/SecureDrop) system. This is a problem that we would need to solve as part of the course of this project.
 
-Once acquired, images used in our machine learning project will stay encrypted on a couple of hard-drives in a secured location (literally a safe) and only transferred to the Machine Learning device during the training phases.
-
-Part of the idea of having standalone machine learning computers is to have them air gapped during training.
+Once acquired, images used in our machine learning project will stay encrypted on a couple of hard-drives in a secured location (literally a safe) and only transferred to the Machine Learning device during the training phases. Part of the idea of having standalone machine learning computers on the budget is to have them air gapped during training.
 
 During the training phase, we would be providing a place to upload semen photos and short video content on an opt in and volunteer basis. It would be similar to the process of exporting data to a FHIR format to send you a clinician, but instead of some JSON files, it would be a small bundle of photos and possibly some metadata that the user selects and embedded in an appropriate compressed file.
 
