@@ -5,7 +5,7 @@ A Framework for Understanding Innovation as Shaped by the Complex Interplay Betw
 
 This is a draft and many parts need to be expanded upon and citations added/fixed.
 
-It stems from an interest in ["Rethinking Human Social Systems and Organization Theories"](https://www.are.na/ultimape/rethinking-human-social-systems-and-organization-theories) and applying it to focuses of mine such as [Against SChool](https://www.are.na/ultimape/against-school) and [ Death eaters | Murderism, Warfare, Institutionalized Killing, and Tech.](https://www.are.na/ultimape/death-eaters-murderism-warfare-institutionalized-killing-and-tech)
+It stems from an interest in ["Rethinking Human Social Systems and Organization Theories"](https://www.are.na/ultimape/rethinking-human-social-systems-and-organization-theories) and applying it to focuses of mine such as [Against School](https://www.are.na/ultimape/against-school) and [ Death eaters | Murderism, Warfare, Institutionalized Killing, and Tech.](https://www.are.na/ultimape/death-eaters-murderism-warfare-institutionalized-killing-and-tech)
 
 A copy of [this essay](https://www.are.na/block/23091457) exists at on my are.na as well.
 
