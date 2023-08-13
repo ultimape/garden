@@ -3,13 +3,14 @@
 
 A Framework for Understanding Innovation as Shaped by the Complex Interplay Between Technology and Social Systems
 
-This is a draft and many parts need to be expanded upon and citations added/fixed.
+This is a draft and many parts need to be expanded upon and citations added/fixed. Some of the information is mere hallucination by the AI or my own and need to be addressed as well.
+It was written in cooperation with various [AI chat tools from Anthropic](https://www.anthropic.com/index/claude-2) with help from [Poe](https://poe.com/)
 
-It stems from an interest in ["Rethinking Human Social Systems and Organization Theories"](https://www.are.na/ultimape/rethinking-human-social-systems-and-organization-theories) and applying it to focuses of mine such as [Against School](https://www.are.na/ultimape/against-school) and [ Death eaters | Murderism, Warfare, Institutionalized Killing, and Tech.](https://www.are.na/ultimape/death-eaters-murderism-warfare-institutionalized-killing-and-tech)
+You can [view the discussion I used to generate this](https://poe.com/s/PZzqFXZYEWAanPHvd3hP) via poe. Though it doesn't include some bits from me asking other AIs for their input.
+
+THe ideas here stems from my interest in ["Rethinking Human Social Systems and Organization Theories"](https://www.are.na/ultimape/rethinking-human-social-systems-and-organization-theories) and applying it to focuses of mine such as [Against School](https://www.are.na/ultimape/against-school) and [ Death eaters | Murderism, Warfare, Institutionalized Killing, and Tech.](https://www.are.na/ultimape/death-eaters-murderism-warfare-institutionalized-killing-and-tech) as well as my obessions with meemtics and idea generation/creativity.
 
 A copy of [this essay](https://www.are.na/block/23091457) exists at on my are.na as well.
-
-(written in cooperation with various [AI chat tools from Anthropic](https://www.anthropic.com/index/claude-2) with help from [Poe](https://poe.com/))
 
 ----
 
