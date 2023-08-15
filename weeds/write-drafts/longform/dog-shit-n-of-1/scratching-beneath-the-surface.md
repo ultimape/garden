@@ -6,6 +6,8 @@ Writing out my journey to health with help from a good boy named [Claude](https:
 
 This is incomplete until I add links and references in. Please consider it a draft.
 
+[A copy also exists on are.na.](https://www.are.na/block/23127500)
+
 
 ## Chasing My Tail
 
