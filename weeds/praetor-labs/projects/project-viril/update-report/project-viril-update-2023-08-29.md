@@ -1,4 +1,4 @@
-# Project Viril Project Update
+# Project Viril Update Report for 2023-08-29
 
 See project proposal:
 * [Project Viril - Exploring tools for low-cost at-home open source male fertility testing.](https://ultimape.github.io/garden/weeds/praetor-labs/project-proposals/2022/07/project-viril)
