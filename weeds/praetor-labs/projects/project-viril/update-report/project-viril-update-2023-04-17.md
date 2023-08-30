@@ -13,13 +13,17 @@ See all reports:
 ## Progress Made
 
 &nbsp;&nbsp;&nbsp;&nbsp;Settled on modifying the OpenFlexure platform to optimize for semen measurements.
+
 &nbsp;&nbsp;&nbsp;&nbsp;All the tools and materials have been acquired aside from sourcing some motors.
+
 &nbsp;&nbsp;&nbsp;&nbsp;Survived the winter’s cold despite losing an apartment (per previous report).
+
 &nbsp;&nbsp;&nbsp;&nbsp;Began to build out Praetor Labs’ mobile base of operations.
 
 ## Current Status
 
 Now that it is warm out, we are in the process of building out a 16 ft trailer to house Praetor Labs.
+
 ## Obstacles Encountered & Adaptations
 
 ### Obstacles:
