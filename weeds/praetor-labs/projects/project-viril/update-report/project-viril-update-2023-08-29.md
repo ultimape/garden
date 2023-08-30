@@ -10,11 +10,10 @@ See all reports:
 * [Report for 2023-04-17](https://www.are.na/block/23392772) 
 * [Report for 2022-12-15](https://www.are.na/block/23392697)
 
-
-
 ## Progress Made
 
 &nbsp;&nbsp;&nbsp;&nbsp;Acquired two Harbor Freight carport tents and erected one around the trailer as temporary shelter from rain to enable working outside. This also provided covered space to work when welding.
+
 &nbsp;&nbsp;&nbsp;&nbsp;Salvaged and prepared materials like old bed frames and the trailer ramp for welding by removing rust and painting. Prepared floor and acquired materials to build it.
 
 ## Current Status
