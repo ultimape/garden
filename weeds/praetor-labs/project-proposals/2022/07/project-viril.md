@@ -42,6 +42,12 @@ To enable the secondary goal of integrating this data with existing health ecosy
 
 Our hope is to also use this project as an opportunity to flesh out “Praetor Labs” to be more capable in working on further health related Quantified Self + Citizen Science ideas in the future.
 
+### Update reports
+
+* [Report for 2023-08-29](/weeds/praetor-labs/projects/project-viril/update-report/project-viril-update-2023-08-29.md)
+* [Report for 2023-04-17](/weeds/praetor-labs/projects/project-viril/update-report/project-viril-update-2023-04-17.md)
+* [Report for 2022-12-15](/weeds/praetor-labs/projects/project-viril/update-report/project-viril-update-2022-12-15.md)
+
 ## Background
 
 ### Problem
