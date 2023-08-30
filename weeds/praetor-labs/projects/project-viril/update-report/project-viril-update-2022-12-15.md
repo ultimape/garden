@@ -6,9 +6,9 @@ See project proposal:
 ## Report for 2022-12-15
 
 See all reports:
-* [Report for 2023-08-29](https://www.are.na/block/23392939)
-* [Report for 2023-04-17](https://www.are.na/block/23392772)
-* [Report for 2022-12-15](https://www.are.na/block/23392697) (this report) 
+* [Report for 2023-08-29](./project-viril-update-2023-08-29.md)
+* [Report for 2023-04-17](./project-viril-update-2023-04-17.md)
+* [Report for 2022-12-15](./project-viril-update-2022-12-15.md) (this report) 
 
 ## Progress Made
 
