@@ -13,6 +13,7 @@ See all reports:
 ## Progress Made
 
 &nbsp;&nbsp;&nbsp;&nbsp;Got Banking & access to funds.
+
 &nbsp;&nbsp;&nbsp;&nbsp;Order & acquired most tools & hardware, and a significant portion of materials.
 	
 ## Current Status
