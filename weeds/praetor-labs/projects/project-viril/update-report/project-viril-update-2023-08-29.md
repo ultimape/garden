@@ -14,7 +14,7 @@ See all reports:
 
 &nbsp;&nbsp;&nbsp;&nbsp;Acquired two Harbor Freight carport tents and erected one around the trailer as temporary shelter from rain to enable working outside. This also provided covered space to work when welding.
 
-&nbsp;&nbsp;&nbsp;&nbsp;Salvaged and prepared materials like old bed frames and the trailer ramp for welding by removing rust and painting. Prepared floor and acquired materials to build it.
+&nbsp;&nbsp;&nbsp;&nbsp;Salvaged and prepared materials from various metal scrap (and the trailer ramp) for welding by removing rust and painting. Prepared floor and acquired materials to build it.
 
 ## Current Status
 
