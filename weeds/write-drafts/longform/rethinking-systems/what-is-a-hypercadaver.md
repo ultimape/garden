@@ -105,7 +105,7 @@ Defecation all the way down.
 
 Or worse, what if this destabilization is plan of a 3rd party actor looking to maximize actual disruption & chaos?
 
-"Search system predicts what prey are needed to keep an ecosystem working. Google’s search algorithm can be used to determine which prey are most important for an ecosystem to thrive."
+> "Search system predicts what prey are needed to keep an ecosystem working. Google’s search algorithm can be used to determine which prey are most important for an ecosystem to thrive."
 [Google tool identifies linchpin species](http://nature.com/news/2008/080806/full/news.2008.1010.html)
 
 > "Disrupting the current ecosystem would send ripple effects thru populations and hurt a lot of people."
@@ -122,7 +122,7 @@ Do you ever wonder if ideas are simply using you as a temporary vessel for a lar
 ```
 Ideas that help [x]
 
- x={
+ x = {
 an individual, but hurt the group.
 a group, but hurt the individual.
 one group, but hurt another group.
