@@ -240,7 +240,7 @@ Some of the most influential philosophers made their mark on western thought by 
 
 Remember when I figured out that hamsters were getting pellagra and it was driving them to cannibalize their young despite sufficient food supply? Serotonin production is really important.
 
-"Our study provides an unprecedented understanding of how the intestinal microbiota can disrupt maternal behavior and how this can negatively impact development of an offspring  [...]  Early findings suggest the bacteria might be affecting levels of serotonin, the hormone associated with feelings of happiness and well-being, but more work is needed."
+> "Our study provides an unprecedented understanding of how the intestinal microbiota can disrupt maternal behavior and how this can negatively impact development of an offspring  [...]  Early findings suggest the bacteria might be affecting levels of serotonin, the hormone associated with feelings of happiness and well-being, but more work is needed."
 [Specific bacteria in the gut prompt mother mice to neglect their pups](https://salk.edu/news-release/specific-bacteria-in-the-gut-prompt-mother-mice-to-neglect-their-pups/) 
 
 Always asking "why". But never "when"
