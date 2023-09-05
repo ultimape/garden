@@ -7,12 +7,13 @@
 Contemplating what it means to levitate by studying Dainichi Nyorai, the Goddess of light.
 
 > "Releasing the Yinyang essence served as the basis for the creation of The Grand Supreme Dark Kais infamous Dainichi Nyorai Technique."
-dbzuniverse.fandom.com/wiki/Inyo
+> [fandom: DBZ universe 'Inyo'](https://dbzuniverse.fandom.com/wiki/Inyo)
 
 In other news, I believe steelmanned Reiki.
 
 I think I can achieve touch based healing by channeling aetheric energy into charges along another's Meridians and use it to recruit immune cells to a site.
-https://www.youtube.com/watch?v=BcT_4VqXhRs
+
+[Electricity Helps Heal Wounds (youtube)](https://www.youtube.com/watch?v=BcT_4VqXhRs)
 
 I am obsessed with magic. Like stage magic. James Randi was friends with Richard Feynman. They would talk about magic tricks.
 
@@ -29,17 +30,16 @@ They say they can't do it while being watched. It's like a magician's misdirecti
 They put the chicken into mesmerized state and then hide it up their ass or something.
 
 But I think Reiki should be possible. But how can I hold these discongruent views and still be a fan of Randi?
-https://www.ted.com/talks/james_randi_homeopathy_quackery_and_fraud
+
+[Homeopathy, quackery and fraud](https://www.ted.com/talks/james_randi_homeopathy_quackery_and_fraud)
 
 Because I don't think this is a supernatural power. I suspect it's basic science. And that most are doing it wrong.
 
 I think this is an application of bioelectricity.
 
 Imagine it. Comes in handy sometimes.
-youtu.be/kS25vitrZ6g
 
-Imagine it. Comes in handy sometimes.
-https://www.youtube.com/watch?v=kS25vitrZ6g
+[Richard Feynman Electricity (youtube)](https://www.youtube.com/watch?v=kS25vitrZ6g)
 
 Injured cellular matrixes (skin in particular) induce a negative charge due to the disruption of normal ion channels (TRPs mostly). It's very small ~50mV.
 
@@ -82,7 +82,8 @@ It in cases of trying to prove it for money, they're incentivized to lie.
 If I'm right, and this electrical charge of healing is real. I should be able to test for it using something akin to 'Franklin's Bells" but much more sensitive. Might have to make the balls touch.
 
 Don't touch electrified balls folks, you heard it here first:
-https://www.youtube.com/watch?v=VMkdnj698-0
+
+[Wireless Communication with a Cup of Balls, Coherer Effect](https://www.youtube.com/watch?v=VMkdnj698-0)
  
 I'm looking for 'real' energy healers who are trained in acupuncture.
 
@@ -96,8 +97,8 @@ I suspect maybe even moon cycles because of ocean movements impacting electrosta
 
 Unifying the fundamental forces of the universe, this.
 
-"When salty ocean water flows through the magnetic field, an electric current is generated and this, in turn, induces a magnetic response in the deep region below Earth's crust – the mantle."
-https://phys.org/news/2016-10-magnetic-oceans-electric-earth.html
+> "When salty ocean water flows through the magnetic field, an electric current is generated and this, in turn, induces a magnetic response in the deep region below Earth's crust – the mantle."
+> [Magnetic oceans and electric Earth](https://phys.org/news/2016-10-magnetic-oceans-electric-earth.html)
 
 But what do I know.
 
@@ -105,5 +106,5 @@ I'm just some autsist makin jokes to my GF about how I wanna glow like Bhaiṣaj
 
 I have more hunches that stem from this, but that's the gist.
 
-For my next magic trick, I will defy gravity. 
+For my next magic trick, I will try to defy gravity. 
 
