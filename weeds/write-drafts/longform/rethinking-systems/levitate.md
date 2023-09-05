@@ -4,7 +4,7 @@
 
 ----
 
-Contemplating what it means to levitate by studying Dainichi Nyorai, the Goddess of light.
+Contemplating what it means to levitate by studying Dainichi Nyorai, the Goddess of light. Unifying the fundamental forces of the universe, this.
 
 > "Releasing the Yinyang essence served as the basis for the creation of The Grand Supreme Dark Kais infamous Dainichi Nyorai Technique."
 > [fandom: DBZ universe 'Inyo'](https://dbzuniverse.fandom.com/wiki/Inyo)
@@ -33,9 +33,9 @@ People doing Reiki and Acupuncture often don't understand this, so much of the t
 
 If I'm right, and this electrical charge of healing is real. I should be able to test for it using something akin to 'Franklin's Bells" but much more sensitive. Might have to make the balls touch. Don't touch electrified balls folks, you heard it here first: [Wireless Communication with a Cup of Balls, Coherer Effect](https://www.youtube.com/watch?v=VMkdnj698-0)
  
-I'm looking for 'real' energy healers who are trained in acupuncture. Real ones would practice both Reiki and Acupuncture in tandem, while also advising healing foods that promote immune health. Possibly massages that are aimed toward invigorating blood flow and restoration of c-tactile fibers. If I'm right about what is going on, it would suggest they'd be doing the acupuncture after 'feeling' what part of the body is damaged, and using that to target the nerves/meridian as a way to dump charges deep into the body and create a sort of polarity toward organs along that path. Leveraging natural static levels in the air would also require adapting the practice to the weather and being very particular about the environment's humidity and ionic charges in the atmosphere. I suspect maybe even moon cycles because of ocean movements impacting electrostatics via tides.
+I'm looking for 'real' energy healers who are trained in acupuncture. Real ones would practice both Reiki and Acupuncture in tandem, while also advising healing foods that promote immune health. Possibly massages that are aimed toward invigorating blood flow and restoration of c-tactile fibers. If I'm right about what is going on, it would suggest they'd be doing the acupuncture after 'feeling' what part of the body is damaged, and using that to target the nerves/meridian as a way to dump charges deep into the body and create a sort of polarity toward organs along that path.
 
-Unifying the fundamental forces of the universe, this.
+Leveraging natural static levels in the air would also require adapting the practice to the weather and being very particular about the environment's humidity and ionic charges in the atmosphere. I suspect maybe even moon cycles because of ocean movements impacting electrostatics via tides. To someone who isn't sensitive to the fields, these things may be very easy to get wrong if you aren't actually sensitive to the fields like I suspect some might be. If I am right about the mechanism at play here, and you are cargo-culting (or lying about) these behaviors, you will miss these essential ingredients. So while I may not have the ability to do energy healing yet, I think I can vet those who can. And if I can figure out how to build a sensor for this, I should be able to figure out [when an angel get's it's wings](https://www.youtube.com/watch?v=fEqudsyIWzk). 
 
 > "When salty ocean water flows through the magnetic field, an electric current is generated and this, in turn, induces a magnetic response in the deep region below Earth's crust – the mantle."
 > [Magnetic oceans and electric Earth](https://phys.org/news/2016-10-magnetic-oceans-electric-earth.html)
