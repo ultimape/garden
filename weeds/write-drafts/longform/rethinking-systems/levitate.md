@@ -13,9 +13,9 @@ Contemplating what it means to levitate by studying Dainichi Nyorai, the Goddess
 
 In other news, I believe steelmanned Reiki. I think I can achieve touch based healing by channeling aetheric energy into charges along another's Meridians and use it to recruit immune cells to a site. [Electricity Helps Heal Wounds (youtube)](https://www.youtube.com/watch?v=BcT_4VqXhRs)
 
-I am obsessed with magic. Like stage magic. James Randi was friends with Richard Feynman. They would talk about magic tricks. Feynman had fun figuring out how Randi did things. Randi exposed faith healers. The best magic trick to trick a magician who can spot the wires of levitation is to litterally learn how to fly. The trick that isn't...
+I am obsessed with magic. Like stage magic. James Randi was friends with Richard Feynman. They would talk about magic tricks. [Feynman had fun figuring out how Randi did things (youtube, audio loud)](https://www.youtube.com/watch?v=lDvu6wz9qF4) Randi exposed faith healers. The best magic trick to trick a magician who can spot the wires of levitation is to litterally learn how to fly. The trick that isn't...
 
-Most of the people doing reiki to prove it to Scientist are liars using tricks. They swap out dead chickens with live ones using slight of hand. They say they can't do it while being watched. It's like a magician's misdirection step. They put the chicken into mesmerized state and then hide it up their ass or something.
+Most of the people doing Reiki to prove it to scientist are liars using tricks. They swap out dead chickens with live ones using slight of hand. They say they can't do it while being watched. It's like a magician's misdirection step. They put the chicken into mesmerized state and then hide it up their ass or something.
 
 But I think Reiki should be possible. But how can I hold these discongruent views and still be a fan of Randi and his work on [Homeopathy, quackery and fraud](https://www.ted.com/talks/james_randi_homeopathy_quackery_and_fraud)? Because I don't think this is a supernatural power. I suspect it's basic science. And that most are doing it wrong.
 
@@ -25,7 +25,7 @@ Injured cellular matrixes (skin in particular) induce a negative charge due to t
 
 Channeling Chi is about learning to feel and manipulate these slight gradients. Tai Chi is a training regimen to feel it in your hands. Tai Chi "energy ball" is sensing a repulsive field of the body acting like a piezoelectric generator. The movements are to build up static charge. C-tactile fibers are very dense in the hand, but you need a charge built up to feel another charge. It feels like a ball when your hand have a slight charge. There also ought to be a meditation that can change minute charges in hands that would be perceived as a glowing to people w/ sensitive eyes.
 
-It is likely a synesthesia between hands + eyes. You would need time to train sensitivity in hands as well as train the eyes. And then further time to learn how to feel it in the body. Tetrachromatic vision can perceive blood flow, so energy healing is enhanced in those who can see that light.
+It is likely a synesthesia between hands + eyes. You would need time to train sensitivity in hands as well as train the eyes. And then further time to learn how to feel it in the body. Tetrachromatic vision can perceive blood flow, so energy healing is enhanced in those who can see that kind of light. And who knows, maybe you can see a real glow too if your diet is right. [You Can't See It, But Humans Actually Glow With Our Own Form of Bioluminescence](https://www.sciencealert.com/you-can-t-see-it-but-humans-actually-glow-in-visible-light)
 
 Fixing my gut fixed my ability to regulate temperature. My mind would send the signal to my immune system, but nothing would respond. I wasn't able to manipulate my body temp thru Tummo via mental state until I both had training AND the gut bacteria that can get the body to warm up. Awaken this.
 
