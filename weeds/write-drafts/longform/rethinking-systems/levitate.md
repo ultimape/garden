@@ -1,5 +1,7 @@
 ## Have you tried to levitate as a means to solving the problem, anon?
 
+![sonic's aura](./levitate-fuckitweballsonic.jpg)
+
 (this post was originally a thread on Bluesky: [On Steelmanning Reiki & Energy Healing.](https://bsky.app/profile/ultimape.bsky.wovensoup.com/post/3k6nvgovryu2g) )
 
 ----
