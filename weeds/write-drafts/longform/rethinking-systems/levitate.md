@@ -11,7 +11,7 @@ Contemplating what it means to levitate by studying Dainichi Nyorai, the Goddess
 > "Releasing the Yinyang essence served as the basis for the creation of The Grand Supreme Dark Kais infamous Dainichi Nyorai Technique."
 > [fandom: DBZ universe 'Inyo'](https://dbzuniverse.fandom.com/wiki/Inyo)
 
-In other news, I believe steelmanned Reiki. I think I can achieve touch based healing by channeling aetheric energy into charges along another's Meridians and use it to recruit immune cells to a site. [Electricity Helps Heal Wounds (youtube)](https://www.youtube.com/watch?v=BcT_4VqXhRs)
+In other news, I believe steelmanned Reiki. I think I can achieve touch based healing by 'channeling aetheric energy' into charges along another's Meridians and use it to recruit immune cells to a site. [Electricity Helps Heal Wounds (youtube)](https://www.youtube.com/watch?v=BcT_4VqXhRs)
 
 I am obsessed with magic. Like stage magic. James Randi was friends with Richard Feynman. They would talk about magic tricks. [Feynman had fun figuring out how Randi did things (youtube, audio loud)](https://www.youtube.com/watch?v=lDvu6wz9qF4) Randi exposed faith healers. The best magic trick to trick a magician who can spot the wires of levitation is to litterally learn how to fly. The trick that isn't...
 
@@ -31,14 +31,14 @@ Fixing my gut fixed my ability to regulate temperature. My mind would send the s
 
 The bacteria help w/ metal metabolism, & w/ fats+oils. The blood is salty and full of metals. The skin is oily. The chemicals they make hit TRP receptors all over. If you squint, we are electrolytic capacitors, constantly charging ourselves & balancing electrical energy. If healthy and eat well (aka provided gut health is good), one's "aura" would be the em field charge that occurs from digestion. The stomach absorbs bile / sodium into the blood and then around to the circulatory system & eventually back to the liver/kidney, to be reexcreted thru the gut back into into the colon. It's cyclic. Hypothetically, those who can train this synesthetic sense would "hallucinate" colors that reflects the state of this in others by picking up on minute changes in smell and skin flushness.
 
-It's like we are tiny mirrors of the earth's oceans.
+It's like we are tiny mirror images of the earth's oceans.
 
 > "When salty ocean water flows through the magnetic field, an electric current is generated and this, in turn, induces a magnetic response in the deep region below Earth's crust – the mantle."
 > [Magnetic oceans and electric Earth](https://phys.org/news/2016-10-magnetic-oceans-electric-earth.html)
 
-People doing Reiki and Acupuncture often don't understand this stuff, so much of the time it is fake or ineffective. It's like a cargo cult of a sort. Easy to find someone who goes thru motions but doesn't actually do it right, hasn't realized what they're training, or otherwise is unable to sense these fields. It in cases of trying to prove it for money, they're incentivized to lie.
-
 If I'm right, and this electrical charge of healing is real, I should be able to test for it using something akin to 'Franklin's Bells" but much more sensitive. Might have to make the balls touch. Don't touch electrified balls folks, you heard it here first: [Wireless Communication with a Cup of Balls, Coherer Effect](https://www.youtube.com/watch?v=VMkdnj698-0)
+
+People doing Reiki and Acupuncture often don't understand this stuff, so much of the time it is fake or ineffective. It's like a cargo cult of a sort. Easy to find someone who goes thru motions but doesn't actually do it right, hasn't realized what they're training, or otherwise is unable to sense these fields. And in cases of trying to prove it for money like in James Randi's initiatives, they're incentivized to lie.
  
 I'm looking for 'real' energy healers who are trained in acupuncture. Real ones would practice both Reiki and Acupuncture in tandem, while also advising healing foods that promote immune health. Possibly massages that are aimed toward invigorating blood flow and restoration of c-tactile fibers. If I'm right about what is going on, it would suggest they'd be doing the acupuncture after 'feeling' what part of the body is damaged, and using that to target the nerves/meridian as a way to dump charges deep into the body and create a sort of polarity toward organs along that path.
 
