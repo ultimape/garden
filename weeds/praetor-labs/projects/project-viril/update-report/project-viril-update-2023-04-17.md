@@ -6,9 +6,9 @@ See project proposal:
 ## Report for 2023-04-17
 
 See all reports:
-* [Report for 2023-08-29](./project-viril-update-2023-08-29.md)
-* [Report for 2023-04-17](./project-viril-update-2023-04-17.md) (this report) 
-* [Report for 2022-12-15](./project-viril-update-2022-12-15.md)
+* [Report for 2023-08-29](./project-viril-update-2023-08-29)
+* [Report for 2023-04-17](./project-viril-update-2023-04-17) (this report) 
+* [Report for 2022-12-15](./project-viril-update-2022-12-15)
 
 
 ## Progress Made
