@@ -44,9 +44,9 @@ Our hope is to also use this project as an opportunity to flesh out “Praetor L
 
 ### Update reports
 
-* [Report for 2023-08-29](/garden/weeds/praetor-labs/projects/project-viril/update-report/project-viril-update-2023-08-29.md)
-* [Report for 2023-04-17](/garden/weeds/praetor-labs/projects/project-viril/update-report/project-viril-update-2023-04-17.md)
-* [Report for 2022-12-15](/garden/weeds/praetor-labs/projects/project-viril/update-report/project-viril-update-2022-12-15.md)
+* [Report for 2023-08-29](/garden/weeds/praetor-labs/projects/project-viril/update-report/project-viril-update-2023-08-29)
+* [Report for 2023-04-17](/garden/weeds/praetor-labs/projects/project-viril/update-report/project-viril-update-2023-04-17)
+* [Report for 2022-12-15](/garden/weeds/praetor-labs/projects/project-viril/update-report/project-viril-update-2022-12-15)
 
 ## Background
 
