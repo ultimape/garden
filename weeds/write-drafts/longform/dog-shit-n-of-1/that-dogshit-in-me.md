@@ -137,7 +137,7 @@ This situation reflects how the current paradigm requiring pharma patents and as
 
 Had I waited on institutions like this to reach my condition's solutions, my health would have further declined. I wouldn't have been able to afford it either. It cost me <$1000 to aquire & make use of animal based fecal matter transplants, including the fairly epensive gut tests. And while I did this out of desperation (and I don't recommend others take this route), the ones the FDA is approving are having a cost of $10,000 or more. 
 
-My situation underscores the human costs of delays in researching promising but non-mainstream therapies. In my exploration, I've learned how we've employed FMT-based cures for thousands of years until Western biases emerged in the 1850s. Even now, most studies on my conditions only just getting started, barely out of mouse trials.
+My situation underscores the human costs of delays in researching promising but non-mainstream therapies. In my exploration, I've learned how we've employed FMT-based cures for thousands of years until Western biases emerged in the 1850s. Even now, most studies on my conditions are only just getting started, barely out of mouse trials if at all.
 
 My successes highlight the potential such alternatives hold if not stifled by a system preferring patented remedies over integrative solutions. New paradigms are still needed to properly leverage scientific resources and ecological wisdom for improving lives. Reform is required to develop healthcare capable of maximizing human potential instead of just seeking out what can be made profitable in an adversarial healthcare system.
 
