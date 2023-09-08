@@ -117,7 +117,7 @@ Follow up Viome testing also showed shifts in markers like mTOR, AMPK, sirtuins 
 
 I also suspsect profound changes in nutrient intake thru improved bile health and SCFA absorption, perhaps  even improved B vitamin synthesis via newly introduced microbes. And as for the copper problem mentioned earlier, it's likely that my metal chelation factors have improved dramatically as well.
 
-It's hard to pin point any one thing that could be causing such a shift because in the end the entire poitn was to hit as many levers as possible.
+It's hard to pinpoint any one thing that could be causing such a shift because in the end the entire point was to hit as many levers as possible.
 
 ## Challenges & Barriers to Further Progress
 
