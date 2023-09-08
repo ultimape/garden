@@ -155,4 +155,4 @@ With humanity on the cusp of microbiome-based revolution, reforming research pri
 
 By sharing openly about reclaiming my future, my aim is to help catalyze momentum toward a healthcare system empowering all people to reach their fullest potentials.
 
-I walk again. And I run. And I will keep running ciricles around the existing paradigms until everyone can catch up. Cuz I am autistic and I got that dawg in me.
+I walk again. And I run. And I will keep running circles around the existing paradigms until everyone can catch up. Cuz I am autistic and I got that dawg in me.
