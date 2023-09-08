@@ -135,7 +135,7 @@ It took 10 years for the FDA to approve FMT for just C. Diff infections despite 
 
 This situation reflects how the current paradigm requiring pharma patents and assininely slow clinical trials are structural barriers. It reinforces incentives preferring profitable remedies over integrative solutions. Progress has been slow due to these barriers in our medical research system.
 
-Had I waited on institutions like this to reach my condition's solutions, my health would have further declined. I wouldn't have been able to afford it either. It cost me <$1000 to aquire make use of animal based fecal matter transplants, including the fairly epensive gut tests. And while I did this out of desperation (and I don't recommend others take this route), the ones the FDA is approving are having a cost of $10,000 or more. 
+Had I waited on institutions like this to reach my condition's solutions, my health would have further declined. I wouldn't have been able to afford it either. It cost me <$1000 to aquire & make use of animal based fecal matter transplants, including the fairly epensive gut tests. And while I did this out of desperation (and I don't recommend others take this route), the ones the FDA is approving are having a cost of $10,000 or more. 
 
 My situation underscores the human costs of delays in researching promising but non-mainstream therapies. In my exploration, I've learned how we've employed FMT-based cures for thousands of years until Western biases emerged in the 1850s. Even now, most studies on my conditions only just getting started, barely out of mouse trials.
 
