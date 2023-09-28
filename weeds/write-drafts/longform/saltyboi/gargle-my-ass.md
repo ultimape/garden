@@ -2,7 +2,7 @@
 
 Please note... I am not a doctor, so please take this with a \*grain of salt\*.
 
-![sonic's aura](./feel-lied-to.png)
+![I feel lied to.](./feel-lied-to.png)
 
 ----
 
