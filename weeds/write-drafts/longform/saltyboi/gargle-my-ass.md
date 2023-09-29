@@ -129,10 +129,8 @@ I don't trust the World Health Organization anymore. They jumped to conclusions 
 
 The other one I noticed they removed from their site was Garlic. I wonder how long until they remove the Hot Pepper one, cuz it turns out that taking hot pepper in your food may indirectly prevent coughs and could reduce the spread that way. But what do I know? I'm not a doctor.
 
-> "Spices to Control COVID-19 Symptoms: Yes, but Not Only…"
->  
 > "Nrf2-TRPA1/V1 agonists may have some relevance for the treatment of persistent cough following viral infections [54, 55, 56], both in nonallergic rhinitis [57, 58], and also possibly in some symptoms of the common cold. We do however urgently need to go from empiricism to science with appropriate mechanistic and clinical studies."
-> [](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC7900475/) [DEC 2020]
+> [Spices to Control COVID-19 Symptoms: Yes, but Not Only…](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC7900475/) [DEC 2020]
 
 While the WHO's aim is presumably to combat misinformation, the messaging here at the time did not align well with the nuanced realities of an evolving scientific issue. A more cautious, evidence-based framing allowing for uncertainties could have avoided perceptions of incompetence or worse. Their current framing was and still is counterproductive and risks undermining their credibility on Covid advice going forward. A correction or clarification may be warranted.
 
