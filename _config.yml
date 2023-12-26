@@ -47,7 +47,7 @@ commonmark:
 debug_jekyll: false
 
 # Outputting
-url: "https://ultimape.github.io"
+url: "garden.wovensoup.com"
 baseurl: "/"
 permalink: /:categories/:title # do not put a trailing '/' on here or it breaks [[wikilinks]]
 paginate: 5 # amount of posts to show
