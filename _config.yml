@@ -47,7 +47,7 @@ commonmark:
 debug_jekyll: false
 
 # Outputting
-url: "garden.wovensoup.com"
+url: ""
 baseurl: "/"
 permalink: /:categories/:title # do not put a trailing '/' on here or it breaks [[wikilinks]]
 paginate: 5 # amount of posts to show
