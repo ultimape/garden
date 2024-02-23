@@ -47,7 +47,7 @@ commonmark:
 debug_jekyll: false
 
 # Outputting
-url: ""
+url: "" # this seems to break the search functionality with links not being generated properly if anything is put in here
 baseurl: "/"
 permalink: /:categories/:title # do not put a trailing '/' on here or it breaks [[wikilinks]]
 paginate: 5 # amount of posts to show
