@@ -90,7 +90,7 @@ This section outlines the steps taken in the year leading up to the FMT trial to
   * Blood pressure monitoring cuff
   * 2 different body temperature sensors
   * Grip strength measurement tool
-     Ketone test strips
+  * Ketone test strips
 * Researched antibiotics/medications for potential sepsis
 * Established 1 month baseline of:
   * Vitals (to track for potential sepsis onset through fever/changes)
