@@ -10,7 +10,7 @@ This is not medical advice. And I don't mean this as a *bla bla bla* cover my as
 
 _ **Do not follow this.** _
 
-This document is here to illustrate the extent to which I took precautions because of the risks and lack of safety studies in doing an animal sourced FMT. I want to help medical researchers and trained doctors work toward proper human safety trials and push this space forward. I am releasing this document specifically to avoid putting people at risk.
+This document is here to illustrate the extent to which I took precautions because of the risks and lack of safety studies in doing an [[animal sourced FMT]]. I want to help medical researchers and trained doctors work toward proper human safety trials and push this space forward. I am releasing this document specifically to avoid putting people at risk.
 
 This is not instructions. Treating them as such may lead to your death or worse, please do not.
 
@@ -189,3 +189,5 @@ Microbiome Testing
 *  Verify FMT engraftment and detect undesirable shifts not captured by other metrics
 Contact Safety Plans
 *  Explain monitoring plans for extra oversight in case mental status declined
+
+[animal sourced FMT]: weeds/write-drafts/longform/dog-shit-n-of-1/that-dogshit-in-me.md "Animal Sourced FMT N-of-1 Experiment"  
