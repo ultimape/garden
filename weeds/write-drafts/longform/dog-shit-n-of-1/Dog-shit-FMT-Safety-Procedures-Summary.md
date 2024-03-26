@@ -113,7 +113,7 @@ This section outlines the steps taken in the year leading up to the FMT trial to
   * Moved my bed and desk to ensure I could take measurements immediately upon waking
   * Acquired storage bins to keep vital measurements at hand
   * Set up a space in the bathroom to ensure consistent measurements there
-* Told my cloest family that I was going to do it, my rational, and how I might die.
+* Told my closest family that I was going to do it, my rationale, and how I might die
   * Told them I loved them.
 
 ## Emergency Failsafe
