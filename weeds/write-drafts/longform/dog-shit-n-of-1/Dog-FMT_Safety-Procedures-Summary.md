@@ -34,7 +34,7 @@ I did this fully knowing the risks. As I said on [my twitter](https://twitter.co
 
 ---
 
-I have been hoping to work with medical researchers to try and get proper safety trials done before releasing the process to the public for review. I am hoping that in explaining how seriously I took this process I can dissuade people from doing it themselves.
+I have been hoping to work with medical researchers to try and get proper safety trials done before releasing the process to the public for review. My expectation is that in explaining how seriously I took this process I can dissuade people from doing it themselves.
 
 Any specific details I provide about my experimental trial process are being shared solely for the purposes of:
 
