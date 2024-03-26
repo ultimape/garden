@@ -82,32 +82,32 @@ I did this process fully willing to die, and was willing to deal with these resu
 
 This section outlines the steps taken in the year leading up to the FMT trial to establish a baseline level of health and recover gut function. Equipment was purchased to thoroughly monitor vital signs and detect any potential issues. Baseline data was collected on key indicators over one month.
 
-*  Spent 1 year recovering gut health and stabilizing Crohn's symptoms (promote gut barrier integrity) 
-*  Selected feces that had been screened for parasites, metagenomically tested for various pathogens, and manually inspected to ensure no parasite eggs were present.
-*  Tested the FMT pills on our household dog who had weird leg problems and gut health challenges
-*  Purchased $200 of vital monitoring equipment
-  *  SPO2 monitor (can do heart rate as well)
-  *  Blood pressure monitoring cuff
-  *  2 different body temperature sensors
-  *  Grip strength measurement tool
-  *  Ketone test strips
-*  Researched antibiotics/medications for potential sepsis
-*  Established 1 month baseline of:
-  *  Vitals (to track for potential sepsis onset through fever/changes)
-  *  Mental state (to monitor for cognitive/mood changes)
-  *  Sleep (changes can indicate issues, manage non-24hr syndrome)
-  *  Diet/hydration (ensure proper nourishment, rule out deficiencies)
-  *  Bowel movements & Bladder Function
-*  Identified 3 safety contacts to receive daily recordings
-*  Measured mental state twice daily using online tools ( https://humanbenchmark.com/ )
-  *  A memory test
-  *  A reaction time test
-  *  A Stroop test
-  *  Typing skill test
-* Already tracked sleep as part of managing non-24hr syndrome
-* Spent time to ensure I had systems in place to ensure regular access to food and sleep.
-  *  Acquired a new refrigerator
-  *  Storage bin for dried goods
+* Spent 1 year recovering gut health and stabilizing Crohn's symptoms (promote gut barrier integrity) 
+* Selected feces that had been screened for parasites, metagenomically tested for various pathogens, and manually inspected to ensure no parasite eggs were present.
+* Tested the FMT pills on our household dog who had weird leg problems and gut health challenges
+* Purchased $200 of vital monitoring equipment
+  * SPO2 monitor (can do heart rate as well)
+  * Blood pressure monitoring cuff
+  * 2 different body temperature sensors
+  * Grip strength measurement tool
+     Ketone test strips
+* Researched antibiotics/medications for potential sepsis
+* Established 1 month baseline of:
+  * Vitals (to track for potential sepsis onset through fever/changes)
+  * Mental state (to monitor for cognitive/mood changes)
+  * Sleep (changes can indicate issues, manage non-24hr syndrome)
+  * Diet/hydration (ensure proper nourishment, rule out deficiencies)
+  * Bowel movements & Bladder Function
+* Identified 3 safety contacts to receive daily recordings
+* Measured mental state twice daily using online tools ( https://humanbenchmark.com/ )
+  * A memory test
+  * A reaction time test
+  * A Stroop test
+  * Typing skill test
+  * Already tracked sleep as part of managing non-24hr syndrome
+* Spent time to ensure I had systems in place to ensure regular access to food and sleep
+  * Acquired a new refrigerator
+  * Storage bin for dried goods
 * Rearranged my living environment to make it very easy to consistently take measurements.
   * Moved my bed and desk to ensure I could take measurements immediately upon waking
   * Acquired storage bins to keep vital measurements at hand
@@ -115,7 +115,7 @@ This section outlines the steps taken in the year leading up to the FMT trial to
 
 ## Emergency Failsafe
 
-*  Set up a protocol for ending the trial early, with progressively stronger steps taken depending on the reason why.
+* Set up a protocol for ending the trial early, with progressively stronger steps taken depending on the reason why.
   * Simple fasting
   * Fasting + Lots of garlic and other herbal antibiotics known to promote gut stability
   * Forced bowel voiding thru herbal remedies (experience with these in treating Crohn's related diarrhea/constipation played a role here)
@@ -128,66 +128,74 @@ This section outlines the steps taken in the year leading up to the FMT trial to
 
 Procedures followed during the active trial period are described here, including slow dosage escalation with continuous monitoring. Daily recordings of all tracked measures were shared with designated safety contacts.
 
-*  Slowly ramped up dosing while continuously monitoring for fever
-*  Sent daily recordings of all monitored items to contacts
-	* Weekly mental health tests and regular contact
-*  Maintained access to sepsis treatments
-*  Ensured reliable nutrition through-out
+* Slowly ramped up dosing while continuously monitoring for fever
+* Sent daily recordings of all monitored items to contacts
+  * Weekly mental health tests and regular contact
+* Maintained access to sepsis treatments
+* Ensured reliable nutrition through-out
 
 ## Post-FMT Monitoring
 
 Continued tracking after the trial concluded is explained to check for lingering effects and confirm stability. Maintaining diet to provide support to the developing gut microbiota.
 
-*  Continued frequent monitoring and logging of all items
-*  Consistency in nourishment to support gut bacteria
+* Continued frequent monitoring and logging of all items
+* Consistency in nourishment to support gut bacteria
 
 ## Additional Testing
 
 Pre- and post-trial microbiome assays via stool sample analysis specified to objectively track changes and rule out undesirable shifts.
 
-*  Pre and post Viome health + gut microbiome tests(to verify FMT engraftment and detect undesirable shifts)
-*  Pre Psomagen gut test to confirm Viome was reliable.
+* Pre and post Viome health + gut microbiome tests(to verify FMT engraftment and detect undesirable shifts)
+* Pre Psomagen gut test to confirm Viome was reliable.
 
 ## Monitoring Details
 
 Specific parameters logged on a daily basis are explained, covering stool characteristics, urinary markers, and other bodily functions/sensations.
 
-*  Logging and rating stools for liver/gut health (Bristol scale, color changes from normal, abnormal mucus or digestion issues)
-*  Logging urinary parameters (observe for dehydration, infections from frequency, color abnormalities)
-*  Logging libido/arousal (note if hormone fluctuations impact health/behavior)
+* Logging and rating stools for liver/gut health (Bristol scale, color changes from normal, abnormal mucus or digestion issues)
+* Logging urinary parameters (observe for dehydration, infections from frequency, color abnormalities)
+* Logging libido/arousal (note if hormone fluctuations impact health/behavior)
 
 ## Safety Contact Details
 
 The section provides context on communicating the thorough monitoring plans to designated contacts for added oversight of health and well-being.
 
-*  Monitoring plans explained to contacts
-*  Who to call that lives with me, to get me help if there is a concern
-*  Explain what would constitute a problem
-  *  Lack of daily responses (with respect to my sleep challenges)
-  *  Upward or downward trends in my vitals that raise concern
-  *  Changes in my communication style or difficulty speaking / writing
-*  A detailed list of what I was taking and when, my existing health concerns, and other important details should I be incapacitated and need to be brought to the ER.
-*  Decided on a plan if something unforeseen should occur
+* Monitoring plans explained to contacts
+* Who to call that lives with me, to get me help if there is a concern
+* Explain what would constitute a problem
+  * Lack of daily responses (with respect to my sleep challenges)
+  * Upward or downward trends in my vitals that raise concern
+  * Changes in my communication style or difficulty speaking / writing
+* A detailed list of what I was taking and when, my existing health concerns, and other important details should I be incapacitated and need to be brought to the ER.
+* Decided on a plan if something unforeseen should occur
 
 ## Miscellaneous Thoughts: 
 
 Vital Signs Monitoring
-*  Track for potential onset of sepsis through fever or changes in HR, BP, etc.
+* Track for potential onset of sepsis through fever or changes in HR, BP, etc.
+  
 Mental State Tracking
-*  Monitor for any cognitive/mood changes that could impact safety decision making
+* Monitor for any cognitive/mood changes that could impact safety decision making
+  
 Sleep Logging
-*  Changes in sleep can be early indicator of issues, important for managing non-24hr syndrome related issues around jet-lag and circadian rhythm related changes to vitals.
+* Changes in sleep can be early indicator of issues, important for managing non-24hr syndrome related issues around jet-lag and circadian rhythm related changes to vitals.
+
 Diet/Hydration Tracking
-*  Ensure proper nourishment for gut and rule out nutrient deficiencies 
+* Ensure proper nourishment for gut and rule out nutrient deficiencies 
+
 Stool Monitoring
-*  Track liver and gut health through Bristol scale, color changes from normal 
+* Track liver and gut health through Bristol scale, color changes from normal 
+
 Urinary Parameters
-*  Observe for dehydration or infections through frequency and color abnormalities
+* Observe for dehydration or infections through frequency and color abnormalities
+
 Libido/Arousal Logging
-*  Note in case of potential hormone fluctuations impacting health or behavior
+* Note in case of potential hormone fluctuations impacting health or behavior
+
 Microbiome Testing
-*  Verify FMT engraftment and detect undesirable shifts not captured by other metrics
+* Verify FMT engraftment and detect undesirable shifts not captured by other metrics
+
 Contact Safety Plans
-*  Explain monitoring plans for extra oversight in case mental status declined
+* Explain monitoring plans for extra oversight in case mental status declined
 
 [animal sourced FMT]: /weeds/write-drafts/longform/dog-shit-n-of-1/that-dogshit-in-me.md "Animal Sourced FMT N-of-1 Experiment"  
