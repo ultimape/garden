@@ -22,13 +22,11 @@ When I did my risky n-of-1 FMT from an animal source, I took extreme precautions
 
 As far as I can tell, I'm was the only person who's tried doing this with animal sources, if you don't count ancient medical techniques that we've lost to time. I had to make this up as I went and am certain I missed things and made mistakes. This is why I want to get actual scientists involved and get legitimage research done.
 
-Also, while I have spent a lot of time exploring this space, these precautions are heavily informed by my own obsessive tracking of my health and my particular circumstances (both health issues and environmental circumstances.
-
-I have been working diligently on my own health issues as a full time job since 2014, and even literally was employed as a independent medical research assistant for part of it. My life has been dedicated to this space and is not something I can recommend to anyone.
+Also, while I have spent a lot of time exploring this space, these precautions are heavily informed by my own obsessive tracking of my health and my particular circumstances (both health issues and environmental circumstances. I have been working diligently on my own health issues as a basically a full time job since 2014, and even literally was employed as a independent (medical) research assistant for part of it. My life has been dedicated to this space and even then this is not something I can recommend to anyone.
 
 ----
 
-as I said on [my twitter](https://twitter.com/ultimape/status/1492446796882264067):
+I did this fully knowing the risks. As I said on [my twitter](https://twitter.com/ultimape/status/1492446796882264067):
 > "To be very clear. I was willing to die.
 > I didn't want to die, and I took precautions... But even FDA approved FMT donors can be unsafe.
 > If you think some random autistic guy eating dog shit is medical advice... Please get help.
