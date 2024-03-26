@@ -12,7 +12,7 @@ _ **Do not follow this.** _
 
 This document is here to illustrate the extent to which I took precautions because of the risks and lack of safety studies in doing an [[animal sourced FMT]]. I want to help medical researchers and trained doctors work toward proper human safety trials and push this space forward. I am releasing this document specifically to avoid putting people at risk.
 
-This is not instructions. Treating them as such may lead to your death or worse, please do not.
+This is not instructions. Treating them as such may lead to your death or worse. Please do not.
 
 ---
 
@@ -20,7 +20,7 @@ There is currently _NO DATA_ on the safety of using animal-sourced feces for FMT
 
 When I did my risky n-of-1 FMT from an animal source, I took extreme precautions and sought out to cover as many of the risks as I could. But unlike human trials, where there is a track record of safety when done using screened donors and under medical supervision, doing a DIY one is a different issue and much more risky and have had had lead to sepsis and death. And my thing wasn't even a human DIY option.
 
-As far as I can tell, I'm was the only person who's tried doing this with animal sources, if you don't count ancient medical techniques that we've lost to time. I had to make this up as I went and am certain I missed things and made mistakes. This is why I want to get actual scientists involved and get legitimage research done.
+As far as I can tell, I am the only person who's tried doing this with animal sources, if you don't count ancient medical techniques that we've lost to time. I had to make this up as I went and am certain I missed things and made mistakes. This is why I want to get actual scientists involved and get legitimage research done.
 
 Also, while I have spent a lot of time exploring this space, these precautions are heavily informed by my own obsessive tracking of my health and my particular circumstances (both health issues and environmental circumstances. I have been working diligently on my own health issues as a basically a full time job since 2014, and even literally was employed as a independent (medical) research assistant for part of it. My life has been dedicated to this space and even then this is not something I can recommend to anyone.
 
