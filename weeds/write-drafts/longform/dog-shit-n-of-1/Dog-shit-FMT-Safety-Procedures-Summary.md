@@ -190,4 +190,4 @@ Microbiome Testing
 Contact Safety Plans
 *  Explain monitoring plans for extra oversight in case mental status declined
 
-[animal sourced FMT]: weeds/write-drafts/longform/dog-shit-n-of-1/that-dogshit-in-me.md "Animal Sourced FMT N-of-1 Experiment"  
+[animal sourced FMT]: /weeds/write-drafts/longform/dog-shit-n-of-1/that-dogshit-in-me.md "Animal Sourced FMT N-of-1 Experiment"  
