@@ -153,6 +153,8 @@ While more serious studies are still needed, the depth of transformative effects
 
 With humanity on the cusp of microbiome-based revolution, reforming research priorities to properly leverage scientific and ecological wisdom offers hope to millions suffering without satisfactory solutions.
 
-By sharing openly about reclaiming my future, my aim is to help catalyze momentum toward a healthcare system empowering all people to reach their fullest potentials.
+By sharing openly about reclaiming my future, my aim is to help catalyze momentum toward a healthcare system empowering all people to reach their fullest potentials. If researches are willing to take up this cause, I have also [[published what I've done]] to try to do this as safe as I can.
 
 I walk again. And I run. And I will keep running circles around the existing paradigms until everyone can catch up. Cuz I am autistic and I got that dawg in me.
+
+[published what I've done]: weeds/write-drafts/longform/dog-shit-n-of-1/Dog-shit-FMT-Safety-Procedures-Summary.md "published what I've done"
