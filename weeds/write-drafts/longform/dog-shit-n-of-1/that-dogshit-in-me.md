@@ -157,4 +157,4 @@ By sharing openly about reclaiming my future, my aim is to help catalyze momentu
 
 I walk again. And I run. And I will keep running circles around the existing paradigms until everyone can catch up. Cuz I am autistic and I got that dawg in me.
 
-[published what I've done]: weeds/write-drafts/longform/dog-shit-n-of-1/Dog-shit-FMT-Safety-Procedures-Summary.md "published what I've done"
+[published what I've done]: /weeds/write-drafts/longform/dog-shit-n-of-1/Dog-shit-FMT-Safety-Procedures-Summary.md "published what I've done"
