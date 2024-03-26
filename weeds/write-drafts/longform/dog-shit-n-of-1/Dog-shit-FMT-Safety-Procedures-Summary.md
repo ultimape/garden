@@ -104,7 +104,7 @@ This section outlines the steps taken in the year leading up to the FMT trial to
   * A reaction time test
   * A Stroop test
   * Typing skill test
-  * Already tracked sleep as part of managing non-24hr syndrome
+* Already tracked sleep as part of managing non-24hr syndrome
 * Spent time to ensure I had systems in place to ensure regular access to food and sleep
   * Acquired a new refrigerator
   * Storage bin for dried goods
