@@ -98,7 +98,8 @@ This section outlines the steps taken in the year leading up to the FMT trial to
   * Sleep (changes can indicate issues, manage non-24hr syndrome)
   * Diet/hydration (ensure proper nourishment, rule out deficiencies)
   * Bowel movements & Bladder Function
-* Identified 3 safety contacts to receive daily recordings
+* Sought out a competent person to check for flaws in the plan and used that person to objectively assess progress
+  * Identified 3 additional safety contacts to receive daily updates on my status
 * Measured mental state twice daily using online tools ( https://humanbenchmark.com/ )
   * A memory test
   * A reaction time test
@@ -106,12 +107,14 @@ This section outlines the steps taken in the year leading up to the FMT trial to
   * Typing skill test
 * Already tracked sleep as part of managing non-24hr syndrome
 * Spent time to ensure I had systems in place to ensure regular access to food and sleep
-  * Acquired a new refrigerator
-  * Storage bin for dried goods
+  * Acquired a new refrigerator (thank you donators!)
+  * Acquired and set up storage bin for dried goods
 * Rearranged my living environment to make it very easy to consistently take measurements.
   * Moved my bed and desk to ensure I could take measurements immediately upon waking
   * Acquired storage bins to keep vital measurements at hand
   * Set up a space in the bathroom to ensure consistent measurements there
+* Told my cloest family that I was going to do it, my rational, and how I might die.
+  * Told them I loved them.
 
 ## Emergency Failsafe
 
@@ -166,7 +169,7 @@ The section provides context on communicating the thorough monitoring plans to d
   * Lack of daily responses (with respect to my sleep challenges)
   * Upward or downward trends in my vitals that raise concern
   * Changes in my communication style or difficulty speaking / writing
-* A detailed list of what I was taking and when, my existing health concerns, and other important details should I be incapacitated and need to be brought to the ER.
+* A detailed list of what I was taking and when, my existing health concerns, and other important details should I be incapacitated and need to be brought to the ER
 * Decided on a plan if something unforeseen should occur
 
 ## Miscellaneous Thoughts: 
