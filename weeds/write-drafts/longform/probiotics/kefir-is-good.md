@@ -82,7 +82,13 @@ Fortunately, there are ways to make kefir more enjoyable. Lifeway Kefir, a popul
 
 Another trick is to mix kefir with other beverages or foods. Adding a splash of cranberry juice, for example, can help balance out the sour taste while still providing the benefits of kefir's probiotics and nutrients. Something that I've had a lot of luck with is to soak uncooked oatmeal in kefir overnight in the fridge. The kefir seems to soften up and breakdown the oatmeal and give it an interesting texture. If you're adventurous you can even do this with Muesli. Experimenting with different flavor combinations can be a fun and rewarding way to make kefir a part of your daily diet. 
 
-## **I'm Lactose Intolerant / Casein Sensitive**
+## **What kind of Kefir should I look for?**
+
+I personally recommend Lifeway Kefir Brand. It has some very specific strains of bacteria involved in its fermentation that seem to have a good mix of health promoting properties. In particular it has many of the important health promoting bifidobacteria, as well as the well studied L. reuteri.
+
+Other mixes/strains ought to also help, but I can't vouch for their efficacy. I notice big differences in response in myself from the Lifeway brand compaired to others, but I also have a gut disorder that may make me particularly unique.
+
+### **I'm Lactose Intolerant / Casein Sensitive**
 
 Lactose intolerance is a common condition where people are unable to digest lactose, a sugar found in milk. However, kefir may be able to provide some relief for those affected by this issue. The beneficial bacteria present in kefir can help break down lactose and other sugars, making it easier for the body to absorb.
 
@@ -96,8 +102,4 @@ Traditionally, cow's milk kefir is the most widely available and well-known type
 
 For those who are allergic to dairy or prefer a non-dairy option, water kefir is a great alternative. This fermented beverage uses similar microbes to break down sugars and produce many of the same beneficial compounds. This one is hard to find in the stores, however, so it may not be the most accessible.
 
-## **What kind of Kefir should I look for?**
 
-I personally recommend Lifeway Kefir Brand. It has some very specific strains of bacteria involved in its fermentation that seem to have a good mix of health promoting properties. In particular it has many of the important health promoting bifidobacteria, as well as the well studied L. reuteri.
-
-Other mixes/strains ought to also help, but I can't vouch for their efficacy. I notice big differences in response in myself from the Lifeway brand compaired to others, but I also have a gut disorder that may make me particularly unique.
