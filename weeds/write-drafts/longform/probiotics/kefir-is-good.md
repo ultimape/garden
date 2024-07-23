@@ -88,14 +88,13 @@ Lactose intolerance is a common condition where people are unable to digest lact
 
 For me personally, drinking kefir regularly actually lets me consume other dairy without lactose issues, completely eliminating the gas and bloating that I was getting. It was suprising how effective this was for me, and I no longer fear drinking milk.
 
-In addition to its probiotic properties, certain strains of kefir have been shown to produce enzymes that can partially digest casein, a protein found in milk that can be difficult for some people to digest. This means that even those who are lactose sensitive to casein may still be able to enjoy the benefits of kefir. This is heavily dependent on the strains involved in the fermentation, so you'll may have luck with one over another.
+In addition to its probiotic properties, certain strains of kefir have been shown to produce enzymes that can partially digest casein, a protein found in milk that can be difficult for some people to digest. This means that even those who are sensitive to casein may still be able to enjoy the benefits of kefir. This is heavily dependent on the strains involved in the fermentation, so you'll may have luck with one over another.
 
 Traditionally, cow's milk kefir is the most widely available and well-known type. However, it is also possible to make kefir using goat's milk or sheep's milk, which can be a good option. Goat's milk and sheep's milk contain different types of proteins and fats than cow's milk, so they may be better tolerated by some individuals. Additionally, the beneficial bacteria present in kefir can help break down any remaining lactose or casein, making it easier for the body to digest.
 
 ### **Water Kefir: A Lacto-Fermented Beverage Option**
 
-For those who are allergic to dairy or prefer a non-dairy option, water kefir is 
-a great alternative. This fermented beverage uses similar microbes to break down sugars and produce many of the same beneficial compounds. This one is hard to find in the stores, however, so it may not be the most accessible.
+For those who are allergic to dairy or prefer a non-dairy option, water kefir is a great alternative. This fermented beverage uses similar microbes to break down sugars and produce many of the same beneficial compounds. This one is hard to find in the stores, however, so it may not be the most accessible.
 
 ## **What kind of Kefir should I look for?**
 
