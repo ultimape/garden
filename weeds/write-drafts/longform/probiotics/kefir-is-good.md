@@ -18,7 +18,7 @@ Here's a guide on I went about easing into using kefir to treat my gut problems:
 
 ### Be Aware of the Herxheimer Reaction
 
-Kefir is exceedingly safe and very unlikely to cause any adverse reactions, but I want to highlight a rare reaction that I've seen while talking to people on Twitter about their experiences. When introducing kefir with its potent effects, it seems it can trigger a die-off reaction in pathogenic fungi, bacteria, or other microorganisms living in the gut. It very rare, but quite alarming if encountered.
+Kefir is exceedingly safe and very unlikely to cause any adverse reactions, but I want to highlight a rare reaction that I've seen while talking to people on Twitter about their experiences. When introducing kefir with its potent effects, it seems it can trigger a die-off reaction in pathogenic fungi, bacteria, or other microorganisms living in the gut. It is very rare, but quite alarming if encountered.
 
 This reaction, (which is a sort of [Herxheimer Reaction [Wikipedia]](https://en.wikipedia.org/wiki/Jarisch%E2%80%93Herxheimer_reaction)), can cause a range of symptoms, including temporary skin problems like red rashes, hives, or itching. Since the internal gut lining is a sort of skin the reaction can also occur internally; this would manifest with gastrointestinal discomfort, such as bloating, gas, diarrhea, headaches, or fatigue. This is something that people with allergic disorders or Mast cell problems may be particularly prone to.
 
