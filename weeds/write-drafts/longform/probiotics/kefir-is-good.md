@@ -102,4 +102,4 @@ Traditionally, cow's milk kefir is the most widely available and well-known type
 
 #### **Water Kefir: A Lacto-Fermented Beverage Option**
 
-For those who are allergic to dairy or prefer a non-dairy option, water kefir is a great alternative. This fermented beverage uses similar microbes to break down sugars and produce many of the same beneficial compounds. This one is hard to find in the stores, however, so it may not be the most accessible.
+For those who are allergic to dairy or prefer a non-dairy option, [water kefir](https://www.healthline.com/nutrition/water-kefir) is a great alternative. This fermented beverage uses similar microbes to break down sugars and produce many of the same beneficial compounds. This one is hard to find in the stores, however, so it may not be the most accessible.
