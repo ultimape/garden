@@ -18,9 +18,13 @@ Here's a guide on how to ease into using kefir to treat gut problems:
 
 ## **Be Aware of the Herxheimer Reaction**:
 
-When introducing kefir with its potent probiotics and anti-fungal properties, it can trigger a die-off reaction in pathogenic fungi, bacteria, or other microorganisms living in the gut. This reaction, also known as [the Herxheimer Reaction](https://en.wikipedia.org/wiki/Jarisch%E2%80%93Herxheimer_reaction), can cause a range of symptoms, including temporary skin reactions like red rashes, hives, or itching, as well as gastrointestinal discomfort, such as bloating, gas, diarrhea, headaches, or fatigue. This is something that people with allergic disoders or Mast cell reactions may be particualrly prone to. It is worth noting I have personally seen it occur quite often among individuals with autism who try kefir to treat bowel health issues common to that group.   
+When introducing kefir with its potent probiotics and anti-fungal properties, it can rarely trigger a die-off reaction in pathogenic fungi, bacteria, or other microorganisms living in the gut.
 
-To minimize the risk of experiencing an intense Herxheimer Reaction, it's crucial to start with small amounts of kefir and gradually increase your consumption. This allows the beneficial bacteria in kefir to colonize the gut at a gentle pace, reducing the likelihood of a massive die-off reaction. If you do experience discomfort during the transition period and notice this red reash, consider slowing down the introduction of kefir. As this sometimes mimics allergic reactions, it is important to take care to address it. I strongly encourage you to discontinue the kefir if you encounter it and consider consulting with a healthcare professional for personalized guidance.
+This reaction, also known as [the Herxheimer Reaction](https://en.wikipedia.org/wiki/Jarisch%E2%80%93Herxheimer_reaction), can cause a range of symptoms, including temporary skin reactions like red rashes, hives, or itching, as well as gastrointestinal discomfort, such as bloating, gas, diarrhea, headaches, or fatigue. This is something that people with allergic disorders or Mast cell problems may be particularly prone to. It is worth noting I have personally seen it occur quite often among individuals with autism who try kefir to treat bowel health issues common to that group.   
+
+To minimize the risk of experiencing an intense Herxheimer Reaction, it's crucial to start with small amounts of kefir and gradually increase your consumption. This allows the beneficial bacteria in kefir to colonize the gut at a gentle pace, reducing the likelihood of a massive die-off reaction. If you do experience discomfort during the transition period and notice this red reash, consider slowing down the introduction of kefir.
+
+As this sometimes mimics allergic response, it is important to take care to address the reaction. **I strongly encourage you to discontinue the kefir if you encounter it and consider consulting with a healthcare professional for personalized guidance.**
 
 ## **A Gradual Introduction Protocol**:
 
