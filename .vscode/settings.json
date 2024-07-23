@@ -57,4 +57,7 @@
     "gitdoc.autoCommitDelay": 600000,
     "gitdoc.commitMessageFormat": "YYYY-MM-DD HH:mm:ss",
     "gitdoc.autoPush": "onCommit",
+    "spellright.language": [
+        "English (American)"
+    ],
 }
