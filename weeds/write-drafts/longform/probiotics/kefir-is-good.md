@@ -12,29 +12,29 @@ In essence, kefir is not just a probiotic drink; it's a powerful tool for cultiv
 
 ([You can even make it at home!)](https://www.youtube.com/watch?v=aBkDuRHRzNA)
 
-Here's a guide on how to ease into using kefir to treat gut problems:
+Here's a guide on I went about easing into using kefir to treat my gut problems:
 
 # Precautions and suggested regimen
 
 ## Be Aware of the Herxheimer Reaction
 
-Kefir is exceedingly safe and very unlikely to cause any adverse reactions, but I wanted to highlight a rare reaction that I've seen while talking to people on Twitter about their experiences. When introducing kefir with its potent effects, it seems it can trigger a die-off reaction in pathogenic fungi, bacteria, or other microorganisms living in the gut. It very rare, but quite alarming if encountered.
+Kefir is exceedingly safe and very unlikely to cause any adverse reactions, but I want to highlight a rare reaction that I've seen while talking to people on Twitter about their experiences. When introducing kefir with its potent effects, it seems it can trigger a die-off reaction in pathogenic fungi, bacteria, or other microorganisms living in the gut. It very rare, but quite alarming if encountered.
 
-This reaction, also known as a [Herxheimer Reaction](https://en.wikipedia.org/wiki/Jarisch%E2%80%93Herxheimer_reaction), can cause a range of symptoms, including temporary skin reactions like red rashes, hives, or itching, as well as gastrointestinal discomfort, such as bloating, gas, diarrhea, headaches, or fatigue. This is something that people with allergic disorders or Mast cell problems may be particularly prone to. It is worth noting I have personally seen it occur quite often among individuals with autism who try kefir to treat bowel health issues common to that group.   
+This reaction, which is a sort of [Herxheimer Reaction](https://en.wikipedia.org/wiki/Jarisch%E2%80%93Herxheimer_reaction), can cause a range of symptoms, including temporary skin reactions like red rashes, hives, or itching, as well as gastrointestinal discomfort, such as bloating, gas, diarrhea, headaches, or fatigue. This is something that people with allergic disorders or Mast cell problems may be particularly prone to. It is worth noting I have personally seen it occur quite often among individuals with autism who try kefir to treat bowel health issues common to that group.
 
-To minimize the risk of experiencing an intense Herxheimer Reaction, it's crucial to start with small amounts of kefir and gradually increase your consumption. This allows the beneficial bacteria in kefir to colonize the gut at a gentle pace, reducing the likelihood of a massive die-off reaction. If you do experience discomfort during the transition period and notice this red reash, consider slowing down the introduction of kefir.
+To minimize the risk of experiencing an intense Herxheimer Reaction, it's crucial to start with small amounts of kefir and gradually increase your consumption. This allows the beneficial bacteria in kefir to colonize the gut at a gentle pace, reducing the likelihood of a massive die-off reaction. If you do experience discomfort during the transition period and notice this red rash, consider slowing down the introduction of kefir.
 
-As this sometimes mimics allergic response, it is important to take care to address the reaction. **I strongly encourage you to discontinue the kefir if you encounter it and consider consulting with a healthcare professional for personalized guidance.**
+As this sometimes mimics allergic response, it is important to take care to address the reaction. **I strongly encourage you to discontinue the kefir if you encounter it and consider consulting with a health-care professional for personalized guidance.**
 
 ## A Gradual Introduction Protocol
 
 Based on personal experience and research, I recommend the following protocol for introducing kefir into your diet:
 
-Start by consuming two ounces (a quarter cup) of kefir every four days to allow your body to gradually adapt. This gentle introduction will help your gut microbiome adjust to the beneficial bacteria and nutrients in kefir.
+Start by consuming two ounces (2oz / a quarter cup) of kefir every four days to allow your body to gradually adapt. This gentle introduction will help your gut microbiome adjust to the beneficial bacteria and nutrients in kefir.
 
-As you become more comfortable with consuming kefir, you can increase your intake, aiming to reach a goal 4 bottles (32 ounces each) per month. This works out to a full cup (8oz) of kefir every 2-3 days. When I did it, I added an ounce a week until I reached the full cup every 4 days or so, and then just drank it more often. But another option is to just have the 2oz more often and this is what we did with my Girlfriend until we found a flavor she enjoyed enough to drink. 
+As you become more comfortable with consuming kefir, you can increase your intake, aiming to reach a goal four bottles (128oz @ 32oz each) per month. This works out to a full cup (8oz) of kefir every 2-3 days. When I did it, I increased the amount I was taking in each serving by ounce a week until I reached the full cup every four days or so, and then doubled it by drinking on more days. Another option is to just have the two ounces (2oz / a quarter cup) on increasingly more days. This is what we did with my Girlfriend until we found a flavor she enjoyed enough to drink.
 
-Once your gut has had time to colonize and adapt to the probiotics in kefir, you may find that a lower daily intake is sufficient to maintain its health benefits. In my case, after several months of regular consumption, I stepped down to 2 a month, and eventually found that drinking one bottle of kefir (32 ounces) per month was enough to help keep my Crohn's symptoms at bay. I could tolerate an entire bottle at once without having any problems, but found it bette to space it out a cup a week.
+Once your gut has had time to colonize and adapt to the probiotics in kefir, you may find that a lower daily intake is sufficient to maintain its health benefits. In my case, after several months of regular consumption, I stepped down to 2 a month, and eventually found that drinking one bottle of kefir (32 ounces) per month was enough to help keep my Crohn's symptoms at bay. I could tolerate an entire bottle at once without having any problems, but found it better to space it out a cup a week.
 
 This gradual introduction protocol can help minimize the risk of an intense Herxheimer Reaction and reduce the likelihood of digestive discomfort. By taking your time to adapt to the probiotics and nutrients in kefir, you can optimize its benefits for your gut health and overall well-being.
 
@@ -42,7 +42,7 @@ This gradual introduction protocol can help minimize the risk of an intense Herx
 
 ## Choose a Mild Flavor
 
-Opt for [a plain, unflavored](https://lifewaykefir.com/products/greek-style-plain-whole-milk-kefir/), or [low-fat](https://lifewaykefir.com/products/plain-lowfat-kefir/) kefir to minimize any potential stomach upset. Flavored kefirs can contain added sugars and may not be suitable for those with sensitive gut. I personally recommend aiming for [an organic full-fat variety](https://lifewaykefir.com/family/organic-kefir/) to maximize the health of the bacteria, but will note that it took a while before my gut could handle it.
+Opt for [a plain, unflavored](https://lifewaykefir.com/products/greek-style-plain-whole-milk-kefir/), or [low-fat](https://lifewaykefir.com/products/plain-lowfat-kefir/) kefir to minimize any potential stomach upset. Flavored kefir can contain added sugars and may not be suitable for those with sensitive gut. I personally recommend aiming for [an organic full-fat variety](https://lifewaykefir.com/family/organic-kefir/) to maximize the health of the bacteria, but will note that it took a while before my gut could handle it.
 
 ## Consider Starting with Smaller Amounts
 
@@ -52,7 +52,7 @@ If you struggle to consume the kefir straight, you can begin by mixing 1-2 table
 
 Pay attention to how your body reacts to the increased consumption of kefir. If you experience any discomfort, bloating, or digestive issues, it may be necessary to slow down the transition period or switch to a lower-fat or unflavored variety.
 
-A good way to get a handle on this is to chart your bowel health on a calendar and score it based on the "Bristol Stool Scale". You should be able to see trends over time and improvment in frequency and consistancy as your gut heals.
+A good way to get a handle on this is to chart your bowel health on a calendar and score it based on the "Bristol Stool Scale". You should be able to see trends over time and improvement in frequency and consistency as your gut heals.
 
 ## Be Patient and Consistent
 
@@ -66,19 +66,19 @@ I recommend checking the date on your first bottle to ensure you have enough tim
 
 ## Shop around!
 
-The cheapeast way to get kefir is to make your own using a local brand of milk. But if you do end up buying it, be sure to shop around. I've seen prices as low as $2.50 and as high as $8.00. Generally in the area where I live (Vermont), I aim to spend less than $4 a bottle.
+The cheapest way to get kefir is to make your own using a local brand of milk. But if you do end up buying it, be sure to shop around. I've seen prices as low as $2.50 and as high as $8.00. Generally in the area where I live (Vermont), I aim to spend less than $4 a bottle.
 
 ## Combine with Other Gut-Friendly Foods
 
 Pairing kefir with other probiotic-rich foods as part of other meals, such as yogurt, sauerkraut, or kimchi, can further support the growth of beneficial bacteria in your gut and enhance its overall health benefits. We tend to take kefir in the morning with breakfast, and then incorporate other fermented foods later in the day.
 
-Syncing it up with our circadian rythyms seemed to make the largest impact for us, but you'll have to experimenting to find what is right for you.
+Syncing it up with our circadian rhythms seemed to make the largest impact for us, but you'll have to experimenting to find what is right for you.
 
 ## Overcoming the Sour Taste
 
 The lactic acid produced by the beneficial bacteria during kefir's fermentation process can give it a tangy, sour taste that may be off-putting for some individuals. Plain, whole-fat kefir is what I consider the ideal choice, as it allows you to fully experience the natural flavors and benefits of the fermented milk. However, not everyone may find this palatable, especially at first.
 
-Fortunately, there are ways to make kefir more enjoyable. Lifeway Kefir, a popular brand, offers an array of flavors that can help mask the tanginess. I found that Lifeway's chocolate kefir is wonderful, while my girlfriend prefers the blueberry variety. By finding a flavor you enjoy or masking the taste with other ingredients, you can overcome the initial hurdle of kefir's sourness and start reaping its numerous health benefits. If you really can't handle the plain one, the small amount of sugar in the flavored variety is unimportant.
+Fortunately, there are ways to make kefir more enjoyable. Lifeway Kefir, a popular brand, offers an array of flavors that can help mask the tangyness. I found that Lifeway's chocolate kefir is wonderful, while my girlfriend prefers the blueberry variety. By finding a flavor you enjoy or masking the taste with other ingredients, you can overcome the initial hurdle of kefir's sourness and start reaping its numerous health benefits. If you really can't handle the plain one, the small amount of sugar in the flavored variety is unimportant.
 
 Another trick is to mix kefir with other beverages or foods. Adding a splash of cranberry juice, for example, can help balance out the sour taste while still providing the benefits of kefir's probiotics and nutrients. Something that I've had a lot of luck with is to soak uncooked oatmeal in kefir overnight in the fridge. The kefir seems to soften up and breakdown the oatmeal and give it an interesting texture. If you're adventurous you can even do this with Muesli. Experimenting with different flavor combinations can be a fun and rewarding way to make kefir a part of your daily diet. 
 
@@ -86,13 +86,13 @@ Another trick is to mix kefir with other beverages or foods. Adding a splash of 
 
 I personally recommend Lifeway Kefir Brand. It has some very specific strains of bacteria involved in its fermentation that seem to have a good mix of health promoting properties. In particular it has many of the important health promoting bifidobacteria, as well as the well studied L. reuteri.
 
-Other mixes/strains ought to also help, but I can't vouch for their efficacy. I notice big differences in response in myself from the Lifeway brand compaired to others, but I also have a gut disorder that may make me particularly unique.
+Other mixes/strains ought to also help, but I can't vouch for their efficacy. I notice big differences in response in myself from the Lifeway brand compared to others, but I also have a gut disorder that may make me particularly unique.
 
 ### I'm Lactose Intolerant / Casein Sensitive
 
 Lactose intolerance is a common condition where people are unable to digest lactose, a sugar found in milk. However, kefir may be able to provide some relief for those affected by this issue. The beneficial bacteria present in kefir can help break down lactose and other sugars, making it easier for the body to absorb.
 
-For me personally, drinking kefir regularly actually lets me consume other dairy without lactose issues, completely eliminating the gas and bloating that I was getting. It was suprising how effective this was for me, and I no longer fear drinking milk.
+For me personally, drinking kefir regularly actually lets me consume other dairy without lactose issues, completely eliminating the gas and bloating that I was getting. It was surprising how effective this was for me, and I no longer fear drinking milk.
 
 In addition to its probiotic properties, certain strains of kefir have been shown to produce enzymes that can partially digest casein, a protein found in milk that can be difficult for some people to digest. This means that even those who are sensitive to casein may still be able to enjoy the benefits of kefir. This is heavily dependent on the strains involved in the fermentation, so you'll may have luck with one over another.
 
@@ -101,5 +101,3 @@ Traditionally, cow's milk kefir is the most widely available and well-known type
 ### **Water Kefir: A Lacto-Fermented Beverage Option**
 
 For those who are allergic to dairy or prefer a non-dairy option, water kefir is a great alternative. This fermented beverage uses similar microbes to break down sugars and produce many of the same beneficial compounds. This one is hard to find in the stores, however, so it may not be the most accessible.
-
-
