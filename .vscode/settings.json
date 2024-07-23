@@ -18,7 +18,11 @@
     // ----
     // markdown rules
     "[markdown]": {
-        "editor.quickSuggestions": true
+        "editor.quickSuggestions": {
+            "comments": "on",
+            "strings": "on",
+            "other": "on"
+        }
     },
     "markdown.preview.breaks": true,
     "vscodeMarkdownNotes.noteCompletionConvention": "noExtension",
