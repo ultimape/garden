@@ -1,6 +1,6 @@
 # Introduction to Kefir
 
-[Kefir](https://en.wikipedia.org/wiki/Kefir), a fermented milk drink, has gained popularity in recent years due to its potential health benefits, including the improvement of gut health. If you're new to incorporating kefir into your diet for gut-related issues, it's essential to ease into it to avoid any discomfort or digestive upset.
+[Kefir [Wikipedia]](https://en.wikipedia.org/wiki/Kefir), a fermented milk drink, has gained popularity in recent years due to its potential health benefits, including the improvement of gut health. If you're new to incorporating kefir into your diet for gut-related issues, it's essential to ease into it to avoid any discomfort or digestive upset.
 
 ## Kefir: A Probiotic, Prebiotic, and Gut Guardian
 
