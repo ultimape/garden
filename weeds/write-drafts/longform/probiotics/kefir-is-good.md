@@ -98,7 +98,9 @@ For me personally, drinking kefir regularly actually lets me consume other dairy
 
 In addition to its probiotic properties, certain strains of kefir have been shown to produce enzymes that can partially digest casein, a protein found in milk that can be difficult for some people to digest. This means that even those who are sensitive to casein may still be able to enjoy the benefits of kefir. This is heavily dependent on the strains involved in the fermentation, so you'll may have luck with one over another.
 
-Traditionally, cow's milk kefir is the most widely available and well-known type. However, it is also possible to make kefir using goat's milk or sheep's milk, which can be a good option. Goat's milk and sheep's milk contain different types of proteins and fats than cow's milk, so they may be better tolerated by some individuals. Additionally, the beneficial bacteria present in kefir can help break down any remaining lactose or casein, making it easier for the body to digest.
+In the united states, cow's milk kefir is the most widely available and well-known type. However, it is also possible to make kefir using goat's milk or sheep's milk, which can be a good option. Goat's milk and sheep's milk contain different types of proteins and fats than cow's milk, so they may be better tolerated by some individuals. Additionally, the beneficial bacteria present in kefir can help break down any remaining lactose or casein, making it easier for the body to digest.
+
+You may also be able to get similar efects via "[koumiss](https://en.wikipedia.org/wiki/Kumis)", which is a similar product. 
 
 #### **Water Kefir: A Lacto-Fermented Beverage Option**
 
