@@ -59,7 +59,8 @@ And later on this was published in August 2021:
 
 ...
 
-The result of my investigations? Due to an N-of-1 experiment involving an oral FMT pill, I haven't had Multiple Sclerosis symptoms since January 2022.
+The result of my investigations? Due to an N-of-1 experiment involving an oral [[animal sourced FMT]] pill, **I haven't had Multiple Sclerosis symptoms since January 2022.**
+
 
 My health shift has been remarkable. All my symptoms of POTS, MCAS. hEDS, and ME/CFS vanished. The shift was to the point where I went from stumbling around like a drunk, to having near perfect balance. I also went from 60lbs to 120lbs of grip strength in my right hand. This means my grip strength went from well below average to above average for a ~20 year old, and I'm ~36! 
 
@@ -174,3 +175,6 @@ I asked Claude-Instant-100k to write a summary for me based on an analysis of po
 > Hearing patient stories reveals real costs of policies made without us in mind. Equally important: researchers, doctors and regulators pushing for innovation with proper controls. Only by sharing our stories alongside research data can we advocate for a system that empowers patients with every possible tool against disease.
 > 
 > So let's start talking real change. I'm sick of watching people suffer when options exist.
+
+
+[animal sourced FMT]: /weeds/write-drafts/longform/dog-shit-n-of-1/that-dogshit-in-me.md "Animal Sourced FMT"  
