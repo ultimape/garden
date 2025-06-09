@@ -1,5 +1,6 @@
-# Nicholas T. Perry
-*Citizen Scientist, DIY Biohacker & Systems Engineer*
+# Nicholas T. Perry - Curriculum Vitae
+
+*Citizen Scientist, DIY Biohacker & Systems Engineer, Shitposter*
 
  [Bluesky](https://bsky.app/profile/ultimape.bsky.wovensoup.com) • [Twitter/X](https://twitter.com/ultimape) • Vermont USA
 
@@ -33,9 +34,9 @@ I enjoy turning ambitious ideas into operational, funded projects. I've secured 
 
 *October 2014 – Present*
 
-* My work began as a personal mission to solve my own health challenges and grew into a community-funded research project that has successfully tackled major autistic comorbidities.
+* My work began as a personal mission to solve my own health challenges (autism, major depression) and grew into a community-funded research project that has successfully tackled major autistic comorbidities.
 
-* I designed and carried out a successful n-of-1 experimental Fecal Microbiota Transplant (FMT), which led to a full and sustained remission from Crohn's Disease and Multiple Sclerosis.
+* I designed and carried out a successful n-of-1 experimental Fecal Microbiota Transplant (FMT), which led to a full and sustained remission from Crohn's Disease and Multiple Sclerosis, and eventually a non-24-hour sleep wake disorder.
 
 * I applied the same research methods to help my partner resolve complex comorbidities, including Type II Diabetes and PCOS, enabling the cessation of numerous pharmaceuticals (semaglutide, levothyroxine, SNRIs, etc.) and reversing medication-resistant oral thrush and acute liver damage.
 
