@@ -2,7 +2,7 @@
 
 *Citizen Scientist, DIY Biohacker & Systems Engineer, Shitposter*
 
- [Bluesky](https://bsky.app/profile/ultimape.bsky.wovensoup.com) • [Twitter/X](https://twitter.com/ultimape) • Vermont USA
+ [Bluesky](https://bsky.app/profile/ultimape.bsky.wovensoup.com) • [Twitter/X](https://twitter.com/ultimape) • [LinkedIn](https://www.linkedin.com/in/ultimape/) • Vermont USA
 
 ---
 
