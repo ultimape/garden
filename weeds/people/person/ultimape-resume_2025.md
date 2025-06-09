@@ -44,15 +44,15 @@ I enjoy turning ambitious ideas into operational, funded projects. I've secured 
 
 * I've built a public brand as a Citizen Scientist, growing an engaged online community of over 6,000 followers on X/Twitter to fund and disseminate research.
 
-### Co-Founder & Operator, Praetor Laboratories
+### Co-Founder & Operator, Praetor Labs
 
 *October 2010 – Present*
 
-* I co-founded and manage operations for Praetor Laboratories, a private makerspace and R&D incubator located in Vermont. In our two-person, autonomous team, my work involves handling logistics, securing funding, and contributing to initiatives in decentralized systems and open-source hardware.
+* I co-founded and manage operations for Praetor Labs, a private makerspace and R&D incubator located in Vermont. In our two-person, autonomous team, my work involves handling logistics, securing funding, and contributing to initiatives in decentralized systems and open-source hardware.
 
 ### Project Viril: Open Source Fertility Testing
 
-*A Praetor Laboratories Initiative / July 2022 - Present (Stalled but Ongoing)*
+*A Praetor Labs Initiative / July 2022 - Present (Stalled but Ongoing)*
 
 * I co-led a research project to build a low-cost, open-source platform for at-home semen analysis, empowering citizen science in response to pandemic-related fertility concerns.
 
@@ -76,7 +76,7 @@ I enjoy turning ambitious ideas into operational, funded projects. I've secured 
 
 ### Project Viril: Exploring tools for low-cost at-home open source male fertility testing.
 
-*Praetor Laboratories, 2022*
+*Praetor Labs, 2022*
 
 * Authored a comprehensive project proposal outlining the scientific background, technical approach, and budget for developing an open-source fertility testing platform. Includes detailed progress and status reports.
 
