@@ -1,6 +1,8 @@
 # On having that Dawg in me.
 
-**Autism isn’t one thing. It’s a final common pathway. And I know because I hacked mine into submission with dog shit pills. 🐕💊**
+**Autism isn’t one thing. It’s a final common pathway.**
+
+**And I know because I hacked mine into submission with dog shit pills. 🐕💊**
 
 I’m @ultimape. Diagnosed #ActuallyAutistic. was personally invited to Wrongplanet[dot]net's forums by one of the co-founders and have been a part of the autistic community for years.
 
@@ -110,4 +112,10 @@ If all you're going to do is play political games and form tribal allegiance rit
 
 _Please note: what I did was UNSAFE and I was willing to die. Human donor sourced FMTs monitored by a doctor is way way better option._
 
-_I hate that people are dumb enough that I have to actually say this but: I am an untrained professional retard; don't try dog poop at home._
+_I hate that people are dumb enough that I have to actually say this but: **I am an untrained professional retard; don't try dog poop at home.**_
+
+---
+
+_Note: Originally posted on [x/twitter](https://x.com/ultimape/status/2002285588331049098) on 2025-12-20 (December 20th 2025)
+
+_Written with help from [Grok](https://grok.com/share/bGVnYWN5LWNvcHk_fa553ee7-43d0-4229-b4e1-8e39338186b4): I used grok to collate my ideas together from other tweets I've made in the past and create a sort of summary, but this is my own thinking._ 
