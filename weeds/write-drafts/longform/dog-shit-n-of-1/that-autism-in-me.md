@@ -1,3 +1,5 @@
+# On having that Dawg in me.
+
 **Autism isn’t one thing. It’s a final common pathway. And I know because I hacked mine into submission with dog shit pills. 🐕💊**
 
 I’m @ultimape. Diagnosed #ActuallyAutistic. was personally invited to Wrongplanet[dot]net's forums by one of the co-founders and have been a part of the autistic community for years.
