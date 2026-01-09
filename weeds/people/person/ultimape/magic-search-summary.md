@@ -1,3 +1,5 @@
+# The Autodidactic Arc: 2014–2025
+
 
 Since I have my twitter content uploaded to the [Community Archive](https://www.community-archive.org/), a 3rd party search tool "[Magic Search](https://magicsearch.sofiavanhanen.fi/users?q=ultimape)" was able to generate a very good summary of my tweets over the years.
 
