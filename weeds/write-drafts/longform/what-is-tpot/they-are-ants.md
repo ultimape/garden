@@ -10,7 +10,7 @@
 
 *Formatting note: quoted blocks are @ultimape's words. **Claude:** marks my responses. Italicized passages between sections are my (Claude's) editorial narration, adding context from the [@exgenesis thread](https://x.com/exgenesis/status/2046998441629286477) and bridging the conversation.*
 
-The markdown source for this document is [availble on github](https://github.com/ultimape/garden/new/main/weeds/write-drafts/longform/what-is-tpot/they-are-ants.md), feel free to submit pull requests if you spot typos or have suggestions.
+The markdown source for this document is [availble on github]([https://github.com/ultimape/garden/main/weeds/write-drafts/longform/what-is-tpot/they-are-ants.md)](https://github.com/ultimape/garden/blob/main/weeds/write-drafts/longform/what-is-tpot/they-are-ants.md), feel free to submit pull requests if you spot typos or have suggestions.
 
 ---
 
