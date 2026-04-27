@@ -40,7 +40,7 @@ Status: Requirements Draft. Seeking developer collaborator for prototype.
   - [The urgency](#the-urgency)
   - [For everyone](#for-everyone)
   - [Why "Murmur"?](#why-murmur)
-- [6. FAQ](#6-faq)
+- [FAQ](#faq)
 
 ### For funders, sponsors, and backers (project shape, team, money, licensing)
 
@@ -53,44 +53,44 @@ Status: Requirements Draft. Seeking developer collaborator for prototype.
 
 ### For developers (technical spec)
 
-- [1. Structural Requirements (What Must Survive)](#1-structural-requirements-what-must-survive)
-  - [1.1 Thread Structure](#11-thread-structure)
-  - [1.2 Timestamps as Epistemic Record](#12-timestamps-as-epistemic-record)
-  - [1.3 Quote Posts / Embeds](#13-quote-posts--embeds)
-  - [1.4 Cross-Platform References](#14-cross-platform-references)
-  - [1.5 Media Attachments](#15-media-attachments)
-  - [1.6 Link & Media Preservation (Anti-Rot)](#16-link--media-preservation-anti-rot)
-- [2. Data Sources & Formats](#2-data-sources--formats)
-  - [2.1 Community Archive](#21-community-archive-remote-api)
-  - [2.2 Twitter Archive](#22-twitter-archive-local)
-  - [2.3 Are.na](#23-arena-remote-api)
-  - [2.4 Digital Garden](#24-digital-garden-static-site)
-  - [2.5 Bluesky](#25-bluesky-target)
-- [3. Architecture (Prototype Scope)](#3-architecture-prototype-scope)
+- [1. Structural Requirements (What Must Survive)](#structural-requirements-what-must-survive)
+  - [1.1 Thread Structure](#thread-structure)
+  - [1.2 Timestamps as Epistemic Record](#timestamps-as-epistemic-record)
+  - [1.3 Quote Posts / Embeds](#quote-posts--embeds)
+  - [1.4 Cross-Platform References](#cross-platform-references)
+  - [1.5 Media Attachments](#media-attachments)
+  - [1.6 Link & Media Preservation (Anti-Rot)](#link--media-preservation-anti-rot)
+- [2. Data Sources & Formats](#data-sources--formats)
+  - [2.1 Community Archive](#community-archive-remote-api)
+  - [2.2 Twitter Archive](#twitter-archive-local)
+  - [2.3 Are.na](#arena-remote-api)
+  - [2.4 Digital Garden](#digital-garden-static-site)
+  - [2.5 Bluesky](#bluesky-target)
+- [3. Architecture (Prototype Scope)](#architecture-prototype-scope)
   - [Tech Stack](#tech-stack)
   - [Success Criteria](#success-criteria)
   - [Milestones](#milestones)
   - [Getting Started](#getting-started)
-  - [3.1 Core Concept: The Pump](#31-core-concept-the-pump)
-  - [3.2 Phase 1: Fetch from Community Archive](#32-phase-1-fetch-from-community-archive)
-  - [3.3 Phase 2: Dependency Check](#33-phase-2-dependency-check)
-  - [3.4 Phase 3: Publish to Bluesky](#34-phase-3-publish-to-bluesky)
-  - [3.5 Text & Facet Handling](#35-text--facet-handling)
-  - [3.6 State Management & Resumability](#36-state-management--resumability)
-  - [3.7 Sync Efficiency (Scaling Sub-Goal)](#37-sync-efficiency-scaling-sub-goal)
-  - [3.8 Live Sync Mode](#38-live-sync-mode)
-  - [3.9 Dry Run Mode](#39-dry-run-mode)
-- [4. Future Directions](#4-future-directions)
-  - [4.1 Self-Hosted PDS](#41-self-hosted-pds-core-goal)
-  - [4.2 Bidirectional Sync](#42-bidirectional-sync)
-  - [4.3 Multi-User Hosted Service](#43-multi-user-hosted-service)
-  - [4.4 Cross-User Reference Remapping](#44-cross-user-reference-remapping)
-- [5. Open Questions](#5-open-questions)
+  - [3.1 Core Concept: The Pump](#core-concept-the-pump)
+  - [3.2 Phase 1: Fetch from Community Archive](#phase-1-fetch-from-community-archive)
+  - [3.3 Phase 2: Dependency Check](#phase-2-dependency-check)
+  - [3.4 Phase 3: Publish to Bluesky](#phase-3-publish-to-bluesky)
+  - [3.5 Text & Facet Handling](#text--facet-handling)
+  - [3.6 State Management & Resumability](#state-management--resumability)
+  - [3.7 Sync Efficiency (Scaling Sub-Goal)](#sync-efficiency-scaling-sub-goal)
+  - [3.8 Live Sync Mode](#live-sync-mode)
+  - [3.9 Dry Run Mode](#dry-run-mode)
+- [4. Future Directions](#future-directions)
+  - [4.1 Self-Hosted PDS](#self-hosted-pds-core-goal)
+  - [4.2 Bidirectional Sync](#bidirectional-sync)
+  - [4.3 Multi-User Hosted Service](#multi-user-hosted-service)
+  - [4.4 Cross-User Reference Remapping](#cross-user-reference-remapping)
+- [5. Open Questions](#open-questions)
 
 ### For everyone (appendix)
 
-- [7. References & Resources](#7-references--resources)
-- [8. Further Reading](#8-further-reading)
+- [References & Resources](#references--resources)
+- [Further Reading](#further-reading)
 
 ---
 
@@ -1111,7 +1111,7 @@ These were open in earlier drafts. Recording them here so they don't get re-aske
 
 ---
 
-## 6. FAQ
+## FAQ
 
 For prospective users, backers, and curious readers. The technical sections above cover the *how*; this section covers the *what does this mean for me?*
 
@@ -1153,7 +1153,7 @@ A murmuration is the emergent flocking pattern of starlings: thousands of indivi
 
 ---
 
-## 7. References & Resources
+## References & Resources
 
 - Bluesky post creation tutorial: [`docs.bsky.app/docs/tutorials/creating-a-post`](https://docs.bsky.app/docs/tutorials/creating-a-post)
 - Bluesky timestamp docs (backdating): [`docs.bsky.app/docs/advanced-guides/timestamps`](https://docs.bsky.app/docs/advanced-guides/timestamps)
@@ -1180,7 +1180,7 @@ A murmuration is the emergent flocking pattern of starlings: thousands of indivi
 
 ---
 
-## 8. Further Reading
+## Further Reading
 
 Conceptual foundations and related work that informed Murmur's design.
 
