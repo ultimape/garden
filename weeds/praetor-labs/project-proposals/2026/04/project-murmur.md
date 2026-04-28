@@ -1,4 +1,4 @@
-# Project Murmur
+# Project Hivesong
 
 Published Initial Draft - Apr 2026
 
@@ -16,9 +16,9 @@ Status: Requirements Draft. Seeking developer collaborator for prototype.
 
 ## TL;DR
 
-**What**: Murmur is a tool that copies your Twitter archive to Bluesky with the threading, timestamps, quote-posts, and media intact. A "pump" that turns a flat export back into a navigable graph. Built in TypeScript on top of Community Archive (the public Twitter archive) and the AT Protocol.
+**What**: Hivesong is a tool that copies your Twitter archive to Bluesky with the threading, timestamps, quote-posts, and media intact. A "pump" that turns a flat export back into a navigable graph. Built in TypeScript on top of Community Archive (the public Twitter archive) and the AT Protocol.
 
-**Why**: For people who use Twitter as a research notebook (a "memex"), the archive isn't just content; it's a cognitive prosthesis built up over a decade. Twitter's broken export and the disappearance of accounts is destroying that work. Murmur preserves it on infrastructure the user controls.
+**Why**: For people who use Twitter as a research notebook (a "memex"), the archive isn't just content; it's a cognitive prosthesis built up over a decade. Twitter's broken export and the disappearance of accounts is destroying that work. Hivesong preserves it on infrastructure the user controls.
 
 **Who**: UltimApe (~150,000 tweets across a decade of public research) and a developer collaborator. Open from day one. The MIT-licensed core is what's being built; if the project goes well, an AGPL service layer may eventually be added to fund continued development.
 
@@ -35,11 +35,11 @@ Status: Requirements Draft. Seeking developer collaborator for prototype.
 - [Why This Exists](#why-this-exists)
   - [Tweets as cognitive prosthesis](#tweets-as-cognitive-prosthesis)
   - [Trapped infrastructure](#trapped-infrastructure)
-  - [What Murmur does](#what-murmur-does)
+  - [What Hivesong does](#what-hivesong-does)
   - [UltimApe's archive](#ultimapes-archive)
   - [The urgency](#the-urgency)
   - [For everyone](#for-everyone)
-  - [Why "Murmur"?](#why-murmur)
+  - [Why "Hivesong"?](#why-hivesong)
 - [FAQ](#faq)
 
 ### For funders, sponsors, and backers (project shape, team, money, licensing)
@@ -80,6 +80,7 @@ Status: Requirements Draft. Seeking developer collaborator for prototype.
   - [3.7 Sync Efficiency (Scaling Sub-Goal)](#sync-efficiency-scaling-sub-goal)
   - [3.8 Live Sync Mode](#live-sync-mode)
   - [3.9 Dry Run Mode](#dry-run-mode)
+  - [3.10 Risks, Assumptions & Dependencies](#risks-assumptions--dependencies)
 - [4. Future Directions](#future-directions)
   - [4.1 Self-Hosted PDS](#self-hosted-pds-core-goal)
   - [4.2 Bidirectional Sync](#bidirectional-sync)
@@ -121,11 +122,11 @@ Twitter's archive export is notoriously incomplete. It has been broken in variou
 
 Projects like the Community Archive (community-archive.org) have made progress on the preservation side: you can upload your Twitter archive to a public database where it's queryable and searchable. But preservation isn't the same as liberation. Your data is saved, but it's still not *yours* in the way that matters: living on infrastructure you control, in a format with a real interface, on a federated protocol.
 
-### What Murmur does
+### What Hivesong does
 
-**Project Murmur bridges that gap.** It's a sync pipeline that takes your Twitter archive from Community Archive and pumps it into Bluesky, preserving thread structure, original timestamps, quote-post references, and media attachments. Because Bluesky is built on the AT Protocol, the result isn't just a mirror: it's a federated, self-hostable copy of your intellectual work that any Bluesky client can browse and search, that lives on a Personal Data Server you can run yourself, and that nobody can take away from you.
+**Project Hivesong bridges that gap.** It's a sync pipeline that takes your Twitter archive from Community Archive and pumps it into Bluesky, preserving thread structure, original timestamps, quote-post references, and media attachments. Because Bluesky is built on the AT Protocol, the result isn't just a mirror: it's a federated, self-hostable copy of your intellectual work that any Bluesky client can browse and search, that lives on a Personal Data Server you can run yourself, and that nobody can take away from you.
 
-And it's not just about the platform disappearing. A memex rots from the inside too. Every outbound link in a tweet (to a paper, a blog post, a collaborator's thread) is a synapse. When those links die, the thought they supported loses its evidence. Murmur includes link preservation as a core concern: unwrapping Twitter's `t.co` redirects before they break, archiving linked pages to the Internet Archive, and monitoring for rot over time. An external brain that can't remember what it was pointing at isn't much of a brain.
+And it's not just about the platform disappearing. A memex rots from the inside too. Every outbound link in a tweet (to a paper, a blog post, a collaborator's thread) is a synapse. When those links die, the thought they supported loses its evidence. Hivesong includes link preservation as a core concern: unwrapping Twitter's `t.co` redirects before they break, archiving linked pages to the Internet Archive, and monitoring for rot over time. An external brain that can't remember what it was pointing at isn't much of a brain.
 
 ### UltimApe's archive
 
@@ -135,7 +136,7 @@ To make this concrete: UltimApe can find any idea in his archive in seconds. He 
 
 ### The urgency
 
-But UltimApe's memex isn't just on Twitter. It's distributed across Twitter, Bluesky, Mastodon, Are.na, Medium, and his digital garden at wovensoup.com. A tweet links to an Are.na block that links to a garden page that references a Medium post. That's one thought spread across four systems, and the connections between them are where the meaning lives. Murmur starts with the biggest and most urgent piece (Twitter→Bluesky), but the longer-term vision is a tool that can see and preserve the whole shape: a multi-platform archival system that captures content, media, and cross-references across all the places a distributed thinker actually works.
+But UltimApe's memex isn't just on Twitter. It's distributed across Twitter, Bluesky, Mastodon, Are.na, Medium, and his digital garden at wovensoup.com. A tweet links to an Are.na block that links to a garden page that references a Medium post. That's one thought spread across four systems, and the connections between them are where the meaning lives. Hivesong starts with the biggest and most urgent piece (Twitter→Bluesky), but the longer-term vision is a tool that can see and preserve the whole shape: a multi-platform archival system that captures content, media, and cross-references across all the places a distributed thinker actually works.
 
 Even Community Archive, as valuable as it is, doesn't preserve images. If an account is deleted, the images and visual context are gone forever. The text survives but the evidence doesn't. A proper archival layer needs to capture everything (media, linked pages, embedded content), not just the text of the posts.
 
@@ -155,37 +156,39 @@ This isn't a niche observation. Conor White-Sullivan, the founder of Roam Resear
 
 > "Twitter as a company is culturally oriented around NOW. Product reflects this. The Twitter users who search their own and others' timelines for building webs of threads are hacking the platform to build a collaborative Memex (memory extension). Eventually those users will migrate."
 
-That a memex-tool founder identified this pattern in 2019, and named UltimApe specifically as one of the users doing it, is third-party validation that this isn't one person's idiosyncratic problem. Bluesky is now the destination Conor predicted. The AT Protocol is the substrate. Murmur is the bridge.
+That a memex-tool founder identified this pattern in 2019, and named UltimApe specifically as one of the users doing it, is third-party validation that this isn't one person's idiosyncratic problem. Bluesky is now the destination Conor predicted. The AT Protocol is the substrate. Hivesong is the bridge.
 
-For everyone else on Community Archive, Murmur means the same tool that liberates UltimApe's archive can liberate theirs. Upload your archive, connect your Bluesky account, and Murmur handles the rest. A potential long-term direction is a hosted service where non-technical users could sync with one click, because most of the people whose work is worth preserving aren't the kind who run their own Linux servers. That's a Phase 3 possibility, not a near-term commitment.
+For everyone else on Community Archive, Hivesong means the same tool that liberates UltimApe's archive can liberate theirs. Upload your archive, connect your Bluesky account, and Hivesong handles the rest. A potential long-term direction is a hosted service where non-technical users could sync with one click, because most of the people whose work is worth preserving aren't the kind who run their own Linux servers. That's a Phase 3 possibility, not a near-term commitment.
 
 **There's a deeper reason this needs to scale beyond one person.** Social media archives only stay meaningful when other people are around to talk to. The threads UltimApe is preserving aren't monologues; they're conversations with hundreds of other thinkers who replied, quoted, and built on each other's ideas over a decade. If only UltimApe migrates, his archive on Bluesky will be full of dead-end references to other people's tweets that still live on Twitter (and might not for long). The only way to fully preserve a *conversation* is for enough of the participants to migrate together. That's why broad accessibility matters, why a hosted service may eventually make sense, and why the architecture (Section 4.4) supports cross-user reference resolution as more people join.
 
 The ultimate target, available to anyone who wants it, is a **self-hosted Bluesky PDS** (Personal Data Server). UltimApe's will live at [`bsky.wovensoup.com`](https://bsky.wovensoup.com), giving full ownership of the replicated memex in a format with a usable interface (any Bluesky client) on a federated protocol. It's part of a broader sovereignty stack: own hardware, own AI, own data, under nobody else's terms of service. Anyone willing to do the devops can replicate this stack. Anyone who isn't could (eventually) use a hosted version, if Phase 3 gets there.
 
-### Why "Murmur"?
+### Why "Hivesong"?
 
-A murmuration is the emergent flocking pattern of starlings: thousands of individual movements that only make sense as a collective shape when you see the whole flock in motion. Individual tweets look like isolated thoughts. The structure only becomes visible when the relationships between them are preserved. That's what Murmur protects.
+A hive's song is the collective hum of a colony at work: thousands of individual bees, each pursuing their own task, producing together a steady resonance that only makes sense as a whole. The pitch shifts when the colony is healthy or stressed, when food is found, when a swarm is forming. No single bee carries the song; the song is what emerges when their movements coordinate. A Twitter archive is similar. Individual tweets look like isolated thoughts. The shape only becomes visible when the relationships between them are preserved. The colony is the conversation; the song is the thinking. That's what Hivesong protects.
 
 ---
 
 ## The Project
 
-> The sections above describe **why** Murmur should exist. The sections below describe **what's being built and how**. This middle section is the connective tissue: who's involved, what funding makes it real, what licenses apply, how to get involved.
+> The sections above describe **why** Hivesong should exist. The sections below describe **what's being built and how**. This middle section is the connective tissue: who's involved, what funding makes it real, what licenses apply, how to get involved.
 
 ### The team
 
-Murmur is a small collaboration:
+Hivesong is a small collaboration:
 
 - **UltimApe** (Nicholas Perry): domain owner. Knows what needs to be preserved and why. Sets product direction, dogfoods every milestone (the "actively using it" success criterion is non-negotiable), and maintains the project long-term. Owner of this spec.
-- **In conversation with [Chris Johnson](https://cjohnson.io/)** as the prospective developer collaborator. Chris is a fullstack web developer with 15+ years of experience, with prior work at companies including Twitch, Urbit, and PayIt. His skill set (TypeScript, full web stack, devops, technical product management) maps cleanly onto Murmur's needs. Conversations are ongoing about scope, timeline, and compensation; if those work out, Chris will be named formally in a future revision of this doc.
+- **In conversation with [Chris Johnson](https://cjohnson.io/)** as the prospective developer collaborator. Chris is a fullstack web developer with 15+ years of experience, with prior work at companies including Twitch, Urbit, and PayIt. His skill set (TypeScript, full web stack, devops, technical product management) maps cleanly onto Hivesong's needs. Conversations are ongoing about scope, timeline, and compensation; if those work out, Chris will be named formally in a future revision of this doc.
 - **You, potentially**: the project is open from day one and welcomes contributors, especially around the Community Archive integration, the multi-user work, and the broader anti-rot archival layer (Section 4).
 
 The "track record" argument for this team isn't a list of shipped startups; it's the combination of (a) a substantial corpus that demonstrates the problem is real and (b) a developer with shipped production work at scale. UltimApe's ~150,000 tweets, [Are.na channels](https://www.are.na/ultimape/channels), [digital garden](https://garden.wovensoup.com), and Medium essays represent over a decade of sustained intellectual labor across complex systems biology, neuroimmunology, microbiome research, and open-source medical devices. Chris's resume documents 15+ years of fullstack web development at companies like Twitch and Urbit. The tool is being built by someone who is the most demanding possible user, with implementation by someone with the relevant production experience.
 
+The repository is at [`github.com/ultimape/hivesong`](https://github.com/ultimape/hivesong) (currently private; will be made public when initial scaffolding is in place).
+
 ### Funding model
 
-**Murmur is a funding drive for a defined open-source deliverable.** UltimApe is already supported via [Patreon](https://www.patreon.com/ultimape) for general work; this project's funding is specifically for paying the developer collaborator to ship the prototype. The ask is scoped to a defined deliverable (the prototype reaching "actively using it"), with public progress visible throughout.
+**Hivesong is a funding drive for a defined open-source deliverable.** UltimApe is already supported via [Patreon](https://www.patreon.com/ultimape) for general work; this project's funding is specifically for paying the developer collaborator to ship the prototype. The ask is scoped to a defined deliverable (the prototype reaching "actively using it"), with public progress visible throughout.
 
 If the prototype goes well and there's appetite for it, UltimApe and the developer collaborator may build it into a small hosted service: a pay-as-you-go platform on top of the open-source core (see "Licensing & business model" below). That would be one way to fund continued development after the initial drive. It's not pre-committed; it's an option that the architecture leaves open. **Backers of this project are funding the open-source foundation that everything else might build on.**
 
@@ -195,7 +198,7 @@ The project breaks naturally into three phases. Each phase is independently ship
 
 | Tier | Phase | What it funds | Outcome |
 |---|---|---|---|
-| **Phase 1: Dogfooding** | UltimApe's archive | ~3-4 months of developer time, hosting | Murmur prototype shipped. UltimApe is actively using the Bluesky mirror as a real archive of his ~150,000 tweets. Threading, timestamps, embeds, and media preserved. The architecture has been validated end-to-end on a serious corpus. |
+| **Phase 1: Dogfooding** | UltimApe's archive | ~3-4 months of developer time, hosting | Hivesong prototype shipped. UltimApe is actively using the Bluesky mirror as a real archive of his ~150,000 tweets. Threading, timestamps, embeds, and media preserved. The architecture has been validated end-to-end on a serious corpus. |
 | **Phase 2: Multi-user validation** | Other users' archives | Additional developer time | The pump is generalized beyond UltimApe-specific assumptions. At least one other user (probably someone from the Bluesky / Community Archive community) successfully migrates their archive. Edge cases that didn't show up in a single-user run get surfaced and fixed. |
 | **Phase 3: SaaS stretch + open-sourcing** | Hosted service prep | Additional developer time + multi-user infrastructure | Pump engine extracted as a reusable library. Next.js dashboard scaffolding. Optional: a hosted service launches, with the AGPL service-layer code public from day one. The eventual goal is to relicense the entire stack permissively once development is sustainably funded. |
 
@@ -223,35 +226,35 @@ The phases are designed to fit a range of funding sources: small microgrants and
 
 A natural question, given that UltimApe's previous Twitter-archive project (Goliath, 2018) stalled at the implementation stage: why won't this one stall too? Several things have changed:
 
-- **There's a paid developer this time.** Goliath was a solo side project, fitting around UltimApe's executive function constraints. Murmur isn't. Chris Johnson is being engaged to ship this, with funding to support that engagement. Implementation is no longer dependent on UltimApe's capacity to grind through it alone.
+- **There's a paid developer this time.** Goliath was a solo side project, fitting around UltimApe's executive function constraints. Hivesong isn't. Chris Johnson is being engaged to ship this, with funding to support that engagement. Implementation is no longer dependent on UltimApe's capacity to grind through it alone.
 - **The data layer exists now.** In 2018, getting tweets out of Twitter required wrestling with rate-limited APIs and incomplete archive exports. Both problems are solved by Community Archive (which didn't exist yet) and the AT Protocol's explicit support for backdated imports (which didn't exist yet). The actual technical lift is dramatically smaller than it was in Goliath's era.
 - **Twitter's export format is a known quantity now.** Goliath stalled in part because Twitter kept changing the archive format mid-development. The format has been relatively stable for several years, and the tooling around it is mature.
 - **The architecture has been planned out for years.** As the 2021 email above shows, the design has been clear in UltimApe's head since at least then. What was missing was elbow grease, not vision. This project is structured to provide the elbow grease.
-- **The scope is bounded.** Goliath aimed at "fix Twitter's broken archive in general." Murmur aims at "pump tweets to Bluesky, structure intact." The smaller scope means it can actually finish.
+- **The scope is bounded.** Goliath aimed at "fix Twitter's broken archive in general." Hivesong aims at "pump tweets to Bluesky, structure intact." The smaller scope means it can actually finish.
 - **There's accountability.** A funded developer with shipped milestones on a public repository is a different shape than a solo project on a personal GitHub. Public progress, public budget, and a paying collaboration all create pressure to ship that didn't exist for Goliath.
 
 This isn't a guarantee. Open-source projects stall for many reasons, and the risk is real. But the conditions that caused Goliath to stall have substantially changed.
 
 ### Licensing & business model
 
-> **TL;DR for non-developers:** The actual Murmur tool — the thing that copies your tweets — is free, open-source, and yours to keep, forever. You can run it yourself for free if you can manage a Linux server. *If* a paid hosted version is ever built (so non-technical people can use it without running servers), the hosting code would be open-source too, but with a license that asks commercial competitors to share their improvements back. Either way, the tool itself is always free.
+> **TL;DR for non-developers:** The actual Hivesong tool — the thing that copies your tweets — is free, open-source, and yours to keep, forever. You can run it yourself for free if you can manage a Linux server. *If* a paid hosted version is ever built (so non-technical people can use it without running servers), the hosting code would be open-source too, but with a license that asks commercial competitors to share their improvements back. Either way, the tool itself is always free.
 
-Murmur uses a **two-tier licensing structure** with a clear and unambiguous boundary:
+Hivesong uses a **two-tier licensing structure** with a clear and unambiguous boundary:
 
-- **The core self-hosted product**: the pump engine, CLI, and everything in Sections 1-3 of this document, will **always be released under a maximally permissive license** (likely **MIT**, possibly Apache 2.0). Anyone can use, fork, modify, redistribute, sell, or build on it with essentially no restrictions. This is non-negotiable: the actual tool that does the Twitter→Bluesky migration is and will remain genuinely free software in the most permissive sense. People who want to run Murmur themselves will always be able to do so without anyone's permission.
+- **The core self-hosted product**: the pump engine, CLI, and everything in Sections 1-3 of this document, will **always be released under a maximally permissive license** (likely **MIT**, possibly Apache 2.0). Anyone can use, fork, modify, redistribute, sell, or build on it with essentially no restrictions. This is non-negotiable: the actual tool that does the Twitter→Bluesky migration is and will remain genuinely free software in the most permissive sense. People who want to run Hivesong themselves will always be able to do so without anyone's permission.
 
 - **The optional SaaS scaffolding**: *if and when* it gets built (Section 4.3): the multi-tenant dashboard, billing integration, account management, and hosted-service-specific infrastructure, would be released under **AGPLv3**. This layer is what would make a commercial hosted offering possible; it's strictly additional to the core, not a replacement for any of it. Users who self-host never need to touch it. AGPLv3 means the code is still open and inspectable, anyone can self-host the SaaS scaffolding too, and anyone can fork it for their own commercial use. The only requirement is that commercial network operators must publish their modifications. The reciprocity ensures improvements flow back to the ecosystem rather than disappearing into closed forks.
 
 **Why this structure:**
 
-If Murmur goes well and there's interest, UltimApe and the developer collaborator may build it into a small hosted service: a pay-as-you-go platform that handles the sync for users who don't want to run infrastructure themselves. The revenue from that service would fund continued development, maintenance, security updates, and feature work for everyone, including self-hosters. Without a hosted option, the network effect described in "For everyone" never kicks in. None of this is decided yet; it's the path the architecture leaves room for.
+If Hivesong goes well and there's interest, UltimApe and the developer collaborator may build it into a small hosted service: a pay-as-you-go platform that handles the sync for users who don't want to run infrastructure themselves. The revenue from that service would fund continued development, maintenance, security updates, and feature work for everyone, including self-hosters. Without a hosted option, the network effect described in "For everyone" never kicks in. None of this is decided yet; it's the path the architecture leaves room for.
 
 The AGPLv3 license is what would make that funding sustainable, but it's worth being precise about how. AGPL doesn't actually prohibit competing commercial services; anyone can fork the code and run a competing hosted version, they just have to publish their modifications under the same license. What AGPL really does is two things: (1) it requires that anyone running a hosted version make their changes public, so improvements flow back to the ecosystem rather than getting absorbed into private forks; and (2) it creates enough friction that most large cloud companies (Google, for instance, has an explicit policy against AGPL code) won't adopt it. That second effect is what protects small maintainers from being commodified by hyperscalers. AGPL doesn't prevent anyone from self-hosting, contributing, or even running their own commercial fork. It just keeps the code reciprocal and discourages the specific scenario where a giant cloud provider repackages the work without giving anything back.
 
 **What this means for backers:**
 
 - **The core is and always will be free.** No matter what happens to any future hosted service, the prototype's code stays MIT/Apache. You can always self-host.
-- **Any hosted service is opt-in.** If you'd rather run Murmur yourself, you can. A hosted service, if it ever exists, would be a convenience for people who don't want to do devops, not a gate.
+- **Any hosted service is opt-in.** If you'd rather run Hivesong yourself, you can. A hosted service, if it ever exists, would be a convenience for people who don't want to do devops, not a gate.
 - **Backing this project is backing the open-source core.** The funding goes to building the freely-available tool. Any future hosted service is a downstream possibility, not what you're directly supporting.
 - **Backers won't be locked in to anything.** Data on a hypothetical hosted service would be just standard Bluesky records on a PDS, fully portable. Users could migrate to self-hosted at any time using AT Protocol's account migration mechanisms.
 - **No vendor monopoly.** AGPLv3 doesn't restrict competition. Anyone can fork the SaaS scaffolding and run their own paid hosting service for their own community: a research collective, school, publication, local cooperative, or commercial competitor. The only requirement is publishing modifications under the same license. There's no negotiation with the original maintainers, no "individual license" gatekeeping, no relicensing pathway controlled by anyone but the license itself. This is the model that [Write.as](https://write.as) uses (you can pay for blog hosting *or* self-host the open-source [WriteFreely](https://writefreely.org) engine yourself), and that the Mastodon ecosystem uses (multiple hosts offer paid Mastodon instances using the same open code). If our hosting is bad, slow, or expensive, someone else can compete using the same engine.
@@ -349,7 +352,7 @@ Strategies, ordered from most urgent to aspirational:
 - **Proactive archiving** (post-prototype): Submit outbound URLs to the Internet Archive's Save Page Now API (`web.archive.org/save/{url}`) to ensure snapshots exist. Gwern's archiver-bot ([`github.com/gwern/archiver-bot`](https://github.com/gwern/archiver-bot)) is prior art for this pattern.
 - **Periodic health checks** (ongoing maintenance): Re-check outbound URLs for rot after migration. Flag newly dead links and find archived copies.
 
-**Future scope (multi-platform preservation)**: UltimApe's memex spans Twitter, Bluesky, Mastodon, Are.na, Medium, and a digital garden. Each platform has its own fragility. A future evolution of Murmur could act as a broader archival layer that captures and cross-references content across all of these, ensuring no single platform's failure can sever the connections. This is beyond current scope but the data model should be platform-agnostic where possible.
+**Future scope (multi-platform preservation)**: UltimApe's memex spans Twitter, Bluesky, Mastodon, Are.na, Medium, and a digital garden. Each platform has its own fragility. A future evolution of Hivesong could act as a broader archival layer that captures and cross-references content across all of these, ensuring no single platform's failure can sever the connections. This is beyond current scope but the data model should be platform-agnostic where possible.
 
 ---
 
@@ -357,14 +360,14 @@ Strategies, ordered from most urgent to aspirational:
 
 ### 2.1 Community Archive (Remote API)
 
-The Community Archive ([`community-archive.org`](https://community-archive.org)) is a public Supabase database of volunteered Twitter archives. UltimApe's corpus is already uploaded there under username `ultimape`. It's one of two first-class data sources Murmur supports (see Section 2.2 for the local archive).
+The Community Archive ([`community-archive.org`](https://community-archive.org)) is a public Supabase database of volunteered Twitter archives. UltimApe's corpus is already uploaded there under username `ultimape`. It's one of two first-class data sources Hivesong supports (see Section 2.2 for the local archive).
 
 - **Supabase REST API** with public anon key (published in repo docs)
 - GitHub: [`github.com/TheExGenesis/community-archive`](https://github.com/TheExGenesis/community-archive)
 - API docs: [`github.com/TheExGenesis/community-archive/blob/main/docs/api-doc.md`](https://github.com/TheExGenesis/community-archive/blob/main/docs/api-doc.md)
 - Query example: `GET /rest/v1/tweets?account_id=eq.{id}&select=*`
 - Also available as bulk JSON download per user
-- **Near-real-time updates**: Community Archive has a browser plugin that syncs new tweets as they're posted on Twitter. This enables Murmur's live sync mode (Section 3.8).
+- **Near-real-time updates**: Community Archive has a browser plugin that syncs new tweets as they're posted on Twitter. This enables Hivesong's live sync mode (Section 3.8).
 
 Key advantages of Community Archive as a source:
 
@@ -373,7 +376,7 @@ Key advantages of Community Archive as a source:
 - The pipeline can run from anywhere; no need to ship around archive zip files.
 - New tweets flow in automatically via the browser plugin, enabling continuous sync.
 
-Key limitation: Community Archive is a small project itself. If it's offline for a period, or its schema changes, Murmur shouldn't grind to a halt. That's why local archive ingestion (Section 2.2) is a co-equal first-class source rather than just a fallback.
+Key limitation: Community Archive is a small project itself. If it's offline for a period, or its schema changes, Hivesong shouldn't grind to a halt. That's why local archive ingestion (Section 2.2) is a co-equal first-class source rather than just a fallback.
 
 ### 2.2 Twitter Archive (Local)
 
@@ -383,11 +386,11 @@ The standard Twitter data export (`twitter-archive.zip`) is the other first-clas
 - Each tweet has: `id`, `full_text`, `created_at`, `in_reply_to_status_id`, `in_reply_to_user_id`, `entities` (URLs, mentions, hashtags, media), `extended_entities` (images, video)
 - Media files in `tweet_media/` directory
 
-The local archive provides resilience: if Community Archive is offline or hasn't been updated recently, Murmur can read directly from the user's downloaded `.zip` file. It also covers tweets that may not be present in Community Archive (deleted tweets, tweets from before the user uploaded their archive) and is the authoritative source for media files (Community Archive doesn't preserve images).
+The local archive provides resilience: if Community Archive is offline or hasn't been updated recently, Hivesong can read directly from the user's downloaded `.zip` file. It also covers tweets that may not be present in Community Archive (deleted tweets, tweets from before the user uploaded their archive) and is the authoritative source for media files (Community Archive doesn't preserve images).
 
 In practice, both sources can be used together: Community Archive for the live-sync polling loop, local archive for the one-time backfill and for media hydration. The pump should be implemented against a `Source` interface so additional sources (Mastodon archives, ActivityPub exports, etc.) can be added without rewriting the pipeline.
 
-**Prior art (historical reference only)**: The `ultimape/goliath` repo ([`github.com/ultimape/goliath`](https://github.com/ultimape/goliath)) is an earlier, **incomplete** project that attempted to parse the Twitter archive. **Goliath does not work with the current Twitter export format**: Twitter changed their archive structure during development, and the project stalled. It should not be used as a code dependency. However, its README documents insights relevant to Murmur's design:
+**Prior art (historical reference only)**: The `ultimape/goliath` repo ([`github.com/ultimape/goliath`](https://github.com/ultimape/goliath)) is an earlier, **incomplete** project that attempted to parse the Twitter archive. **Goliath does not work with the current Twitter export format**: Twitter changed their archive structure during development, and the project stalled. It should not be used as a code dependency. However, its README documents insights relevant to Hivesong's design:
 
 - **Quote-tweet detection**: Quote-tweets are not a structured field in the archive. They appear as `https://twitter.com/user/status/{id}` URLs within the tweet's URL entities. Any parser must pattern-match these to extract quote-tweet relationships.
 - **Retweet dual timestamps**: Retweet proxy tweets carry *your* timestamp (when you retweeted), while the encapsulated original carries the author's timestamp. Both are relevant to the epistemic record.
@@ -424,7 +427,7 @@ UltimApe's Bluesky handle is `@ultimape.bsky.wovensoup.com`. The initial prototy
 - Images: upload blob via `com.atproto.repo.uploadBlob`, reference in `embed` with type `app.bsky.embed.images`
 - `createdAt` accepts arbitrary past timestamps (backdating is explicitly supported for imports)
 - Rate limits exist; the pipeline needs to respect them with delays between posts
-- **SDK: `@atproto/api`** (TypeScript). Murmur is built in TypeScript / Node. See Section 3 for rationale.
+- **SDK: `@atproto/api`** (TypeScript). Hivesong is built in TypeScript / Node. See Section 3 for rationale.
 
 ---
 
@@ -449,7 +452,7 @@ This section describes what to build for the working prototype: a self-hosted CL
 
 **Why Supabase (not SQLite):**
 
-1. **Same backend as Community Archive.** CA already runs on Supabase. Murmur's state lives in the same ecosystem, with potential for tighter integration later (shared project, database-level triggers).
+1. **Same backend as Community Archive.** CA already runs on Supabase. Hivesong's state lives in the same ecosystem, with potential for tighter integration later (shared project, database-level triggers).
 2. **Zero rewrite for the hosted service.** The prototype and the multi-user version (Section 4.3) use the same schema, the same client library, the same auth model. The prototype is a single-user instance of the eventual multi-user system, not a separate codebase.
 3. **Self-hostable.** Supabase is open source (Apache 2.0) and runs via Docker Compose. UltimApe runs it on his own hardware alongside the self-hosted PDS. No cloud dependencies, full sovereignty.
 4. **Postgres beats SQLite for this workload.** Better JSON handling for `retry_queue` and `epoch_counts`, real concurrency, full-text search if ever needed.
@@ -458,17 +461,19 @@ The pump engine is pure TypeScript with no UI dependencies. The eventual web das
 
 ### Success Criteria
 
-**Phase 1 (the prototype)** is done when:
+**Phase 1 (the prototype)** is done when each of these is independently demonstrable:
 
-1. **Full backfill complete**: All ~150,000 tweets from UltimApe's Community Archive corpus are present on the target Bluesky PDS as `app.bsky.feed.post` records.
+1. **Full backfill complete**: All ~150,000 tweets from UltimApe's Community Archive corpus are present on the target Bluesky PDS as `app.bsky.feed.post` records. *Verifiable*: a count query against the PDS returns the same number of records as the corpus (within a documented small variance for known-skipped tweets, e.g., DM-related entries).
 2. **Structural fidelity preserved**:
-   - Reply chains reconstruct correctly (correct `root` and `parent` references for every reply)
-   - Original timestamps in `createdAt` (not the pump time)
-   - Quote-tweets within the corpus resolve to Bluesky URIs; external quote-tweets fall back to Twitter URLs as link cards
-   - Tweet media (images) uploaded as Bluesky blobs and attached to posts
-   - `t.co` URLs replaced with their expanded forms
-3. **Live sync operational**: The pump runs in continuous mode, polling Community Archive every 5-15 minutes for new tweets and publishing them within one polling cycle.
-4. **Actively used**: UltimApe is using the resulting Bluesky archive as a real mirror, not just verifying it as a tech demo. New tweets posted on Twitter appear on Bluesky automatically.
+   - **Reply chains**: 100% of in-corpus replies have correct `root` and `parent` references when checked via the AT Protocol API. *Verifiable*: a sample of ≥50 multi-tweet threads (including ≥10 with branching) renders correctly when viewed on bsky.app.
+   - **Timestamps**: 100% of records carry the original `createdAt` from the Twitter archive, not the pump time. *Verifiable*: a query of `createdAt` distribution shows the expected ~10-year span, not all records clustered at pump-run time.
+   - **Quote-tweets**: in-corpus quotes resolve to `app.bsky.embed.record` references; out-of-corpus quotes fall back to `app.bsky.embed.external` link cards pointing at Twitter. *Verifiable*: a sample of ≥20 quote-tweets renders correctly in both cases.
+   - **Media**: image-bearing tweets show as `app.bsky.embed.images` with the correct number of blobs (1-4 per post). *Verifiable*: a sample of ≥30 image-tweets shows the right images on the right posts.
+   - **Link unwrapping**: zero `t.co` URLs remain in the published text; all are replaced with their expanded forms.
+3. **Live sync operational**: The pump runs in continuous mode, polling Community Archive every 5-15 minutes for new tweets. *Verifiable*: a tweet posted on Twitter, captured by the Community Archive browser plugin, appears on Bluesky within one polling cycle plus rate-limit slack.
+4. **Resumability**: An interrupted backfill (kill -9 mid-run) resumes from the cursor without duplicate posts and without data loss. *Verifiable*: deliberate interruption test mid-backfill shows the same final-record count as an uninterrupted run.
+5. **Dry-run produces a useful diff**: The dry-run mode output is human-readable enough that a developer can identify potential issues (overflow tweets, unresolvable references, missing media) before running the real pump.
+6. **Actively used**: UltimApe is using the resulting Bluesky archive as a real mirror, not just verifying it as a tech demo. New tweets posted on Twitter appear on Bluesky automatically and remain visible/searchable on his profile.
 
 **Phase 2 (multi-user validation)** is the next phase, with its own success criteria:
 
@@ -487,15 +492,15 @@ Rough sequencing for the build. Each milestone produces something demonstrable. 
 - CLI scaffold with `commander`
 - Docker Compose for self-hosted Supabase (or Supabase cloud project) running locally
 - Initial schema migration applied (`sync_state`, `sync_failures`, `cid_cache` tables)
-- Auth working: can create a Bluesky session, can hit Community Archive's Supabase REST API, can connect to Murmur's Supabase
-- *Demonstrable*: `murmur status` prints "connected to CA as ultimape, connected to Bluesky as @ultimape.bsky.wovensoup.com, Supabase OK, cursor: not yet started"
+- Auth working: can create a Bluesky session, can hit Community Archive's Supabase REST API, can connect to Hivesong's Supabase
+- *Demonstrable*: `hivesong status` prints "connected to CA as ultimape, connected to Bluesky as @ultimape.bsky.wovensoup.com, Supabase OK, cursor: not yet started"
 
 **M1: Single Tweet End-to-End**
 - Fetch one tweet from Community Archive
 - Post it to Bluesky with original `createdAt`
 - Verify with `getRecord` using deterministic `rkey`
 - **Empirical rate-limit characterization**: post a small batch (e.g. 50-100 tweets) at increasing rates, watch for 429s, document the actual `createRecord` ceiling. This determines viable backfill duration and shapes M5 expectations.
-- *Demonstrable*: `murmur pump --limit 1 --dry-run` shows what would happen; without `--dry-run`, posts a single tweet. Rate limit findings are written up in the repo.
+- *Demonstrable*: `hivesong pump --limit 1 --dry-run` shows what would happen; without `--dry-run`, posts a single tweet. Rate limit findings are written up in the repo.
 
 **M2: Threading**
 - Reply chains: correct `root` and `parent` references
@@ -529,7 +534,7 @@ Rough sequencing for the build. Each milestone produces something demonstrable. 
 - Polling mode that runs continuously
 - New tweets in Community Archive appear on Bluesky within one polling cycle
 - Survives network interruptions, API errors, restarts
-- *Demonstrable*: Tweet from Twitter → Community Archive picks it up via browser plugin → Murmur publishes to Bluesky, all within ~15 minutes
+- *Demonstrable*: Tweet from Twitter → Community Archive picks it up via browser plugin → Hivesong publishes to Bluesky, all within ~15 minutes
 
 ### Getting Started
 
@@ -538,7 +543,7 @@ This is a suggested starting point. The repo structure, CLI surface, and config 
 **Suggested repo layout:**
 
 ```
-murmur/
+hivesong/
 ├── src/
 │   ├── cli.ts                       # commander setup, entry point
 │   ├── pump.ts                      # main pump orchestration
@@ -562,8 +567,8 @@ murmur/
 │   ├── migrations/                  # SQL migration files
 │   └── config.toml                  # supabase CLI config
 ├── docker/
-│   ├── Dockerfile                   # for the murmur container
-│   └── docker-compose.yml           # murmur + supabase together
+│   ├── Dockerfile                   # for the hivesong container
+│   └── docker-compose.yml           # hivesong + supabase together
 ├── .env.example
 ├── package.json
 ├── tsconfig.json
@@ -573,27 +578,39 @@ murmur/
 **Configuration via environment variables** (Docker-friendly):
 
 ```
-MURMUR_CA_USERNAME=ultimape
-MURMUR_BSKY_HANDLE=ultimape.bsky.wovensoup.com
-MURMUR_BSKY_APP_PASSWORD=xxxx-xxxx-xxxx-xxxx
-MURMUR_BSKY_PDS=https://bsky.social         # or self-hosted PDS URL
+HIVESONG_CA_USERNAME=ultimape
+HIVESONG_BSKY_HANDLE=ultimape.bsky.wovensoup.com
+HIVESONG_BSKY_APP_PASSWORD=xxxx-xxxx-xxxx-xxxx
+HIVESONG_BSKY_PDS=https://bsky.social         # or self-hosted PDS URL
 SUPABASE_URL=http://localhost:54321         # self-hosted or cloud URL
 SUPABASE_ANON_KEY=eyJ...                    # from supabase setup
 SUPABASE_SERVICE_KEY=eyJ...                 # for migrations and admin ops
-MURMUR_POLL_INTERVAL_SEC=600                # live sync interval
-MURMUR_LOCAL_ARCHIVE_PATH=./twitter-archive # optional, for media fallback
+HIVESONG_POLL_INTERVAL_SEC=600                # live sync interval
+HIVESONG_LOCAL_ARCHIVE_PATH=./twitter-archive # optional, for media fallback
 ```
 
 **Suggested CLI surface:**
 
 ```
-murmur status               # show connection state, cursor position, synced count
-murmur pump                 # run backfill mode (one pass)
-murmur pump --limit N       # pump only N tweets (testing)
-murmur pump --dry-run       # parse and plan, don't post
-murmur sync                 # run live sync mode (long-lived process)
-murmur retry                # drain the retry queue
+hivesong status               # show connection state, cursor position, synced count
+hivesong pump                 # run backfill mode (one pass)
+hivesong pump --limit N       # pump only N tweets (testing)
+hivesong pump --dry-run       # parse and plan, don't post
+hivesong sync                 # run live sync mode (long-lived process)
+hivesong retry                # drain the retry queue
 ```
+
+**Quickest possible test (after install + .env setup):**
+
+```
+npm run cli -- pump --limit 10 --dry-run
+```
+
+This fetches the first 10 tweets from Community Archive, builds the dependency graph, and prints a report of what *would* be posted, without actually publishing anything to Bluesky. It's the single fastest way to verify that credentials, network access, and parsing all work end-to-end before committing to the full backfill.
+
+**State backend options:**
+
+The prototype defaults to Supabase, but a developer working on the pump should not be required to spin up a Supabase instance just to test parsing logic. The `state/` module should support a JSON-file fallback as an alternative backend when `SUPABASE_URL` is unset. This keeps the early-development feedback loop fast (no Postgres needed for unit tests, dry-runs, or local hacking on facet logic) while preserving Supabase as the production backend. The JSON fallback is intentionally not suitable for live multi-user deployments. It exists for development and small-archive single-user runs.
 
 **Local development:**
 
@@ -604,11 +621,11 @@ murmur retry                # drain the retry queue
 
 **Docker self-hosting:**
 
-`docker-compose.yml` should run two services together: Murmur as a long-lived process (running `murmur sync`) and a self-hosted Supabase stack for state storage. Supabase's official Docker Compose configuration provides Postgres, Auth, REST API, Realtime, and Studio. Murmur only needs Postgres and the REST API for the prototype, but the rest comes for free and supports the future hosted service path. Alternatively, point `SUPABASE_URL` at a cloud Supabase project (free tier is plenty for single-user state) and skip the local Supabase containers. Murmur becomes a single small Node Alpine container.
+`docker-compose.yml` should run two services together: Hivesong as a long-lived process (running `hivesong sync`) and a self-hosted Supabase stack for state storage. Supabase's official Docker Compose configuration provides Postgres, Auth, REST API, Realtime, and Studio. Hivesong only needs Postgres and the REST API for the prototype, but the rest comes for free and supports the future hosted service path. Alternatively, point `SUPABASE_URL` at a cloud Supabase project (free tier is plenty for single-user state) and skip the local Supabase containers. Hivesong becomes a single small Node Alpine container.
 
 **Where to start:**
 
-M0 (project skeleton + auth) is the obvious first task. A working `murmur status` that successfully connects to both Community Archive and Bluesky and reports the cursor position is the smallest meaningful demo. Everything else builds on that.
+M0 (project skeleton + auth) is the obvious first task. A working `hivesong status` that successfully connects to both Community Archive and Bluesky and reports the cursor position is the smallest meaningful demo. Everything else builds on that.
 
 The first PR should ideally include:
 - `package.json` with the dependencies named in Tech Stack
@@ -622,7 +639,7 @@ That establishes the project shape. Subsequent PRs implement the milestones.
 
 ### 3.1 Core Concept: The Pump
 
-Murmur is a **pump**: it connects to Community Archive on one end and Bluesky on the other, and pushes tweets through in chronological order. It maintains a cursor (the timestamp of the last successfully synced tweet) and advances forward through the corpus.
+Hivesong is a **pump**: it connects to Community Archive on one end and Bluesky on the other, and pushes tweets through in chronological order. It maintains a cursor (the timestamp of the last successfully synced tweet) and advances forward through the corpus.
 
 ```
 Twitter ──► [browser plugin] ──► Community Archive DB ──► [MURMUR PUMP] ──► Bluesky
@@ -853,7 +870,7 @@ For the prototype, the application code uses a single hardcoded `user_id` UUID a
 
 A naive approach (checking all 150k tweets against Bluesky on every run) is wasteful and won't scale to many users. The sync strategy must minimize API calls to both Community Archive and Bluesky while storing minimal per-user data on the service.
 
-**Core principle: the cursor is (almost) sufficient.** If Community Archive's tweet data is append-only, a single high-water-mark timestamp per user tells Murmur everything it needs to know. One timestamp per user, essentially zero storage overhead.
+**Core principle: the cursor is (almost) sufficient.** If Community Archive's tweet data is append-only, a single high-water-mark timestamp per user tells Hivesong everything it needs to know. One timestamp per user, essentially zero storage overhead.
 
 **The problem cases the cursor doesn't cover:**
 
@@ -907,7 +924,7 @@ com.atproto.repo.getRecord({
 
 ### 3.8 Live Sync Mode
 
-After backfill completes, Murmur switches to polling:
+After backfill completes, Hivesong switches to polling:
 
 1. Periodically query Community Archive for tweets with `created_at > cursor` (e.g., every 5-15 minutes).
 2. If new tweets are found, pump them through the same pipeline.
@@ -925,6 +942,39 @@ Before publishing anything, the pipeline should support a dry-run that:
 - Reports statistics: total tweets, threads, orphans, quote-posts, media attachments, estimated publish time
 - Identifies potential issues: tweets over 300 graphemes, unresolvable reply chains, missing media
 
+### 3.10 Risks, Assumptions & Dependencies
+
+A consolidated view of what could go wrong, what's being assumed, and what the project depends on. Most of these are also referenced in Section 5 (Open Questions) or Section 4 caveats; collected here for grant reviewers and prospective developers.
+
+**Technical risks:**
+
+- **Bluesky rate limits**: `createRecord` rate limits aren't formally documented. Empirical characterization happens in M1; if limits are tight (e.g., 100 records/minute), a 150,000-tweet backfill becomes a multi-day operation. Mitigation: batched cursor-resumable architecture from M0 onward.
+- **AT Protocol evolution**: Bluesky's lexicons are still maturing. A breaking change to `app.bsky.feed.post`, `app.bsky.embed.images`, or facet structure during the build period would require pipeline updates. Mitigation: pinning `@atproto/api` version, monitoring the [AT Protocol changelog](https://atproto.com/), and using deterministic rkeys so old records can be re-derived.
+- **Twitter archive format changes**: Twitter has changed its archive export format multiple times historically (which is part of why Goliath stalled). Current format is stable but not guaranteed. Mitigation: the pipeline depends on Community Archive's normalization layer when possible (CA absorbs format changes), and the local-archive ingestion path is documented as best-effort against the current export.
+- **Backdated post visibility**: It's assumed (but unverified) that Bluesky's appview displays backdated posts in chronological position on the user's profile without spamming followers' Following feeds. If wrong, the user-facing experience of a 150k import becomes problematic. Empirical test happens in M2/M3 with a small batch before full backfill.
+- **Long-text overflow**: Twitter's 280-character limit was generous for individual posts but Bluesky's 300-grapheme limit applies to a different unit (graphemes vs. codepoints). Some tweets that fit in Twitter's count won't fit in Bluesky's. Mitigation: open question on the splitting strategy; tested and decided during M3.
+
+**External dependencies:**
+
+- **Community Archive availability**: CA is a small project on Supabase. If CA goes offline, has its anon key rotated without notice, or substantially restructures its schema, the pipeline can fall back to local Twitter archive ingestion (Section 2.2) but loses the live-sync capability that depends on CA's browser-plugin updates.
+- **Bluesky PDS availability**: For users on `bsky.social`, downtime of Bluesky's hosted PDS pauses the pump. The retry queue handles transient outages; extended outages require manual intervention. Self-hosted PDS deployments (Section 4.1) shift this dependency to the user's own infrastructure.
+- **Twitter media CDN (`pbs.twimg.com`)**: For media not present in the local archive, the pipeline fetches images from Twitter's CDN. If those URLs decay or get rate-limited, some images won't migrate. Mitigation: prefer local archive media when available; document missing-media behavior in dry-run output.
+- **Supabase availability** (for hosted-service deployments): the prototype's state can run against self-hosted Supabase, cloud Supabase free tier, or a local SQLite/JSON fallback (see Getting Started). For Phase 3 hosted SaaS, Supabase cloud uptime becomes a service-level dependency.
+
+**Key assumptions:**
+
+- The user's Bluesky account exists and is functional. The pump does not create accounts; users create their own and provide credentials.
+- The user has either (a) a Community Archive entry or (b) a local Twitter archive `.zip`. Without a data source, there's nothing to pump.
+- Post-creation timestamps via `createdAt` are honored by Bluesky's appview for display ordering. If Bluesky changes this behavior, the migration's epistemic value (knowing when claims were made) is reduced.
+- AT Protocol's account migration mechanisms remain functional. Section 4.1 (self-hosted PDS) and the backer-protection commitments in licensing depend on users being able to migrate accounts off any hypothetical hosted service.
+- Most quote-tweet URLs in archives use the standard `https://twitter.com/{user}/status/{id}` format. Edge cases (mobile.twitter.com, x.com after the rebrand, archived URLs) need to be normalized.
+
+**Legal & policy considerations:**
+
+- The project moves the user's own public content from Twitter to Bluesky. Both Twitter's TOS and Bluesky's TOS contemplate users having access to and copies of their own posts. Hivesong isn't scraping protected content, isn't accessing other users' private data, and uses official APIs (Bluesky's `@atproto/api`, Community Archive's published anon key).
+- The retweets-of-others case may be more legally murky. The current scope treats retweets the user authored as carrying the user's own timestamp (when they retweeted) and the original author's content as a quoted reference. The exact legal classification of "quoting another user's tweet on a different platform" varies by jurisdiction. Mitigation: defer this to Open Questions; in MVP scope, retweets may be filtered or simplified.
+- DMs are not in scope and will not be touched even if present in a local archive zip.
+
 ---
 
 ## 4. Future Directions
@@ -935,7 +985,7 @@ The sections below cover Twitter→Bluesky-specific extensions: self-hosting, bi
 
 ### 4.1 Self-Hosted PDS (Core Goal)
 
-The long-term target for Murmur is not [`bsky.social`](https://bsky.social); it's a **self-hosted Bluesky PDS** running on UltimApe's own infrastructure (managed via a local AI agent for everyday operations). The PDS would be accessible at [`bsky.wovensoup.com`](https://bsky.wovensoup.com), and UltimApe's handle would resolve there (`@ultimape.bsky.wovensoup.com`).
+The long-term target for Hivesong is not [`bsky.social`](https://bsky.social); it's a **self-hosted Bluesky PDS** running on UltimApe's own infrastructure (managed via a local AI agent for everyday operations). The PDS would be accessible at [`bsky.wovensoup.com`](https://bsky.wovensoup.com), and UltimApe's handle would resolve there (`@ultimape.bsky.wovensoup.com`).
 
 Why this matters:
 
@@ -960,7 +1010,7 @@ Out of scope for the prototype, but the state DB should track directionality (wh
 
 ### 4.3 Multi-User Hosted Service
 
-The prototype is a self-hosted CLI for a single user. But the architecture is inherently multi-user: Community Archive is a public database with many users, and the pump logic is user-agnostic. The long-term vision is to offer Murmur as a service that anyone on Community Archive can use.
+The prototype is a self-hosted CLI for a single user. But the architecture is inherently multi-user: Community Archive is a public database with many users, and the pump logic is user-agnostic. The long-term vision is to offer Hivesong as a service that anyone on Community Archive can use.
 
 **Deployment modes:**
 
@@ -970,9 +1020,9 @@ Because the prototype already uses Supabase, the path from single-user CLI to mu
 
 - **Self-hosted**: Same backend, plus a Next.js dashboard for status, configuration, and manual controls. Still self-hosted, still single-user (or trusted-multi-user with custom auth). Could run alongside a self-hosted Bluesky PDS on the same machine.
 
-- **Integration**: Submit Murmur to the Community Archive project as an official feature, potentially as a Supabase Edge Function inside CA's existing project. "Sync to Bluesky" button for users who've uploaded their archive.
+- **Integration**: Submit Hivesong to the Community Archive project as an official feature, potentially as a Supabase Edge Function inside CA's existing project. "Sync to Bluesky" button for users who've uploaded their archive.
 
-- **Hosted SaaS** (murmurology.wovensoup.com or similar): Multi-user web app on Supabase cloud + Vercel. Same `sync_state` schema with `user_id` added and Row Level Security enforced. Small subscription fee to cover hosting.
+- **Hosted SaaS** (hivesong.wovensoup.com or similar): Multi-user web app on Supabase cloud + Vercel. Same `sync_state` schema with `user_id` added and Row Level Security enforced. Small subscription fee to cover hosting.
 
 **Recommended stack: Supabase + Next.js + Stripe**
 
@@ -1022,7 +1072,7 @@ create policy "Users manage own sync state"
 
 ### 4.4 Cross-User Reference Remapping
 
-**The problem**: When user A migrates their tweets, some reply to or quote user B's tweets. Since user B hasn't migrated yet, those references point to Twitter URLs. Later, when user B also uses Murmur, user A's posts should ideally be updated to reference user B's real Bluesky posts.
+**The problem**: When user A migrates their tweets, some reply to or quote user B's tweets. Since user B hasn't migrated yet, those references point to Twitter URLs. Later, when user B also uses Hivesong, user A's posts should ideally be updated to reference user B's real Bluesky posts.
 
 **Can Bluesky posts be updated?**
 
@@ -1042,7 +1092,7 @@ Rather than retroactively fixing old posts, handle this at pump time:
 1. **Community Archive as trust anchor**: CA verified ownership at upload time. Sufficient for the prototype.
 2. **Bidirectional linking**: User posts on Twitter with their Bluesky DID, or puts their Twitter handle in their Bluesky profile. Second factor for the hosted service.
 3. **Signed attestation**: Cryptographic proof via Bluesky keypair. Strongest but requires tooling.
-4. **DID registry**: If a Twitter-to-DID mapping registry emerges in the AT Protocol ecosystem, Murmur could consume it.
+4. **DID registry**: If a Twitter-to-DID mapping registry emerges in the AT Protocol ecosystem, Hivesong could consume it.
 
 **Shared index for cross-user resolution:**
 
@@ -1105,7 +1155,7 @@ These were open in earlier drafts. Recording them here so they don't get re-aske
 - **Retweets**: Skip pure retweets initially; focus on original tweets and quote-tweets.
 - **Media sourcing**: Local Twitter archive `tweet_media/` directory primarily; Twitter CDN (`pbs.twimg.com`) as fallback.
 - **Cross-user remapping**: Prospective linking only: link correctly at pump time if the referenced user is already migrated; fall back to Twitter URL otherwise. Retroactive remapping is cascade-prone and out of scope.
-- **Poll interval default**: 5-15 minutes for live sync mode. Configurable via `MURMUR_POLL_INTERVAL_SEC`.
+- **Poll interval default**: 5-15 minutes for live sync mode. Configurable via `HIVESONG_POLL_INTERVAL_SEC`.
 - **Language**: TypeScript on Node.
 - **State storage**: Supabase (Postgres) via `@supabase/supabase-js`. Self-hostable via Docker Compose; cloud Supabase free tier also works. Same backend as Community Archive and as the eventual hosted service.
 
@@ -1116,40 +1166,40 @@ These were open in earlier drafts. Recording them here so they don't get re-aske
 For prospective users, backers, and curious readers. The technical sections above cover the *how*; this section covers the *what does this mean for me?*
 
 **Will this work for my Twitter archive, not just UltimApe's?**
-That's the goal. Phase 1 dogfoods on UltimApe's corpus; Phase 2 generalizes to other users' archives. The architecture is user-agnostic from day one (Section 3.6). If you've uploaded your archive to Community Archive or have your local Twitter `.zip`, you should be able to use Murmur once Phase 2 ships. The prototype focuses on one corpus to surface the hard problems; broader applicability is the next phase.
+That's the goal. Phase 1 dogfoods on UltimApe's corpus; Phase 2 generalizes to other users' archives. The architecture is user-agnostic from day one (Section 3.6). If you've uploaded your archive to Community Archive or have your local Twitter `.zip`, you should be able to use Hivesong once Phase 2 ships. The prototype focuses on one corpus to surface the hard problems; broader applicability is the next phase.
 
 **Will my Bluesky followers' feeds get spammed when I import 10,000 backdated posts?**
 Almost certainly not. Bluesky displays a "backdated" indicator on imported posts and they generally don't appear in followers' "Following" feeds. Anyone visiting your profile will see them in chronological order. This needs empirical confirmation during M2/M3 of the build (it's an open question in Section 5), but it's how Bluesky designed the feature.
 
 **What about my replies and quote-tweets to people who left Twitter?**
-Murmur preserves the structure regardless. If the person you replied to is also using Murmur (or someone has migrated their archive), your reply links to their Bluesky post. If they're not, your post on Bluesky shows a Twitter URL link card pointing at the original tweet. The "conversation" is preserved as far as the available data allows. As more people migrate, more cross-references become live (see Section 4.4).
+Hivesong preserves the structure regardless. If the person you replied to is also using Hivesong (or someone has migrated their archive), your reply links to their Bluesky post. If they're not, your post on Bluesky shows a Twitter URL link card pointing at the original tweet. The "conversation" is preserved as far as the available data allows. As more people migrate, more cross-references become live (see Section 4.4).
 
 **What does it cost?**
-The core tool (Murmur itself) is and will always be free, open-source, and self-hostable. If a hosted service eventually exists (a Phase 3 possibility, not a near-term commitment), it would charge a small subscription to cover hosting costs. No price has been set; nothing is locked in.
+The core tool (Hivesong itself) is and will always be free, open-source, and self-hostable. If a hosted service eventually exists (a Phase 3 possibility, not a near-term commitment), it would charge a small subscription to cover hosting costs. No price has been set; nothing is locked in.
 
 **Can I support this project as a regular person, not a grant program?**
-Yes, but the specific mechanism is being figured out. Likely options will include earmarking a Patreon contribution to UltimApe specifically for Murmur, or a dedicated platform like Open Collective when the funding drive launches. This will be clarified before any campaign goes public.
+Yes, but the specific mechanism is being figured out. Likely options will include earmarking a Patreon contribution to UltimApe specifically for Hivesong, or a dedicated platform like Open Collective when the funding drive launches. This will be clarified before any campaign goes public.
 
 **What about Mastodon? Or other platforms?**
 Phase 1 is Twitter → Bluesky only. Mastodon imports, ActivityPub support, and other source/target platforms are described in Section 1.6 as future scope. The architecture is built around a `Source` interface specifically so additional platforms can be added later without rewriting the pipeline.
 
 **What if I delete my Twitter account before the tool ships?**
-Upload your archive to [Community Archive](https://community-archive.org) before deleting. That preserves the data even if your Twitter account vanishes. Murmur can then sync from the Community Archive copy. Don't wait if you're about to delete.
+Upload your archive to [Community Archive](https://community-archive.org) before deleting. That preserves the data even if your Twitter account vanishes. Hivesong can then sync from the Community Archive copy. Don't wait if you're about to delete.
 
 **Will the migrated tweets be exact duplicates of what's on Twitter?**
 Structurally yes; visually close. Threading, timestamps, quote-tweet relationships, mentions, links, hashtags, and images are preserved. Bluesky uses a different rich-text format (facets) than Twitter's entities, so the underlying data is different but renders equivalently. Videos are an open question for the prototype (Section 5). Some edge cases (like extremely long tweets exceeding Bluesky's 300-grapheme limit) need a policy decision during the build.
 
-**Can Murmur see my private DMs or protected tweets?**
-No. Murmur reads from Community Archive (a public database of *publicly visible* tweets that users have voluntarily uploaded) and from your own Twitter archive `.zip` if you choose to provide it. Twitter's archive includes your DMs, but Murmur ignores that data entirely; only the public tweet stream is processed. There is no Twitter login involved on Murmur's side, no OAuth, no scraping of protected timelines. If a tweet wasn't public on Twitter, it doesn't reach Bluesky through Murmur.
+**Can Hivesong see my private DMs or protected tweets?**
+No. Hivesong reads from Community Archive (a public database of *publicly visible* tweets that users have voluntarily uploaded) and from your own Twitter archive `.zip` if you choose to provide it. Twitter's archive includes your DMs, but Hivesong ignores that data entirely; only the public tweet stream is processed. There is no Twitter login involved on Hivesong's side, no OAuth, no scraping of protected timelines. If a tweet wasn't public on Twitter, it doesn't reach Bluesky through Hivesong.
 
-**What does Murmur store about me?**
-For the self-hosted version, Murmur stores its sync state on infrastructure you control: a Supabase instance you run yourself or a Supabase project you own. The state is operational metadata only: your Twitter username, your Bluesky DID and handle, a cursor showing where the sync left off, a queue of tweets that failed to publish (with error messages), and an optional cache of Bluesky CIDs to avoid redundant API calls. Your tweet content lives on Bluesky, not in Murmur's state DB. If a hosted version is ever offered, the same data plus encrypted Bluesky credentials would be stored on the hosting provider's Supabase, with credential encryption at rest as a baseline.
+**What does Hivesong store about me?**
+For the self-hosted version, Hivesong stores its sync state on infrastructure you control: a Supabase instance you run yourself or a Supabase project you own. The state is operational metadata only: your Twitter username, your Bluesky DID and handle, a cursor showing where the sync left off, a queue of tweets that failed to publish (with error messages), and an optional cache of Bluesky CIDs to avoid redundant API calls. Your tweet content lives on Bluesky, not in Hivesong's state DB. If a hosted version is ever offered, the same data plus encrypted Bluesky credentials would be stored on the hosting provider's Supabase, with credential encryption at rest as a baseline.
 
 **What happens to the project if UltimApe gets hit by a bus?**
 The code is open-source under MIT/Apache. Anyone can fork it, run it, or take it over. The state schema and architecture are documented. The exit-ramp clauses in the licensing section are designed precisely to ensure the project survives any single contributor.
 
-**Why "Murmur"?**
-A murmuration is the emergent flocking pattern of starlings: thousands of individual movements that only make sense as a collective shape when you see the whole flock in motion. Individual tweets look like isolated thoughts; the structure only becomes visible when the relationships between them are preserved. That's what Murmur protects.
+**Why "Hivesong"?**
+A hive's song is the collective hum of a colony at work: thousands of individual bees, each pursuing their own task, producing together a steady resonance that only makes sense as a whole. No single bee carries the song; it's what emerges when their movements coordinate. A Twitter archive is similar. Individual tweets look like isolated thoughts; the shape only becomes visible when the relationships between them are preserved. The colony is the conversation; the song is the thinking.
 
 ---
 
@@ -1172,7 +1222,8 @@ A murmuration is the emergent flocking pattern of starlings: thousands of indivi
 - UltimApe's murmurology research channel: [`are.na/ultimape/murmurology`](https://are.na/ultimape/murmurology)
 - UltimApe on Community Archive: [`community-archive.org/user/ultimape`](https://community-archive.org/user/ultimape)
 - UltimApe's Bluesky: `@ultimape.bsky.wovensoup.com`
-- Future project site: [`murmurology.wovensoup.com`](https://murmurology.wovensoup.com)
+- Future project site: [`hivesong.wovensoup.com`](https://hivesong.wovensoup.com)
+- GitHub repository: [`github.com/ultimape/hivesong`](https://github.com/ultimape/hivesong) (currently private)
 - Supabase: [`supabase.com`](https://supabase.com)
 - Supabase self-hosting: [`supabase.com/docs/guides/self-hosting/docker`](https://supabase.com/docs/guides/self-hosting/docker)
 - Next.js SaaS starter: [`github.com/nextjs/saas-starter`](https://github.com/nextjs/saas-starter)
@@ -1182,17 +1233,17 @@ A murmuration is the emergent flocking pattern of starlings: thousands of indivi
 
 ## Further Reading
 
-Conceptual foundations and related work that informed Murmur's design.
+Conceptual foundations and related work that informed Hivesong's design.
 
 **On owning your data:**
 
-- **"Local-First Software"**: Ink & Switch (2019). The essay that articulates why software should work on your device, sync without servers, and survive the death of any cloud service. Murmur's self-hosted PDS goal is a direct application of local-first principles. [`inkandswitch.com/essay/local-first/`](https://inkandswitch.com/essay/local-first/)
+- **"Local-First Software"**: Ink & Switch (2019). The essay that articulates why software should work on your device, sync without servers, and survive the death of any cloud service. Hivesong's self-hosted PDS goal is a direct application of local-first principles. [`inkandswitch.com/essay/local-first/`](https://inkandswitch.com/essay/local-first/)
 
-- **"Sad State of Personal Data Infrastructure"**: karlicoss / beepb00p. A diagnosis of why personal data is fragmented across services and why the tooling to unify it barely exists. Murmur is one answer to the problem described here. [`beepb00p.xyz/sad-infra.html`](https://beepb00p.xyz/sad-infra.html)
+- **"Sad State of Personal Data Infrastructure"**: karlicoss / beepb00p. A diagnosis of why personal data is fragmented across services and why the tooling to unify it barely exists. Hivesong is one answer to the problem described here. [`beepb00p.xyz/sad-infra.html`](https://beepb00p.xyz/sad-infra.html)
 
-- **Human Programming Interface (HPI)**: karlicoss / beepb00p. A project to unify all personal data exports into a single queryable Python interface. The closest existing project to Murmur's long-term multi-platform archival vision. [`beepb00p.xyz/hpi.html`](https://beepb00p.xyz/hpi.html)
+- **Human Programming Interface (HPI)**: karlicoss / beepb00p. A project to unify all personal data exports into a single queryable Python interface. The closest existing project to Hivesong's long-term multi-platform archival vision. [`beepb00p.xyz/hpi.html`](https://beepb00p.xyz/hpi.html)
 
-- **"Building a Personal Data Warehouse"**: Simon Willison (2020). The creator of Datasette on using SQLite as a personal analytics backend. The Dogsheep project (twitter-to-sqlite, etc.) applies this to Twitter data specifically. Same philosophical lineage as Murmur. [`simonwillison.net/2020/Nov/14/personal-data-warehouses/`](https://simonwillison.net/2020/Nov/14/personal-data-warehouses/)
+- **"Building a Personal Data Warehouse"**: Simon Willison (2020). The creator of Datasette on using SQLite as a personal analytics backend. The Dogsheep project (twitter-to-sqlite, etc.) applies this to Twitter data specifically. Same philosophical lineage as Hivesong. [`simonwillison.net/2020/Nov/14/personal-data-warehouses/`](https://simonwillison.net/2020/Nov/14/personal-data-warehouses/)
 
 - **"Don't Ask If Artificial Intelligence Is Good or Fair, Ask How It Shifts Power"** and other beepb00p essays on data exports and unnecessary databases. Practical thinking about when and how to extract your data from services, and what to do with it once you have it. [`beepb00p.xyz/exports.html`](https://beepb00p.xyz/exports.html) · [`beepb00p.xyz/unnecessary-db.html`](https://beepb00p.xyz/unnecessary-db.html)
 
@@ -1200,9 +1251,9 @@ Conceptual foundations and related work that informed Murmur's design.
 
 - **"The Liminist"**: Alex Singh. A definition of the thinker who specializes in connections between domains rather than within them. "The evidence of their work exists at the intersections between objects." Describes the kind of person whose memex is most damaged by a flat export. [alexsingh.com](https://www.alexsingh.com/)
 
-- **Ted Nelson**: Inventor of hypertext, originator of Project Xanadu. Nelson's lifelong argument that documents are not paper simulations but packages of interconnected ideas is the philosophical foundation of Murmur. His concept of "intertwingularity" (that everything is deeply interconnected) describes exactly what a memex preserves that a flat archive destroys. Key works: *Computer Lib/Dream Machines* (1974), *Literary Machines* (1981). See also Bret Victor's overview: [`worrydream.com/Engelbart/`](https://worrydream.com/Engelbart/)
+- **Ted Nelson**: Inventor of hypertext, originator of Project Xanadu. Nelson's lifelong argument that documents are not paper simulations but packages of interconnected ideas is the philosophical foundation of Hivesong. His concept of "intertwingularity" (that everything is deeply interconnected) describes exactly what a memex preserves that a flat archive destroys. Key works: *Computer Lib/Dream Machines* (1974), *Literary Machines* (1981). See also Bret Victor's overview: [`worrydream.com/Engelbart/`](https://worrydream.com/Engelbart/)
 
-- **"Spreading, Threading"**: Aaron Z. Lewis (2019). An analysis of Twitter threading as a distinct compositional form, not just a workaround for the character limit, but a medium that shapes how ideas develop in public. Validates Murmur's premise that thread structure is *content*, not decoration. [`aaronzlewis.com/blog/2019/05/01/spreading-threading/`](https://aaronzlewis.com/blog/2019/05/01/spreading-threading/)
+- **"Spreading, Threading"**: Aaron Z. Lewis (2019). An analysis of Twitter threading as a distinct compositional form, not just a workaround for the character limit, but a medium that shapes how ideas develop in public. Validates Hivesong's premise that thread structure is *content*, not decoration. [`aaronzlewis.com/blog/2019/05/01/spreading-threading/`](https://aaronzlewis.com/blog/2019/05/01/spreading-threading/)
 
 - **"A Word Game to Communicate in Any Language"**: Ajit Narayanan (TED). On representing meaning as a map of linked question-answer pairs rather than a linear sequence of words. "Meaning is really the underbelly of language. It's what comes after thought but before language." Directly supports why a graph of tweets conveys meaning that a linear export cannot. [`ted.com/talks/ajit_narayanan_a_word_game_to_communicate_in_any_language`](https://www.ted.com/talks/ajit_narayanan_a_word_game_to_communicate_in_any_language/transcript#t-286153)
 
@@ -1210,27 +1261,27 @@ Conceptual foundations and related work that informed Murmur's design.
 
 - **"Where Good Ideas Come From" / "The Slow Hunch"**: Steven Johnson (TED talk, 2010; book, 2010). Ideas aren't epiphanies; they're slow accumulations across months and years, emerging when hunches from different periods finally connect. Darwin thought his theory of natural selection arrived in a flash, but his notebooks show the idea forming months earlier. A tweet archive is where hunches incubate; destroying the timeline destroys the incubation record. This is the temporal argument for why timestamps are epistemic evidence (Section 1.2).
 
-- **Darwin's reading method**: Via JASNA, based on Darwin's *Recollections*. Darwin maintained personal indexes at the back of every book, compiled classified indexes across his entire library, and broke books apart to use as working tools. Howard Gruber called this "a man at work using books as tools for getting knowledge, not as exhibitions of knowledge already crystallised." The same method applied to tweets is the cognitive process that Murmur preserves. [`jasna.org/persuasions/on-line/vol30no2/bankes.html`](https://www.jasna.org/persuasions/on-line/vol30no2/bankes.html)
+- **Darwin's reading method**: Via JASNA, based on Darwin's *Recollections*. Darwin maintained personal indexes at the back of every book, compiled classified indexes across his entire library, and broke books apart to use as working tools. Howard Gruber called this "a man at work using books as tools for getting knowledge, not as exhibitions of knowledge already crystallised." The same method applied to tweets is the cognitive process that Hivesong preserves. [`jasna.org/persuasions/on-line/vol30no2/bankes.html`](https://www.jasna.org/persuasions/on-line/vol30no2/bankes.html)
 
 - **Dostoyevsky on note-taking**: *Notes From Underground* (1864). "I do not want to hamper myself with anything in preparing my notes. I will not introduce any order or system. Whatever I recall, I will write down." A 19th-century literary articulation of stigmergic, ontologically-soft thinking. The same approach UltimApe takes with tweets. The Underground Man's narrative method is itself a kind of memex.
 
-- **Conor White-Sullivan on Twitter as collaborative memex**: Founder of [Roam Research](https://roamresearch.com), a memex tool. His [May 2019 thread](https://x.com/Conaw/status/1129105485175480321): "Twitter as a company is culturally oriented around NOW... The Twitter users who search their own and others' timelines for building webs of threads are hacking the platform to build a collaborative Memex (memory extension). Eventually those users will migrate." Third-party validation that the "Twitter as memex" pattern is widely recognized, and a prediction Murmur is now helping fulfill.
+- **Conor White-Sullivan on Twitter as collaborative memex**: Founder of [Roam Research](https://roamresearch.com), a memex tool. His [May 2019 thread](https://x.com/Conaw/status/1129105485175480321): "Twitter as a company is culturally oriented around NOW... The Twitter users who search their own and others' timelines for building webs of threads are hacking the platform to build a collaborative Memex (memory extension). Eventually those users will migrate." Third-party validation that the "Twitter as memex" pattern is widely recognized, and a prediction Hivesong is now helping fulfill.
 
 - **"Augmenting Human Intellect"**: Bret Victor on Doug Engelbart. The original vision of computers as tools for thought: the intellectual ancestor of the memex concept. [`worrydream.com/Engelbart/`](https://worrydream.com/Engelbart/)
 
 **On the IndieWeb and data portability:**
 
-- **"COPE: Create Once, Publish Everywhere"**: NPR / Daniel Jacobson (2009). NPR's content strategy of separating content from platform-specific display, enabling the same material to be published to websites, RSS, iPods, mobile, and TV. Murmur does the same thing: content created on Twitter, published to Bluesky with platform-appropriate formatting (Twitter entities → Bluesky facets). The principle that content must be free of platform-specific markup is exactly what the facet conversion accomplishes. [`npr.org/sections/inside/2009/02/clean_content_portable_content.html`](https://www.npr.org/sections/inside/2009/02/clean_content_portable_content.html)
+- **"COPE: Create Once, Publish Everywhere"**: NPR / Daniel Jacobson (2009). NPR's content strategy of separating content from platform-specific display, enabling the same material to be published to websites, RSS, iPods, mobile, and TV. Hivesong does the same thing: content created on Twitter, published to Bluesky with platform-appropriate formatting (Twitter entities → Bluesky facets). The principle that content must be free of platform-specific markup is exactly what the facet conversion accomplishes. [`npr.org/sections/inside/2009/02/clean_content_portable_content.html`](https://www.npr.org/sections/inside/2009/02/clean_content_portable_content.html)
 
-- **"Right to an API Key" / "Right to Be Represented by a Bot"**: Albert Wenger / Continuations (2014-2015). A proposal that individuals should have a legal right to full read/write API access to their own data: "an individual right to be represented by an algorithm." The extended talk includes a telling example: you can't even search your own Facebook wall posts, because the platform decided not to make it easy. A bot acting on your behalf could keep your own archive in your own data store. "It completely inverts the power relationship between networks and their participants." Community Archive is a grassroots implementation of this principle. Murmur is the algorithm that exercises it. [`continuations.com/post/96355016855/labor-day-right-to-an-api-key-algorithmic`](https://continuations.com/post/96355016855/labor-day-right-to-an-api-key-algorithmic) · [Talk transcript](https://continuations.com/post/108912689660/big-and-bot-policy-proposals-transcript)
+- **"Right to an API Key" / "Right to Be Represented by a Bot"**: Albert Wenger / Continuations (2014-2015). A proposal that individuals should have a legal right to full read/write API access to their own data: "an individual right to be represented by an algorithm." The extended talk includes a telling example: you can't even search your own Facebook wall posts, because the platform decided not to make it easy. A bot acting on your behalf could keep your own archive in your own data store. "It completely inverts the power relationship between networks and their participants." Community Archive is a grassroots implementation of this principle. Hivesong is the algorithm that exercises it. [`continuations.com/post/96355016855/labor-day-right-to-an-api-key-algorithmic`](https://continuations.com/post/96355016855/labor-day-right-to-an-api-key-algorithmic) · [Talk transcript](https://continuations.com/post/108912689660/big-and-bot-policy-proposals-transcript)
 
-- **Aaron Parecki, "Twitter via IndieWeb tools"** (2019). A demonstration of POSSE (Publish on your Own Site, Syndicate Elsewhere) in practice: having a full Twitter conversation without ever visiting Twitter. Murmur does reverse-POSSE: pulling content *back* from the platform to a self-hosted home. [`aaronparecki.com/2019/02/20/32/twitter`](https://aaronparecki.com/2019/02/20/32/twitter)
+- **Aaron Parecki, "Twitter via IndieWeb tools"** (2019). A demonstration of POSSE (Publish on your Own Site, Syndicate Elsewhere) in practice: having a full Twitter conversation without ever visiting Twitter. Hivesong does reverse-POSSE: pulling content *back* from the platform to a self-hosted home. [`aaronparecki.com/2019/02/20/32/twitter`](https://aaronparecki.com/2019/02/20/32/twitter)
 
-- **"Delete Never: The Digital Hoarders Who Collect Tumblrs"**: Gizmodo (2019). People doing for Tumblr what Murmur does for Twitter: rescuing intellectual work from a platform that could disappear. Shows the need is universal across platforms, not a personal quirk. [`gizmodo.com/delete-never-the-digital-hoarders-who-collect-tumblrs-1832900423`](https://gizmodo.com/delete-never-the-digital-hoarders-who-collect-tumblrs-1832900423)
+- **"Delete Never: The Digital Hoarders Who Collect Tumblrs"**: Gizmodo (2019). People doing for Tumblr what Hivesong does for Twitter: rescuing intellectual work from a platform that could disappear. Shows the need is universal across platforms, not a personal quirk. [`gizmodo.com/delete-never-the-digital-hoarders-who-collect-tumblrs-1832900423`](https://gizmodo.com/delete-never-the-digital-hoarders-who-collect-tumblrs-1832900423)
 
 **On web archiving and link rot:**
 
-- **"Archiving URLs"**: Gwern Branwen. A comprehensive strategy for fighting link rot using a combination of local downloads, Internet Archive submissions, and cryptographic timestamping. Murmur's anti-rot strategy (Section 1.6) draws from this approach. [`gwern.net/archiving`](https://gwern.net/archiving)
+- **"Archiving URLs"**: Gwern Branwen. A comprehensive strategy for fighting link rot using a combination of local downloads, Internet Archive submissions, and cryptographic timestamping. Hivesong's anti-rot strategy (Section 1.6) draws from this approach. [`gwern.net/archiving`](https://gwern.net/archiving)
 
 - **Stewart Brand on monk feces** (via Gwern, *The Clock of the Long Now*). A group of monks carved scriptures into stone for posterity, but posterity would value a preserved collection of their feces far more, for what it reveals about global warming and countless other phenomena. The point: the metadata, connections, and context surrounding content may be more valuable than the content itself. Supports the argument that preserving the graph of a tweet archive matters more than preserving the text. [`gwern.net/About#long-site`](http://www.gwern.net/About#long-site)
 
