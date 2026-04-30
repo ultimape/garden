@@ -1,6 +1,6 @@
 # Project Hivesong
 
-Published Initial Draft - Apr 2026
+Published Draft - Apr 2026
 
 **A continuous sync pipeline that pumps tweets from Community Archive to Bluesky with structural fidelity.**
 
@@ -48,7 +48,7 @@ Status: Requirements Draft. Seeking developer collaborator for prototype.
   - [The team](#the-team)
   - [Funding model](#funding-model)
   - [Why this attempt is different](#why-this-attempt-is-different)
-  - [Licensing & business model](#licensing--business-model)
+  - [Licensing and business model](#licensing-and-business-model)
   - [What backers get](#what-backers-get)
 
 ### For developers (technical spec)
@@ -56,11 +56,11 @@ Status: Requirements Draft. Seeking developer collaborator for prototype.
 - [1. Structural Requirements (What Must Survive)](#structural-requirements-what-must-survive)
   - [1.1 Thread Structure](#thread-structure)
   - [1.2 Timestamps as Epistemic Record](#timestamps-as-epistemic-record)
-  - [1.3 Quote Posts / Embeds](#quote-posts--embeds)
+  - [1.3 Quote Posts and Embeds](#quote-posts-and-embeds)
   - [1.4 Cross-Platform References](#cross-platform-references)
   - [1.5 Media Attachments](#media-attachments)
-  - [1.6 Link & Media Preservation (Anti-Rot)](#link--media-preservation-anti-rot)
-- [2. Data Sources & Formats](#data-sources--formats)
+  - [1.6 Link and Media Preservation (Anti-Rot)](#link-and-media-preservation-anti-rot)
+- [2. Data Sources and Formats](#data-sources-and-formats)
   - [2.1 Community Archive](#community-archive-remote-api)
   - [2.2 Twitter Archive](#twitter-archive-local)
   - [2.3 Are.na](#arena-remote-api)
@@ -75,12 +75,12 @@ Status: Requirements Draft. Seeking developer collaborator for prototype.
   - [3.2 Phase 1: Fetch from Community Archive](#phase-1-fetch-from-community-archive)
   - [3.3 Phase 2: Dependency Check](#phase-2-dependency-check)
   - [3.4 Phase 3: Publish to Bluesky](#phase-3-publish-to-bluesky)
-  - [3.5 Text & Facet Handling](#text--facet-handling)
-  - [3.6 State Management & Resumability](#state-management--resumability)
+  - [3.5 Text and Facet Handling](#text-and-facet-handling)
+  - [3.6 State Management and Resumability](#state-management-and-resumability)
   - [3.7 Sync Efficiency (Scaling Sub-Goal)](#sync-efficiency-scaling-sub-goal)
   - [3.8 Live Sync Mode](#live-sync-mode)
   - [3.9 Dry Run Mode](#dry-run-mode)
-  - [3.10 Risks, Assumptions & Dependencies](#risks-assumptions--dependencies)
+  - [3.10 Risks, Assumptions and Dependencies](#risks-assumptions-and-dependencies)
 - [4. Future Directions](#future-directions)
   - [4.1 Self-Hosted PDS](#self-hosted-pds-core-goal)
   - [4.2 Bidirectional Sync](#bidirectional-sync)
@@ -90,7 +90,7 @@ Status: Requirements Draft. Seeking developer collaborator for prototype.
 
 ### For everyone (appendix)
 
-- [References & Resources](#references--resources)
+- [References and Resources](#references-and-resources)
 - [Further Reading](#further-reading)
 
 ---
@@ -235,7 +235,7 @@ A natural question, given that UltimApe's previous Twitter-archive project (Goli
 
 This isn't a guarantee. Open-source projects stall for many reasons, and the risk is real. But the conditions that caused Goliath to stall have substantially changed.
 
-### Licensing & business model
+### Licensing and business model
 
 > **TL;DR for non-developers:** The actual Hivesong tool — the thing that copies your tweets — is free, open-source, and yours to keep, forever. You can run it yourself for free if you can manage a Linux server. *If* a paid hosted version is ever built (so non-technical people can use it without running servers), the hosting code would be open-source too, but with a license that asks commercial competitors to share their improvements back. Either way, the tool itself is always free.
 
@@ -316,7 +316,7 @@ Specific requirements:
 - Posts must be created in chronological order within each thread to ensure reply chains resolve correctly.
 - The pipeline should log the mapping: `twitter_id → bluesky_at_uri` for every post, so cross-references can be resolved.
 
-### 1.3 Quote Posts / Embeds
+### 1.3 Quote Posts and Embeds
 
 Twitter quote-tweets are a primary mechanism for weaving: connecting ideas across threads and time. A quote-tweet from 2021 referencing a post from 2018 is a semantic link, not just a repost.
 
@@ -340,7 +340,7 @@ Tweets with images should have those images uploaded to Bluesky as blobs and att
 
 Community Archive does not preserve tweet images. Media must be sourced from the local Twitter archive's `tweet_media/` directory or from Twitter's CDN (`pbs.twimg.com`) if URLs are still live. Image capture should be treated as urgent: images that exist today may not exist next month. See Section 1.6 for the broader anti-rot strategy.
 
-### 1.6 Link & Media Preservation (Anti-Rot)
+### 1.6 Link and Media Preservation (Anti-Rot)
 
 A tweet that says "this paper shows X" with a dead link is a thought with its evidence amputated. Link rot in a memex isn't just inconvenience; it's brain damage.
 
@@ -358,7 +358,7 @@ Strategies, ordered from most urgent to aspirational:
 
 ---
 
-## 2. Data Sources & Formats
+## 2. Data Sources and Formats
 
 ### 2.1 Community Archive (Remote API)
 
@@ -709,7 +709,7 @@ For each tweet that passes dependency check:
 4. **Advance the cursor** to this tweet's `created_at`.
 5. **Rate-limit delay**: pause between posts (start at 1-2 seconds; adjust based on rate limit headers).
 
-### 3.5 Text & Facet Handling
+### 3.5 Text and Facet Handling
 
 This is the most technically delicate part of the pump. Twitter and Bluesky represent rich text very differently, and getting the conversion wrong produces broken links, mangled mentions, or rejected posts. Most bugs in published Bluesky import tools live here.
 
@@ -823,7 +823,7 @@ After building all facets for a post:
 
 The `RichText` class handles all of this when used end-to-end. If you build facets manually (Option B above), explicitly sort and validate before publishing.
 
-### 3.6 State Management & Resumability
+### 3.6 State Management and Resumability
 
 The pump must be **resumable**: it will be interrupted (network errors, rate limits, machine reboots) and must pick up exactly where it left off.
 
@@ -946,7 +946,7 @@ Before publishing anything, the pipeline should support a dry-run that:
 - Reports statistics: total tweets, threads, orphans, quote-posts, media attachments, estimated publish time
 - Identifies potential issues: tweets over 300 graphemes, unresolvable reply chains, missing media
 
-### 3.10 Risks, Assumptions & Dependencies
+### 3.10 Risks, Assumptions and Dependencies
 
 A consolidated view of what could go wrong, what's being assumed, and what the project depends on. Most of these are also referenced in Section 5 (Open Questions) or Section 4 caveats; collected here for grant reviewers and prospective developers.
 
@@ -1208,7 +1208,7 @@ A hive's song is the collective hum of a colony at work: thousands of individual
 
 ---
 
-## References & Resources
+## References and Resources
 
 - Bluesky post creation tutorial: [`docs.bsky.app/docs/tutorials/creating-a-post`](https://docs.bsky.app/docs/tutorials/creating-a-post)
 - Bluesky timestamp docs (backdating): [`docs.bsky.app/docs/advanced-guides/timestamps`](https://docs.bsky.app/docs/advanced-guides/timestamps)
