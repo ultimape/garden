@@ -348,7 +348,9 @@ Strategies, ordered from most urgent to aspirational:
 
 - **Image capture during pump execution** (prototype priority): When pumping a tweet with media, fetch images from Twitter's CDN and upload to Bluesky. Fall back to local archive. Log any losses. This is the one anti-rot measure that belongs in the prototype.
 - **t.co unwrapping** (prototype priority): Twitter wraps all URLs in `t.co` shortened links that redirect through Twitter's servers. If `t.co` ever goes down, every link in every tweet breaks simultaneously. The pump should use the expanded URL from the archive's `entities` field instead of the `t.co` version.
-- **URL liveness checks** (post-prototype): For each URL in a tweet being published, check if it's still live. Log dead links. Check for archived copies on the Wayback Machine or archive.today.
+- **Multi-hop URL unshortening** (prototype priority): Twitter's `entities.expanded_url` only resolves one hop past `t.co`. Many archive URLs go through additional shorteners (`bit.ly`, `ow.ly`, `goo.gl`, `tinyurl.com`, vendor-specific shorteners), sometimes 5-7 redirects deep. Each shortener is a single point of failure: when `goo.gl` shut down in 2019, every link through it broke regardless of destination liveness. The pump should resolve URLs through their full redirect chain and store the canonical destination, not a brittle chain. UltimApe's archive is the test corpus. Implementation approach and external-tooling considerations are described in Section 3.10.
+
+- **URL liveness checks** (post-prototype): For each URL in a tweet being published, check if it's still live. Log dead links. Check for archived copies on the Wayback Machine or archive.today. Liveness checks should happen *after* unshortening, since shortener-domain liveness is not the same as destination liveness.
 - **Proactive archiving** (post-prototype): Submit outbound URLs to the Internet Archive's Save Page Now API (`web.archive.org/save/{url}`) to ensure snapshots exist. Gwern's archiver-bot ([`github.com/gwern/archiver-bot`](https://github.com/gwern/archiver-bot)) is prior art for this pattern.
 - **Periodic health checks** (ongoing maintenance): Re-check outbound URLs for rot after migration. Flag newly dead links and find archived copies.
 
@@ -442,7 +444,7 @@ This section describes what to build for the working prototype: a self-hosted CL
 - **State storage**: Supabase (Postgres) via [`@supabase/supabase-js`](https://github.com/supabase/supabase-js). Self-hostable via Docker Compose; cloud-hosted version available for free tier deployments. Same backend as the eventual hosted service (Section 4.3) and as Community Archive itself.
 - **HTTP client**: native `fetch` (Node 20+) for Community Archive's REST API
 - **CLI framework**: [`commander`](https://github.com/tj/commander.js) or similar for the command interface
-- **Testing**: [`vitest`](https://vitest.dev/): fast, TypeScript-native. Highest-value test categories for this project: facet byte-range math, dependency-order edge cases (replies before parents), `t.co` URL unwrapping, retry queue behavior on failure, deterministic `rkey` generation, and idempotency of writes. Test the bits where "successfully publishes wrong things" is the silent failure mode.
+- **Testing**: [`vitest`](https://vitest.dev/): fast, TypeScript-native. Highest-value test categories for this project: facet byte-range math, dependency-order edge cases (replies before parents), `t.co` URL unwrapping, multi-hop URL unshortening (handling 5-7 redirect chains, including known-shutdown shorteners like `goo.gl`), retry queue behavior on failure, deterministic `rkey` generation, and idempotency of writes. Test the bits where "successfully publishes wrong things" is the silent failure mode.
 
 **Why TypeScript:**
 
@@ -469,7 +471,8 @@ The pump engine is pure TypeScript with no UI dependencies. The eventual web das
    - **Timestamps**: 100% of records carry the original `createdAt` from the Twitter archive, not the pump time. *Verifiable*: a query of `createdAt` distribution shows the expected ~10-year span, not all records clustered at pump-run time.
    - **Quote-tweets**: in-corpus quotes resolve to `app.bsky.embed.record` references; out-of-corpus quotes fall back to `app.bsky.embed.external` link cards pointing at Twitter. *Verifiable*: a sample of ≥20 quote-tweets renders correctly in both cases.
    - **Media**: image-bearing tweets show as `app.bsky.embed.images` with the correct number of blobs (1-4 per post). *Verifiable*: a sample of ≥30 image-tweets shows the right images on the right posts.
-   - **Link unwrapping**: zero `t.co` URLs remain in the published text; all are replaced with their expanded forms.
+   - **Link unwrapping**: zero `t.co` URLs remain in the published text; all are replaced with their expanded forms. *Verifiable*: a search of the published corpus on the target PDS returns zero results matching `t.co/`.
+   - **Multi-hop unshortening**: outbound URLs in published posts are resolved to their canonical destination, not intermediate shortener URLs (`bit.ly`, `ow.ly`, etc.). *Verifiable*: a sample of ≥30 outbound URLs from the published corpus, traced manually, shows the published URL matches the final destination of the original URL's redirect chain (or, for known-shutdown shorteners like `goo.gl`, shows the captured destination from the unshortening cache).
 3. **Live sync operational**: The pump runs in continuous mode, polling Community Archive every 5-15 minutes for new tweets. *Verifiable*: a tweet posted on Twitter, captured by the Community Archive browser plugin, appears on Bluesky within one polling cycle plus rate-limit slack.
 4. **Resumability**: An interrupted backfill (kill -9 mid-run) resumes from the cursor without duplicate posts and without data loss. *Verifiable*: deliberate interruption test mid-backfill shows the same final-record count as an uninterrupted run.
 5. **Dry-run produces a useful diff**: The dry-run mode output is human-readable enough that a developer can identify potential issues (overflow tweets, unresolvable references, missing media) before running the real pump.
@@ -514,8 +517,9 @@ Rough sequencing for the build. Each milestone produces something demonstrable. 
 - External quote-tweets as link card embeds
 - Image upload via `uploadBlob` and attachment to posts
 - `t.co` URL unwrapping
+- Multi-hop URL unshortening: validate the chosen approach (Section 3.10 covers the implementation choice) against a sample of UltimApe's archive URLs and wire it into the pipeline.
 - Facet generation for mentions, links, hashtags
-- *Demonstrable*: A quote-tweet with an attached image, rendering correctly on Bluesky
+- *Demonstrable*: A quote-tweet with an attached image, rendering correctly on Bluesky, with all outbound URLs resolved to their canonical destinations rather than intermediate shorteners
 
 **M4: Resumability**
 - Persistent cursor and mapping state
@@ -560,7 +564,7 @@ hivesong/
 │   │   ├── facets.ts                # Twitter entities → Bluesky facets
 │   │   ├── threading.ts             # reply reference resolution
 │   │   ├── embeds.ts                # quote-tweets, media uploads
-│   │   └── urls.ts                  # t.co unwrapping
+│   │   └── urls.ts                  # t.co unwrapping + multi-hop unshortening
 │   └── types.ts                     # shared TypeScript types
 ├── tests/
 ├── supabase/
@@ -960,6 +964,7 @@ A consolidated view of what could go wrong, what's being assumed, and what the p
 - **Bluesky PDS availability**: For users on `bsky.social`, downtime of Bluesky's hosted PDS pauses the pump. The retry queue handles transient outages; extended outages require manual intervention. Self-hosted PDS deployments (Section 4.1) shift this dependency to the user's own infrastructure.
 - **Twitter media CDN (`pbs.twimg.com`)**: For media not present in the local archive, the pipeline fetches images from Twitter's CDN. If those URLs decay or get rate-limited, some images won't migrate. Mitigation: prefer local archive media when available; document missing-media behavior in dry-run output.
 - **Supabase availability** (for hosted-service deployments): the prototype's state can run against self-hosted Supabase, cloud Supabase free tier, or a local SQLite/JSON fallback (see Getting Started). For Phase 3 hosted SaaS, Supabase cloud uptime becomes a service-level dependency.
+- **`unshrtn` (URL unshortening microservice)**: Hivesong's multi-hop URL unshortening (Section 1.6) needs a service that can recursively resolve redirect chains. The reference implementation is DocNow's [`unshrtn`](https://github.com/DocNow/unshrtn): a Node/JavaScript Docker microservice with a LevelDB-backed cache, designed to be run alongside the pump as a sidecar. The companion utility for piping tweet JSON through it is [`twarc/utils/unshrtn.py`](https://github.com/DocNow/twarc/blob/main/utils/unshrtn.py). UltimApe used this approach manually in the [Goliath workflow](https://github.com/ultimape/goliath#twarc-workflow) several years ago with mixed results. Status as of 2026: the `unshrtn` repo is lightly maintained and may have bitrotted against current Node versions. M3 includes a validation task: confirm the Docker image still builds and runs, the LevelDB cache works, and the unshortening success rate against a representative sample of UltimApe's archive URLs (10+ years of accumulated shorteners) is acceptable. The fallback if validation fails: reimplement the pattern (stateless service, persistent cache, recursive redirect-following) in TypeScript as part of Hivesong itself. Either way, the architecture is sound: this is a tooling-state question, not an architecture question. Self-hosted Phase 1 users get unshortening on by default with the option to disable; the eventual hosted SaaS (Phase 3) exposes it as a togglable feature.
 
 **Key assumptions:**
 
