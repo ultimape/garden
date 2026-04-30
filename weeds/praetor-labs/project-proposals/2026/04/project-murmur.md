@@ -1,6 +1,6 @@
 # Project Hivesong
 
-Published Draft - Apr 2026
+Published Initial Draft - Apr 2026
 
 **A continuous sync pipeline that pumps tweets from Community Archive to Bluesky with structural fidelity.**
 
@@ -1184,7 +1184,7 @@ Yes, but the specific mechanism is being figured out. Likely options will includ
 Phase 1 is Twitter → Bluesky only. Mastodon imports, ActivityPub support, and other source/target platforms are described in Section 1.6 as future scope. The architecture is built around a `Source` interface specifically so additional platforms can be added later without rewriting the pipeline.
 
 **What if I delete my Twitter account before the tool ships?**
-Upload your archive to [Community Archive](https://community-archive.org) before deleting. That preserves the data even if your Twitter account vanishes. Hivesong can then sync from the Community Archive copy. Don't wait if you're about to delete.
+Save your **official Twitter/X archive `.zip`** before deleting, and keep it. This is the critical step. Twitter's archive download (Settings → Your Account → Download an archive of your data) packages the actual image files alongside the tweet metadata. Once your account is deleted, those images vanish from Twitter's CDN, and any tool that depends on `pbs.twimg.com` URLs (including Community Archive's current implementation) will return broken image references. Community Archive preserves tweet text and structure but not the image bytes themselves; the images still live on Twitter's servers, which means they're tied to your account's existence. Uploading to Community Archive is also worth doing (it preserves the textual record publicly), but it does not substitute for the local archive zip. Hivesong's local-archive ingestion path (Section 2.2) is specifically designed to read images from your archive zip and upload them as Bluesky blobs, so the images survive even if the original Twitter account is gone. **Practical advice if you're about to delete: download your archive zip, store it somewhere durable, and only then delete the account.**
 
 **Will the migrated tweets be exact duplicates of what's on Twitter?**
 Structurally yes; visually close. Threading, timestamps, quote-tweet relationships, mentions, links, hashtags, and images are preserved. Bluesky uses a different rich-text format (facets) than Twitter's entities, so the underlying data is different but renders equivalently. Videos are an open question for the prototype (Section 5). Some edge cases (like extremely long tweets exceeding Bluesky's 300-grapheme limit) need a policy decision during the build.
