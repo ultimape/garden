@@ -1,6 +1,6 @@
 # Project Hivesong
 
-Published Initial Draft - Apr 2026
+Published Draft - Apr 2026
 
 **A continuous sync pipeline that pumps tweets from Community Archive to Bluesky with structural fidelity.**
 
@@ -179,10 +179,10 @@ A hive's song is the collective hum of a colony at work: thousands of individual
 Hivesong is a small collaboration:
 
 - **UltimApe** (Nicholas Perry): domain owner. Knows what needs to be preserved and why. Sets product direction, dogfoods every milestone (the "actively using it" success criterion is non-negotiable), and maintains the project long-term. Owner of this spec.
-- **In conversation with [Chris Johnson](https://cjohnson.io/)** as the prospective developer collaborator. Chris is a fullstack web developer with 15+ years of experience, with prior work at companies including Twitch, Urbit, and PayIt. His skill set (TypeScript, full web stack, devops, technical product management) maps cleanly onto Hivesong's needs. Conversations are ongoing about scope, timeline, and compensation; if those work out, Chris will be named formally in a future revision of this doc.
+- **[Chris Johnson](https://cjohnson.io/)** as developer collaborator, **committed pending funding**. Chris is a fullstack web developer with 15+ years of experience operating consumer-facing internet services at scale. His skill set (TypeScript, full web stack, devops, technical product management) maps cleanly onto Hivesong's needs. He has been actively engaged in shaping the technical direction of the project, including the data model decisions and Supabase-backed schema design. UltimApe is currently funding early prototype work directly via existing Patreon income while the funding drive is set up.
 - **You, potentially**: the project is open from day one and welcomes contributors, especially around the Community Archive integration, the multi-user work, and the broader anti-rot archival layer (Section 4).
 
-The "track record" argument for this team isn't a list of shipped startups; it's the combination of (a) a substantial corpus that demonstrates the problem is real and (b) a developer with shipped production work at scale. UltimApe's ~150,000 tweets, [Are.na channels](https://www.are.na/ultimape/channels), [digital garden](https://garden.wovensoup.com), and Medium essays represent over a decade of sustained intellectual labor across complex systems biology, neuroimmunology, microbiome research, and open-source medical devices. Chris's resume documents 15+ years of fullstack web development at companies like Twitch and Urbit. The tool is being built by someone who is the most demanding possible user, with implementation by someone with the relevant production experience.
+The "track record" argument for this team isn't a list of shipped startups; it's the combination of (a) a substantial corpus that demonstrates the problem is real and (b) a developer with shipped production work at scale. UltimApe's ~150,000 tweets, [Are.na channels](https://www.are.na/ultimape/channels), [digital garden](https://garden.wovensoup.com), and Medium essays represent over a decade of sustained intellectual labor across complex systems biology, neuroimmunology, microbiome research, and open-source medical devices. Chris brings 15+ years of fullstack web development experience at companies operating consumer-facing internet services at scale. The tool is being built by someone who is the most demanding possible user, with implementation by someone with the relevant production experience.
 
 The repository is at [`github.com/ultimape/hivesong`](https://github.com/ultimape/hivesong) (currently private; will be made public when initial scaffolding is in place).
 
@@ -226,7 +226,7 @@ The phases are designed to fit a range of funding sources: small microgrants and
 
 A natural question, given that UltimApe's previous Twitter-archive project (Goliath, 2018) stalled at the implementation stage: why won't this one stall too? Several things have changed:
 
-- **There's a paid developer this time.** Goliath was a solo side project, fitting around UltimApe's executive function constraints. Hivesong isn't. Chris Johnson is being engaged to ship this, with funding to support that engagement. Implementation is no longer dependent on UltimApe's capacity to grind through it alone.
+- **There's a paid developer this time.** Goliath was a solo side project, fitting around UltimApe's executive function constraints. Hivesong isn't. Chris is being engaged to ship this, with funding to support that engagement. Implementation is no longer dependent on UltimApe's capacity to grind through it alone.
 - **The data layer exists now.** In 2018, getting tweets out of Twitter required wrestling with rate-limited APIs and incomplete archive exports. Both problems are solved by Community Archive (which didn't exist yet) and the AT Protocol's explicit support for backdated imports (which didn't exist yet). The actual technical lift is dramatically smaller than it was in Goliath's era.
 - **Twitter's export format is a known quantity now.** Goliath stalled in part because Twitter kept changing the archive format mid-development. The format has been relatively stable for several years, and the tooling around it is mature.
 - **The architecture has been planned out for years.** As the 2021 email above shows, the design has been clear in UltimApe's head since at least then. What was missing was elbow grease, not vision. This project is structured to provide the elbow grease.
