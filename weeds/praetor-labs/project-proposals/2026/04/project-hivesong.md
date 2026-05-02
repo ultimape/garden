@@ -31,7 +31,7 @@ Repository: [`github.com/ultimape/hivesong`](https://github.com/ultimape/hiveson
 
 **Who**: UltimApe (~150,000 tweets across a decade of public research) and a developer collaborator. Open from day one. The MIT-licensed core is what's being built; if the project goes well, an AGPL service layer may eventually be added to fund continued development.
 
-**Ask**: A scoped grant or sponsorship to pay the developer collaborator for ~3-4 months of part-time work to ship the prototype. Multiple funding channels possible: open-source grants, direct sponsorship, individual backers, earmarked Patreon contributions.
+**Ask**: A scoped grant or sponsorship to pay the developer collaborator for ~3-4 months of part-time work to ship the prototype. Multiple funding channels possible: open-source grants, direct sponsorship, individual backers, or [just send me money](https://www.paypal.com/donate/?hosted_button_id=3BVQAB7VCJJ7U).
 
 ---
 
@@ -55,6 +55,7 @@ Repository: [`github.com/ultimape/hivesong`](https://github.com/ultimape/hiveson
 
 - [The Project](#the-project)
   - [The team](#the-team)
+  - [Support or Stay in the Loop](#support-or-stay-in-the-loop)
   - [Funding model](#funding-model)
   - [Why this attempt is different](#why-this-attempt-is-different)
   - [Licensing and business model](#licensing-and-business-model)
@@ -195,9 +196,21 @@ Hivesong is a small collaboration:
 
 The "track record" argument for this team isn't a list of shipped startups; it's the combination of (a) a substantial corpus that demonstrates the problem is real and (b) a developer with both the relevant production experience and the right intellectual orientation toward the decentralization problem space. UltimApe's ~150,000 tweets, [Are.na channels](https://www.are.na/ultimape/channels), and [digital garden](https://garden.wovensoup.com) represent over a decade of sustained intellectual labor across complex systems biology, neuroimmunology, microbiome research, and open-source medical devices. The developer collaborator's background and credentials are described above. The tool is being built by someone who is the most demanding possible user, with implementation by someone whose taste and priors are aligned with the project's goals.
 
-### Funding model
+### Support or Stay in the Loop
 
-> **Want to chip in now?** UltimApe is funding the early prototype work directly via [Patreon](https://www.patreon.com/ultimape) (ongoing monthly) or [PayPal](https://www.paypal.com/donate/?hosted_button_id=3BVQAB7VCJJ7U) (one-shot donation; no PayPal account required, debit/credit card option available). Both go to UltimApe's general citizen-science research budget, which is what's currently underwriting Hivesong. The formal funding drive (with Hivesong-specific tracking) is being set up; until then, these channels are the way to throw something in the hat. See the FAQ for [more details on what to expect](#faq).
+Two ways to engage with the project right now, before the formal funding drive launches:
+
+#### Want to chip in now?
+
+UltimApe is funding the early prototype work directly via [Patreon](https://www.patreon.com/ultimape) (ongoing monthly) or [PayPal](https://www.paypal.com/donate/?hosted_button_id=3BVQAB7VCJJ7U) (one-shot donation; no PayPal account required, debit/credit card option available). Both go to UltimApe's general citizen-science research budget, which is what's currently underwriting Hivesong. The formal funding drive (with Hivesong-specific tracking) is being set up; until then, these channels are the way to throw something in the hat. See the FAQ for [more details on what to expect](#faq).
+
+#### Want to be notified when the formal funding drive launches?
+
+Email [`hivesong@wovensoup.com`](mailto:hivesong@wovensoup.com) (or copy the address into your mail client of choice). Anyone who emails this address will be added to a notification list for the funding-drive launch. Alternatively, watch [Twitter](https://twitter.com/ultimape) or [Bluesky](https://bsky.app/profile/ultimape.bsky.wovensoup.com) for the announcement when it goes live. See the FAQ for [details on how the email list is handled](#faq).
+
+The full funding plan, including phase structure, budget transparency commitments, and channels under consideration, is in the [Funding model](#funding-model) section that follows.
+
+### Funding model
 
 **Hivesong is a funding drive for a defined open-source deliverable.** UltimApe is already supported via [Patreon](https://www.patreon.com/ultimape) for general work; this project's funding is specifically for paying the developer collaborator to ship the prototype. The ask is scoped to a defined deliverable (the prototype reaching "actively using it"), with public progress visible throughout.
 
@@ -231,7 +244,7 @@ The phases are designed to fit a range of funding sources: small microgrants and
 
 - **Open-source software grants**: a number of foundations and grant programs fund open-source infrastructure work in the data sovereignty, federated social, and user-agency spaces. Several look like reasonable fits for parts of this project; specifics will be disclosed as applications are submitted.
 - **Direct sponsorship**: individuals, companies, or institutions who care about social media data sovereignty and want to fund a concrete deliverable.
-- **Individual backers**: anyone who wants to chip in toward shipping the prototype, with paths through Patreon (earmarked contributions to UltimApe) or other small-pledge mechanisms to be set up before any campaign launches.
+- **Individual backers**: annyone who wants to chip in toward shipping the prototype, currently via Patreon or PayPal (see the [Support or Stay in the Loop](#support-or-stay-in-the-loop) section above), with additional small-pledge mechanisms possible when the formal drive launches.
 
 ### Why this attempt is different
 
@@ -1199,6 +1212,16 @@ Yes. The formal funding drive (when it launches) will have small-pledge tiers an
 - [**PayPal**](https://www.paypal.com/donate/?hosted_button_id=3BVQAB7VCJJ7U): one-shot donations to the same general research fund. No PayPal account required; debit/credit card payment is available on the donation page.
 
 Honest framing: contributions to either channel go to UltimApe's general research budget rather than to a Hivesong-specific account. That's where the prototype work is currently being funded from. Money received this way helps cover the prototype work while the formal drive is set up. When the formal drive launches, it will have its own dedicated channel and tracking; until then, these are the available paths.
+
+**How do I get notified when the formal funding drive launches?**
+Email [`hivesong@wovensoup.com`](mailto:hivesong@wovensoup.com). If your browser doesn't support mailto links or you'd rather use a different mail app, the address is `hivesong@wovensoup.com`; copy it into whatever you use for email.
+
+A few honest details about what you're signing up for:
+
+- The address forwards to UltimApe's personal Gmail inbox. There's no third-party mailing list service, no auto-responder, no analytics, no tracking pixel. Just a human reading and replying.
+- Anyone who emails the address is treated as opting in to be notified when the funding drive officially launches. That notification will be a single email blast, not an ongoing newsletter.
+- The notification list works via a Gmail filter on the To: field: anyone who's emailed the address gets included when the launch announcement goes out.
+- Feel free to send a longer message if you want: questions, suggestions, "just wanted to say I'm interested," or anything else. UltimApe will read it and respond when possible.
 
 **What about Mastodon? Or other platforms?**
 Phase 1 is Twitter → Bluesky only. Mastodon imports, ActivityPub support, and other source/target platforms are described in Section 1.6 as future scope. The architecture is built around a `Source` interface specifically so additional platforms can be added later without rewriting the pipeline.
