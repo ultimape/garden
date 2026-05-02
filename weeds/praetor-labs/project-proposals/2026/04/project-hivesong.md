@@ -212,7 +212,7 @@ The full funding plan, including phase structure, budget transparency commitment
 
 ### Funding model
 
-**Hivesong is a funding drive for a defined open-source deliverable.** UltimApe is already supported via [Patreon](https://www.patreon.com/ultimape) for general work; this project's funding is specifically for paying the developer collaborator to ship the prototype. The ask is scoped to a defined deliverable (the prototype reaching "actively using it"), with public progress visible throughout.
+**Hivesong is a tool, and the funding drive will be for it as a defined open-source deliverable.** UltimApe is already supported via [Patreon](https://www.patreon.com/ultimape) for general work; this project's funding is specifically for paying the developer collaborator to ship the prototype. The ask is scoped to a defined deliverable (the prototype reaching "actively using it"), with public progress visible throughout.
 
 If the prototype goes well and there's appetite for it, UltimApe and the developer collaborator may build it into a small hosted service: a pay-as-you-go platform on top of the open-source core (see "Licensing and business model" below). That would be one way to fund continued development after the initial drive. It's not pre-committed; it's an option that the architecture leaves open. **Backers of this project are funding the open-source foundation that everything else might build on.**
 
@@ -230,7 +230,7 @@ The project breaks naturally into three phases. Each phase is independently ship
 
 **Budget transparency commitments:**
 
-- The final phase amounts will be published before any funding is solicited.
+- The final phase amounts will be published before formal funding commence. 
 - A breakdown of where money goes (developer time, hosting, infrastructure, contingency) will be public.
 - Spending against the budget will be reported at each milestone.
 - Budget overages won't be added without backer notice.
