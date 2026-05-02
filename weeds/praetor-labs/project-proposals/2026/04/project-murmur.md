@@ -1,6 +1,6 @@
 # Project Hivesong
 
-Published Initial Draft - Apr 2026
+Published Draft - Apr 2026
 
 **A continuous sync pipeline that pumps tweets from Community Archive to Bluesky with structural fidelity.**
 
@@ -190,6 +190,8 @@ Hivesong is a small collaboration:
 The "track record" argument for this team isn't a list of shipped startups; it's the combination of (a) a substantial corpus that demonstrates the problem is real and (b) a developer with both the relevant production experience and the right intellectual orientation toward the decentralization problem space. UltimApe's ~150,000 tweets, [Are.na channels](https://www.are.na/ultimape/channels), and [digital garden](https://garden.wovensoup.com) represent over a decade of sustained intellectual labor across complex systems biology, neuroimmunology, microbiome research, and open-source medical devices. The developer collaborator's background and credentials are described above. The tool is being built by someone who is the most demanding possible user, with implementation by someone whose taste and priors are aligned with the project's goals.
 
 ### Funding model
+
+> **Want to chip in now?** UltimApe is funding the early prototype work directly via [Patreon](https://www.patreon.com/ultimape) (ongoing monthly) or [PayPal](https://www.paypal.com/donate/?hosted_button_id=3BVQAB7VCJJ7U) (one-shot donation; no PayPal account required, debit/credit card option available). Both go to UltimApe's general citizen-science research budget, which is what's currently underwriting Hivesong. The formal funding drive (with Hivesong-specific tracking) is being set up; until then, these channels are the way to throw something in the hat. See the FAQ for [more details on what to expect](#faq).
 
 **Hivesong is a funding drive for a defined open-source deliverable.** UltimApe is already supported via [Patreon](https://www.patreon.com/ultimape) for general work; this project's funding is specifically for paying the developer collaborator to ship the prototype. The ask is scoped to a defined deliverable (the prototype reaching "actively using it"), with public progress visible throughout.
 
@@ -1185,7 +1187,12 @@ Hivesong preserves the structure regardless. If the person you replied to is als
 The core tool (Hivesong itself) is and will always be free, open-source, and self-hostable. If a hosted service eventually exists (a Phase 3 possibility, not a near-term commitment), it would charge a small subscription to cover hosting costs. No price has been set; nothing is locked in.
 
 **Can I support this project as a regular person, not a grant program?**
-Yes, but the specific mechanism is being figured out. Likely options will include earmarking a Patreon contribution to UltimApe specifically for Hivesong, or a dedicated platform like Open Collective when the funding drive launches. This will be clarified before any campaign goes public.
+Yes. The formal funding drive (when it launches) will have small-pledge tiers and a dedicated channel. In the meantime, two channels are available for anyone who wants to throw something in the hat at this early stage:
+
+- [**Patreon**](https://www.patreon.com/ultimape): ongoing monthly support for UltimApe's broader citizen-science research practice, which currently includes Hivesong.
+- [**PayPal**](https://www.paypal.com/donate/?hosted_button_id=3BVQAB7VCJJ7U): one-shot donations to the same general research fund. No PayPal account required; debit/credit card payment is available on the donation page.
+
+Honest framing: contributions to either channel go to UltimApe's general research budget rather than to a Hivesong-specific account. That's where the prototype work is currently being funded from. Money received this way helps cover the prototype work while the formal drive is set up. When the formal drive launches, it will have its own dedicated channel and tracking; until then, these are the available paths.
 
 **What about Mastodon? Or other platforms?**
 Phase 1 is Twitter → Bluesky only. Mastodon imports, ActivityPub support, and other source/target platforms are described in Section 1.6 as future scope. The architecture is built around a `Source` interface specifically so additional platforms can be added later without rewriting the pipeline.
