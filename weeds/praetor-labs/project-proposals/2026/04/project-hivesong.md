@@ -9,7 +9,7 @@ Published Draft - Apr 2026
 
 Author: UltimApe / Nicholas Perry (@ultimape)
 
-Status: Requirements Draft. Seeking developer collaborator for prototype.
+Status: Published Draft. Prototype work in progress; formal funding drive being set up.
 
 Repository: [`github.com/ultimape/hivesong`](https://github.com/ultimape/hivesong) (currently private; will be public when initial scaffolding is in place)
 
@@ -182,7 +182,7 @@ A hive's song is the collective hum of a colony at work: thousands of individual
 Hivesong is a small collaboration:
 
 - **UltimApe** (Nicholas Perry): domain owner. Knows what needs to be preserved and why. Sets product direction, dogfoods every milestone (the "actively using it" success criterion is non-negotiable), and maintains the project long-term. Owner of this spec.
-- **[`@johnhenry`](https://mastodon.social/@johnhenry)** as developer collaborator, **committed pending funding**. UltimApe became friends with them years ago through ongoing conversations about decentralization on Mastodon. They later published [*Mastodon Is Dead In The Water*](https://medium.com/@thejohnhenry/mastodon-is-dead-in-the-water-888c10e8abb1), a sharp, lived assessment of federated social platforms that demonstrates exactly the kind of clear-eyed analysis Hivesong's design needs. They bring 15+ years of professional web development experience and a long-standing intellectual investment in the user-empowerment side of the web.
+- **[`@johnhenry`](https://mastodon.social/@johnhenry)** as developer collaborator, **actively engaged**. UltimApe became friends with them years ago through ongoing conversations about decentralization on Mastodon. They later published [*Mastodon Is Dead In The Water*](https://medium.com/@thejohnhenry/mastodon-is-dead-in-the-water-888c10e8abb1), a sharp, lived assessment of federated social platforms that demonstrates exactly the kind of clear-eyed analysis Hivesong's design needs. They bring 15+ years of professional web development experience and a long-standing intellectual investment in the user-empowerment side of the web.
 
   Their technical lineage runs through Bret Victor's *Inventing on Principle*, Brad Fitzpatrick's [Camlistore](https://en.wikipedia.org/wiki/Perkeep) (now Perkeep) work on personal data sovereignty, and the early-2010s Meteor.JS scene that took the web-as-application-platform seriously before most of the industry did. They have been actively engaged in shaping Hivesong's technical direction, including the data model decisions, the AT Protocol-shaped canonical record, and the Supabase-backed schema design. UltimApe is currently funding early prototype work directly via existing Patreon income while the funding drive is set up.
 - **You, potentially**: the project is open from day one and welcomes contributors, especially around the Community Archive integration, the multi-user work, and the broader anti-rot archival layer (Section 4).
