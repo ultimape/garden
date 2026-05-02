@@ -1,3 +1,9 @@
+---
+title: "Project Hivesong"
+description: "Pumps tweets from Twitter to Bluesky with threading and structure intact, for people who use it as a memex, a cognitive prosthesis they've built up over years."
+excerpt: "Pumps tweets from Twitter to Bluesky with threading and structure intact, for people who use it as a memex, a cognitive prosthesis they've built up over years. An open-source tool in early prototype development."
+---
+
 # Project Hivesong
 
 Published Draft - Apr 2026
