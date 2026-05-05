@@ -17,7 +17,7 @@ Author: UltimApe / Nicholas Perry (@ultimape)
 
 Status: Published Draft. Prototype work in progress; formal funding drive being set up.
 
-Repository: [`github.com/ultimape/hivesong`](https://github.com/ultimape/hivesong) (currently private; will be public when initial scaffolding is in place)
+Repositories/Github Org: [`github.com/hivesong/`](https://github.com/hivesong/) (currently private; will be public when initial scaffolding is in place)
 
 > **Note**: This is a working draft for discussion with potential developer collaborators and funders. Drafted collaboratively with Claude (Anthropic): the requirements, vision, and architectural direction reflect UltimApe's intentions, but specific code snippets, API details, schema examples, and technical suggestions should be treated as illustrative rather than copy-paste-ready. Verify all technical claims against current documentation before implementation. Funding details (specific amounts, channels, timelines) will be finalized as the project moves forward; this document is not yet a published funding pitch.
 
